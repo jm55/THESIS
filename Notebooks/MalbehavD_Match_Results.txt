@@ -1,0 +1,73 @@
+True: MalbehavD and [X] has the same API call.
+False: MalbehavD has the API call but [X] doesn't.
+
+Oliveira Match Rate: 249/291 (85.5670%)
+Catak Match Rate: 269/291 (92.4399%)
+
+Oliveira Mismatched Items:
+CertControlStore
+CreateRemoteThread
+CryptAcquireContextA
+DecryptMessage
+DnsQuery_W
+EnumServicesStatusA
+EnumWindows
+FindWindowA
+GetAdaptersInfo
+GetBestInterfaceEx
+GetFileInformationByHandleEx
+GetUserNameExA
+GetUserNameExW
+GetVolumePathNameW
+InternetOpenUrlW
+LdrUnloadDll
+LoadResource
+NtAllocateVirtualMemory
+NtCreateFile
+NtEnumerateKey
+NtFreeVirtualMemory
+NtQueryInformationFile
+NtQuerySystemInformation
+NtQueueApcThread
+NtReadVirtualMemory
+RegCreateKeyExA
+RegDeleteValueA
+RegEnumKeyW
+RegQueryInfoKeyW
+RegSetValueExW
+RegisterHotKey
+RtlAddVectoredContinueHandler
+RtlAddVectoredExceptionHandler
+RtlRemoveVectoredExceptionHandler
+SendNotifyMessageA
+SizeofResource
+UuidCreate
+WSAStartup
+bind
+select
+send
+socket
+
+Catak Mismatched Items:
+CertControlStore
+CertCreateCertificateContext
+CertOpenStore
+CertOpenSystemStoreW
+CreateServiceW
+DecryptMessage
+DnsQuery_W
+EncryptMessage
+EnumServicesStatusW
+GetFileVersionInfoExW
+GetFileVersionInfoSizeExW
+InternetGetConnectedStateExW
+InternetWriteFile
+NtCreateUserProcess
+NtLoadDriver
+NtQueryFullAttributesFile
+NtQueryMultipleValueKey
+NtSaveKeyEx
+RtlRemoveVectoredExceptionHandler
+SendNotifyMessageA
+TaskDialog
+WSAConnect
