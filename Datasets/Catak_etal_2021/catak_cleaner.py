@@ -1,5 +1,6 @@
 #CONVERTS THE CASING OF THE API CALLS IN CATAK (2021) DATASET TO THE SAME CASING AS FOUND IN OLIVEIRA (2019) AND REMOVE THE DUPLICATE API CALLS
 import threading
+import os
 LABELS = []
 API_CALLS = []
 def read_api(dataset):
@@ -8,7 +9,6 @@ def read_api(dataset):
     for row in dataset:
         API_CALLS.append(row.replace("\n","").split(","))
     print("Finishing [read_api] thread...")
-
 def read_labels(dataset_label):
     global LABELS
     print("Running [read_labels] thread...")
@@ -20,9 +20,10 @@ oliveira_idx.sort()
 oliveira_idx_lower = []
 for o in oliveira_idx:
     oliveira_idx_lower.append(o.lower())
-dataset = open("../Datasets/Catak_etal_2021/Original/all_analysis_data.csv", mode='r') #Change to: os.getcwd()+"\\Original\\"+"all_analysis_data.csv" for terminal use
-dataset_label = open("../Datasets/Catak_etal_2021/Original/labels.csv", mode='r') #Change to: os.getcwd()+"\\Original\\"+"labels.csv" for terminal use
-new_dataset = open("./Pre-Cleaned/Catak_Cleaned.csv", mode="w") #Change to: Catak_Cleaned.csv for terminal use
+#"../Datasets/Catak_etal_2021/Original/all_analysis_data.csv",
+dataset = open(os.getcwd()+"\\Original\\all_analysis_data.csv", mode='r') #Change to: os.getcwd()+"\\Original\\"+"all_analysis_data.csv" for terminal use
+dataset_label = open(os.getcwd()+"\\Original\\labels.csv", mode='r') #Change to: os.getcwd()+"\\Original\\"+"labels.csv" for terminal use
+new_dataset = open(os.getcwd()+"\\Catak_Cleaned.csv", mode="w") #Change to: Catak_Cleaned.csv for terminal use
 api_t = threading.Thread(target=read_api, args=[dataset])
 label_t = threading.Thread(target=read_labels, args=[dataset_label])
 api_t.start()
@@ -36,17 +37,17 @@ print("Converting casing...")
 for i in range(len(LABELS)):
     sub = [LABELS[i]]
     apis = API_CALLS[i]
-    for a in range(len(apis)):
+    for a in range(len(apis)): 
         apis[a] = apis[a].replace("\n","").split(" ")
         apis[a] = list(dict.fromkeys(apis[a]))
         for s in range(len(apis[a])):
-            for o in range(len(oliveira_idx_lower)):
-                if apis[a][s] == oliveira_idx_lower[o]:
-                    sub.append(oliveira_idx[o])
+            if apis[a][s] not in oliveira_idx_lower:
+                print("Unique:", apis[a][s])
+            else:
+                sub.append(oliveira_idx[o])
     combined.append(sub)
 print("Casing Converted")
-API_CALLS = None
-LABELS = None
+API_CALLS = LABELS = None
 print("Finding size of pre-cleaned dataset...")
 breadth = 0
 depth = len(combined)
@@ -58,7 +59,7 @@ print("Breadth:", breadth)
 header = "malware_type,"
 for i in range(0,breadth):
     header += str(i)
-    if i < breadth:
+    if i < breadth-1:
         header += ","
 header += "\n"
 print("Writing to file...")
@@ -70,3 +71,6 @@ new_dataset.flush()
 print("Closing file...")
 new_dataset.close()
 print("Pre-cleaning for Catak Completed!")
+dataset = None
+labels = None
+new_dataset = None

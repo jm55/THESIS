@@ -118,7 +118,7 @@ InternetCrackUrlA,True,True,True
 InternetCrackUrlW,True,True,True
 InternetGetConnectedState,True,True,True
 InternetGetConnectedStateExA,True,True,True
-InternetGetConnectedStateExW,True,True,False
+InternetGetConnectedStateExW,True,True,True
 InternetOpenA,True,True,True
 InternetOpenUrlA,True,True,True
 InternetOpenUrlW,True,False,True
@@ -238,7 +238,7 @@ RtlRemoveVectoredExceptionHandler,True,False,False
 SHGetFolderPathW,True,True,True
 SHGetSpecialFolderLocation,True,True,True
 SearchPathW,True,True,True
-SendNotifyMessageA,True,False,False
+SendNotifyMessageA,True,False,True
 SendNotifyMessageW,True,True,True
 SetEndOfFile,True,True,True
 SetErrorMode,True,True,True
@@ -262,7 +262,7 @@ Thread32Next,True,True,True
 URLDownloadToFileW,True,True,True
 UnhookWindowsHookEx,True,True,True
 UuidCreate,True,False,True
-WSAConnect,True,True,False
+WSAConnect,True,True,True
 WSARecv,True,True,True
 WSASend,True,True,True
 WSASocketA,True,True,True
@@ -296,12 +296,14 @@ DeleteService,False,True,True
 NtCreateDirectoryObject,False,True,False
 NtDeleteFile,False,True,True
 NtLoadKey,False,True,False
-NtShutdownSystem,False,True,False
+NtShutdownSystem,False,True,True
 NtWriteVirtualMemory,False,True,True
 RtlCompressBuffer,False,True,True
-WSAAccept,False,True,False
-WSARecvFrom,False,True,False
-WSASendTo,False,True,False
+WSAAccept,False,True,True
+WSARecvFrom,False,True,True
+WSASendTo,False,True,True
 __anomaly__,False,True,True
 system,False,True,False
 CertOpenSystemStoreA,False,False,True
+RtlDecompressFragment,False,False,True
+WNetGetProviderNameW,False,False,True

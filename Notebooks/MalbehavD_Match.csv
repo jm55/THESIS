@@ -118,7 +118,7 @@ InternetCrackUrlA,True,True
 InternetCrackUrlW,True,True
 InternetGetConnectedState,True,True
 InternetGetConnectedStateExA,True,True
-InternetGetConnectedStateExW,True,False
+InternetGetConnectedStateExW,True,True
 InternetOpenA,True,True
 InternetOpenUrlA,True,True
 InternetOpenUrlW,False,True
@@ -238,7 +238,7 @@ RtlRemoveVectoredExceptionHandler,False,False
 SHGetFolderPathW,True,True
 SHGetSpecialFolderLocation,True,True
 SearchPathW,True,True
-SendNotifyMessageA,False,False
+SendNotifyMessageA,False,True
 SendNotifyMessageW,True,True
 SetEndOfFile,True,True
 SetErrorMode,True,True
@@ -262,7 +262,7 @@ Thread32Next,True,True
 URLDownloadToFileW,True,True
 UnhookWindowsHookEx,True,True
 UuidCreate,False,True
-WSAConnect,True,False
+WSAConnect,True,True
 WSARecv,True,True
 WSASend,True,True
 WSASocketA,True,True

@@ -109,6 +109,7 @@ InternetCrackUrlA
 InternetCrackUrlW
 InternetGetConnectedState
 InternetGetConnectedStateExA
+InternetGetConnectedStateExW
 InternetOpenA
 InternetOpenUrlA
 InternetOpenUrlW
@@ -176,6 +177,7 @@ NtResumeThread
 NtSetContextThread
 NtSetInformationFile
 NtSetValueKey
+NtShutdownSystem
 NtSuspendThread
 NtTerminateProcess
 NtTerminateThread
@@ -221,9 +223,11 @@ RtlAddVectoredExceptionHandler
 RtlCompressBuffer
 RtlCreateUserThread
 RtlDecompressBuffer
+RtlDecompressFragment
 SHGetFolderPathW
 SHGetSpecialFolderLocation
 SearchPathW
+SendNotifyMessageA
 SendNotifyMessageW
 SetEndOfFile
 SetErrorMode
@@ -246,8 +250,13 @@ Thread32Next
 URLDownloadToFileW
 UnhookWindowsHookEx
 UuidCreate
+WNetGetProviderNameW
+WSAAccept
+WSAConnect
 WSARecv
+WSARecvFrom
 WSASend
+WSASendTo
 WSASocketA
 WSASocketW
 WSAStartup
