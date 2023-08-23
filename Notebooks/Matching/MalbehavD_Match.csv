@@ -1,4 +1,5 @@
 malbehavd_api,match_to_oliveira,match_to_catak
+ ,False,True
 CertControlStore,False,False
 CertCreateCertificateContext,True,False
 CertOpenStore,True,False

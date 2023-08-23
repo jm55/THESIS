@@ -1,3 +1,4 @@
+
 CertOpenSystemStoreA
 CoCreateInstance
 CoCreateInstanceEx

@@ -1,4 +1,5 @@
 api,inMalbehavD,inOliveira,inCatak
+ ,True,False,True
 CertControlStore,True,False,False
 CertCreateCertificateContext,True,True,False
 CertOpenStore,True,True,False
