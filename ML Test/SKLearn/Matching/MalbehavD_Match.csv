@@ -1,5 +1,4 @@
 malbehavd_api,match_to_oliveira,match_to_catak
- ,False,True
 CertControlStore,False,False
 CertCreateCertificateContext,True,False
 CertOpenStore,True,False
@@ -274,7 +273,7 @@ WriteConsoleW,True,True
 WriteProcessMemory,True,True
 __exception__,True,True
 accept,True,True
-bind,False,True
+bind,True,True
 closesocket,True,True
 connect,True,True
 getaddrinfo,True,True

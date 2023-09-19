@@ -1,5 +1,4 @@
 api,inMalbehavD,inOliveira,inCatak
- ,True,False,True
 CertControlStore,True,False,False
 CertCreateCertificateContext,True,True,False
 CertOpenStore,True,True,False
@@ -274,7 +273,7 @@ WriteConsoleW,True,True,True
 WriteProcessMemory,True,True,True
 __exception__,True,True,True
 accept,True,True,True
-bind,True,False,True
+bind,True,True,True
 closesocket,True,True,True
 connect,True,True,True
 getaddrinfo,True,True,True

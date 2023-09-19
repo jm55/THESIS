@@ -247,6 +247,7 @@ WriteProcessMemory
 __anomaly__
 __exception__
 accept
+bind
 closesocket
 connect
 getaddrinfo
