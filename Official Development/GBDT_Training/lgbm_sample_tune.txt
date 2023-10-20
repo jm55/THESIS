@@ -1,0 +1,1 @@
+{'tree_learner': 'data', 'objective': 'binary', 'num_leaves': 8, 'n_estimators': 50, 'max_depth': -1, 'learning_rate': 0.1, 'l2_leaf_reg': 5, 'device': 'cpu', 'data_sample_strategy': 'goss', 'class_weight': 'balanced', 'boosting_type': 'gbdt', 'boost_from_average': False}
