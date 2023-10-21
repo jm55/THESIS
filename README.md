@@ -25,3 +25,8 @@ Kindly install these before proceeding to the next step.
 2. Navigate to the location of the GitHub repository on your computer.
 3. Type `jupyter notebook`
 4. To terminate `jupyter`, simply `Ctrl+C` on the Anaconda Prompt.
+
+## Tips for running on Linux:
+1. Install Anaconda as shown [here](https://docs.anaconda.com/free/anaconda/install/linux/).
+2. Once completed, run Anaconda Terminal (assuming `conda config --set auto_activate_base False`
+) by typing `soure <PATH_TO_ANACONDA>/bin/activate`
