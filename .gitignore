@@ -7,3 +7,4 @@ malware_dataset
 *Official Development/Dataset/.memory/*
 *Official Development/Dataset/IB/*
 *Official Development/Dataset/TB/*
+*.tmp
