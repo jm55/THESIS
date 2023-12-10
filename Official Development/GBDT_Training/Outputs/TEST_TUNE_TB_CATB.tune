@@ -1,1 +1,1 @@
-{'task_type': 'CPU', 'objective': 'Logloss', 'n_estimators': 100, 'max_depth': 6, 'learning_rate': 0.3, 'l2_leaf_reg': 3, 'grow_policy': 'SymmetricTree', 'bootstrap_type': 'Bayesian', 'boosting_type': 'Ordered', 'auto_class_weights': 'Balanced'}
+{'auto_class_weights': 'None', 'boosting_type': 'Ordered', 'bootstrap_type': 'Bayesian', 'grow_policy': 'SymmetricTree', 'l2_leaf_reg': 3, 'learning_rate': 0.3, 'max_depth': 16, 'n_estimators': 25, 'objective': 'Logloss', 'task_type': 'CPU'}

@@ -7,4 +7,11 @@ malware_dataset
 *Official Development/Dataset/.memory/*
 *Official Development/Dataset/IB/*
 *Official Development/Dataset/TB/*
-*.tmp
+Official Development/Dataset/IB/IB_CATB.csv
+Official Development/Dataset/IB/IB_LGBM.csv
+Official Development/Dataset/IB/IB_Test_CATB.csv
+Official Development/Dataset/IB/IB_Test_LGBM.csv
+Official Development/Dataset/TB/TB_CATB.csv
+Official Development/Dataset/TB/TB_LGBM.csv
+Official Development/Dataset/TB/TB_Test_CATB.csv
+Official Development/Dataset/TB/TB_Test_LGBM.csv
