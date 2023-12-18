@@ -30,3 +30,6 @@ Kindly install these before proceeding to the next step.
 1. Install Anaconda as shown [here](https://docs.anaconda.com/free/anaconda/install/linux/).
 2. Once completed, run Anaconda Terminal (assuming `conda config --set auto_activate_base False`
 ) by typing `soure <PATH_TO_ANACONDA>/bin/activate`
+
+## CUDA Toolkit
+Make sure you have installed the [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads) in your machine to ensure that GPU (CUDA-specific) is supported. Do note that this may replace (downgrade) your GPU driver.
