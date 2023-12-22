@@ -30,3 +30,12 @@ Kindly install these before proceeding to the next step.
 1. Install Anaconda as shown [here](https://docs.anaconda.com/free/anaconda/install/linux/).
 2. Once completed, run Anaconda Terminal (assuming `conda config --set auto_activate_base False`
 ) by typing `soure <PATH_TO_ANACONDA>/bin/activate`
+
+## CUDA Toolkit
+Make sure you have installed the [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads) in your machine to ensure that GPU (CUDA-specific) is supported. Do note that this may replace (downgrade) your GPU driver.
+
+## LightGBM GPU Support
+- Download the latest [GCC](https://winlibs.com/#download-release)
+- Download the latest [CMake](https://cmake.org/download/)
+- Download the [Boost v1.56.0 ](https://sourceforge.net/projects/boost/files/boost/1.56.0/)
+- Follow the [guide](https://lightgbm.readthedocs.io/en/latest/GPU-Windows.html)

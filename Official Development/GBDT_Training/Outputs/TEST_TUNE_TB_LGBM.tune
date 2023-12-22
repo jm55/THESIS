@@ -1,1 +1,0 @@
-{'boost_from_average': 'True', 'boosting_type': 'gbdt', 'class_weight': 'balanced', 'data_sample_strategy': 'goss', 'device': 'cpu', 'l2_leaf_reg': 1, 'learning_rate': 0.3, 'max_depth': 10, 'n_estimators': 50, 'num_leaves': 31, 'objective': 'binary', 'tree_learner': 'data'}
