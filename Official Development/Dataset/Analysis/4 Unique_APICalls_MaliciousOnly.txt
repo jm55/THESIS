@@ -1,0 +1,3 @@
+No. of truly unique API Calls only found in Malicious Samples: 9 (4.50% Matches API Calls of Benign Samples)
+Coverage of 'Malicious-only' API Calls to Official API Calls Oliveira.csv: 2.9316%
+Unique API Calls to Verified Malicious Samples only: ['CryptDecrypt', 'getaddrinfo', 'InternetOpenA', 'InternetConnectA', 'HttpOpenRequestA', 'NtSuspendThread', 'connect', 'GetDiskFreeSpaceW', 'SetFileTime']
