@@ -1,0 +1,15 @@
+{
+"meta":{"test_sets":["test"],"test_metrics":[{"best_value":"Min","name":"Logloss"},{"best_value":"Max","name":"AUC"},{"best_value":"Max","name":"Precision"}],"learn_metrics":[{"best_value":"Min","name":"Logloss"},{"best_value":"Max","name":"Precision"}],"launch_mode":"Train","parameters":"","iteration_count":50,"learn_sets":["learn"],"name":"experiment"},
+"iterations":[
+{"learn":[0.5823169848,0.9237644152],"iteration":0,"passed_time":0.02893822981,"remaining_time":1.417973261,"test":[0.5814531223,0.9205153584,0.9247969422]},
+{"learn":[0.1565030608,0.9864414398],"iteration":5,"passed_time":0.3072207702,"remaining_time":2.252952315,"test":[0.1547610782,0.9949837923,0.9868684233]},
+{"learn":[0.05106616072,0.987525758],"iteration":10,"passed_time":0.6807546145,"remaining_time":2.413584542,"test":[0.05027057053,0.9969764352,0.9884407912]},
+{"learn":[0.03189105592,0.9876089275],"iteration":15,"passed_time":1.077012266,"remaining_time":2.288651066,"test":[0.03232000641,0.99759835,0.9882785763]},
+{"learn":[0.02575931954,0.9891456325],"iteration":20,"passed_time":1.452685685,"remaining_time":2.006089755,"test":[0.02744587322,0.9980089962,0.9890448477]},
+{"learn":[0.02298052986,0.9899138629],"iteration":25,"passed_time":1.828383747,"remaining_time":1.687738843,"test":[0.02569180714,0.9982553422,0.9898920678]},
+{"learn":[0.0199492069,0.9904989873],"iteration":30,"passed_time":2.211117369,"remaining_time":1.355200968,"test":[0.02417165721,0.9986298978,0.9903162225]},
+{"learn":[0.01773858029,0.9906831154],"iteration":35,"passed_time":2.585594683,"remaining_time":1.005509043,"test":[0.02319974076,0.9987374842,0.9902313625]},
+{"learn":[0.01629174892,0.9914536212],"iteration":40,"passed_time":2.961323047,"remaining_time":0.6500465225,"test":[0.02261288091,0.9988768101,0.9907415345]},
+{"learn":[0.0152249751,0.9921123438],"iteration":45,"passed_time":3.344150293,"remaining_time":0.2907956777,"test":[0.02229045744,0.9989216626,0.9907407407]},
+{"learn":[0.01446263448,0.9924789854],"iteration":49,"passed_time":3.653104788,"remaining_time":0,"test":[0.02198982074,0.9989865124,0.99091065]}
+]}
