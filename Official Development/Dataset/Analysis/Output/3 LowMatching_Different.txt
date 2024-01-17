@@ -139,11 +139,10 @@ Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,Loa
 
 ====================================================================================
 MATCH 10
-Malicious Hashes (4):
+Malicious Hashes (3):
 	7c60f6dfe3ef0020d79c6a7d45f3f0ed - trojan _ _
 	6bb20b4b3068b94a9ca3fa88632aad1f - trojan _ _
 	60e507862cb46a63b1d37019cd0acc99 - trojan pua _
-	c5f4c4a49f47aca57ca863b378570496 - msil _ _
 Benign Hashes (1):
 	f5c2ae9df21186ee1a6eff568985bbac
 Score: 0.0014
@@ -337,19 +336,18 @@ trojan adware _              13
 trojan pua _                  9
 trojan banker pua             8
 trojan dropper _              6
-ransomware trojan _           5
 trojan spyware _              5
+ransomware trojan _           5
 trojan adware virus           4
 adware trojan virus           4
-trojan downloader _           3
 trojan dropper pua            3
-ransomware trojan dropper     2
-ransomware trojan pua         2
+trojan downloader _           3
 trojan adware downloader      2
+ransomware trojan pua         2
+ransomware trojan dropper     2
 adware trojan downloader      2
-msil _ _                      1
-adware trojan _               1
 trojan adware pua             1
+adware trojan _               1
 hacktool pua trojan           1
 downloader adware trojan      1
 trojan pua adware             1

@@ -338,9 +338,8 @@ Benign API Call Pattern: SetErrorMode,LdrGetDllHandle,LdrGetProcedureAddress,Get
 
 ====================================================================================
 MATCH 13
-Malicious Hashes (6):
+Malicious Hashes (5):
 	d8da793115abcd498782178757d498f2 - adware pua _
-	894b044bd89e6a8fc37962adf68f1d24 - opencandy candyopen _
 	67752d2de2f7c2d2a45478fe79ce287c - trojan spyware _
 	8f6c3a073bbd2db655702ef0b1ef44c7 - trojan _ _
 	61075d84ac9188586c1c514fc89754d8 - trojan _ _
@@ -353,17 +352,13 @@ Benign API Call Pattern: GetSystemInfo,LdrGetDllHandle,LdrGetProcedureAddress,Re
 
 ====================================================================================
 MATCH 14
-Malicious Hashes (10):
+Malicious Hashes (6):
 	6591998e47e32ebb8e446d9da9e80b96 - adware virus _
-	3a5e55c5e9616318c20c52fbcaa4de98 - nsismod _ _
 	9f6684f8ddd1a227970de6d9299bc109 - adware virus _
 	d89e6224e18a1f179386a4964045291a - adware pua trojan
 	eddb3868260b45a6d6e8ba5d1f076d74 - adware trojan _
 	7c229698c78c050286cf899f4eed4aee - adware trojan virus
-	ba7fffd3e864a532b43aea24406d4b36 - nsismod _ _
-	9d22382a092d96f0c2f5e84e107041e1 - nsismod _ _
 	f6fc91c5ce1339bff41c7945423282b5 - adware _ _
-	2c3eafd3e8f3d17e0635e7789c4f2aa7 - fugrafa nsismod _
 Benign Hashes (7):
 	cff4037fdce24af9d2c6f03b749c55f6
 	554ce484aba0f97dcf7658257b643c28
@@ -511,14 +506,11 @@ adware trojan _               7
 trojan dropper pua            4
 trojan downloader dropper     4
 adware _ _                    3
-nsismod _ _                   3
 downloader trojan adware      2
 trojan downloader adware      2
 adware virus _                2
 trojan hacktool _             2
 adware pua _                  1
-opencandy candyopen _         1
-fugrafa nsismod _             1
 downloader _ _                1
 adware trojan virus           1
 adware pua trojan             1
