@@ -174,7 +174,7 @@ malware,hash,Type 1,Type 2,Type 3
 1,82baf38a7a5c3ee792e62b3e02c24c5a,trojan,adware,pua
 1,d8eae47e5fd4ffd139bd37461251b55f,trojan,adware,_
 0,f83d13beaba7d057e82e4d2727bc5689,_,_,_
-0,7519ba9e65c38397217670b9182238c2,_,_,_
+1,7519ba9e65c38397217670b9182238c2,trojan,adware,_
 1,7bfefa15d24db3752939cfdb1aa6ec3d,trojan,_,_
 1,8c25c3be4d15e094434c4ea5e013327c,trojan,adware,_
 1,2a9dc077301256eeca442e1f4a2cdc9f,trojan,_,_
@@ -2601,7 +2601,7 @@ malware,hash,Type 1,Type 2,Type 3
 1,64ce91ee81d20727e15809449c3c63a9,trojan,adware,_
 1,694c095795f2980d51a267e265223b42,trojan,adware,virus
 1,0f9265f907dfd870100965a1dc1d7d97,trojan,adware,_
-1,c24320d13ebba5d9216998f3e4e345ee,trojan,,_
+1,c24320d13ebba5d9216998f3e4e345ee,trojan,_,_
 1,d8af88c94635b2f47252a6a663d8bd58,trojan,adware,_
 1,f744576c2d1e907011901da39d893558,adware,trojan,virus
 1,ddfb85a9471a97e410746e69923a9fd0,trojan,adware,hacktool
