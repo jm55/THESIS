@@ -1,14 +1,14 @@
 MATCH 1
 Malicious Hashes (9):
-	490d584c7d303ed35c673460b63f3ca8 - trojan dropper pua
-	9ab8ea1d2d68a0d4110df413e677976c - trojan hacktool _
-	adbc74815ef2bd1ea4967abad812233d - trojan _ _
-	f5a0ad49337ebc87897698e70d03364e - trojan dropper _
-	4c972b447659f1e86769eb43593fd2a5 - trojan downloader dropper
-	f23ecef8b4f9618644532605576dc981 - trojan dropper _
-	a173ee9b4b2d991c37af8180bf511867 - trojan downloader dropper
-	233cd454304dc47b37830ce11a045eef - trojan _ _
-	fded249c870bd4014890c497ecc4e5b7 - trojan dropper pua
+	490d584c7d303ed35c673460b63f3ca8 - trojan
+	9ab8ea1d2d68a0d4110df413e677976c - trojan
+	adbc74815ef2bd1ea4967abad812233d - trojan
+	f5a0ad49337ebc87897698e70d03364e - trojan
+	4c972b447659f1e86769eb43593fd2a5 - trojan
+	f23ecef8b4f9618644532605576dc981 - trojan
+	a173ee9b4b2d991c37af8180bf511867 - trojan
+	233cd454304dc47b37830ce11a045eef - trojan
+	fded249c870bd4014890c497ecc4e5b7 - trojan
 Benign Hashes (2):
 	1d5be1a1f06fb4af76db691286667685
 	e17c7fc99e55278c9377e0ba686b4002
@@ -19,16 +19,16 @@ Benign API Call Pattern: GetSystemTimeAsFileTime,NtCreateMutant,GetSystemTimeAsF
 ====================================================================================
 MATCH 2
 Malicious Hashes (10):
-	2736bf941b165729789885bd9a44a627 - trojan _ _
-	b341c5a421d466da7d790829491085bb - trojan dropper _
-	03de12c843cecfb24f3c176ad320774c - trojan _ _
-	b993c82a45066d0f7d84ab5dd6fe4c78 - trojan dropper _
-	59743ca1541e65e41ced9765368e307d - trojan _ _
-	c59670891b9f5bc63101326e11a45d83 - trojan _ _
-	2f5e8951245586982b7f6077997f80d6 - trojan _ _
-	20a1b78cbb138530b01717b9e2c3199d - trojan _ _
-	4ef8c811942ba75289752b682e58521f - trojan _ _
-	b8b1283835ab2d4a17ae8be840e755c4 - trojan _ _
+	2736bf941b165729789885bd9a44a627 - trojan
+	b341c5a421d466da7d790829491085bb - trojan
+	03de12c843cecfb24f3c176ad320774c - trojan
+	b993c82a45066d0f7d84ab5dd6fe4c78 - trojan
+	59743ca1541e65e41ced9765368e307d - trojan
+	c59670891b9f5bc63101326e11a45d83 - trojan
+	2f5e8951245586982b7f6077997f80d6 - trojan
+	20a1b78cbb138530b01717b9e2c3199d - trojan
+	4ef8c811942ba75289752b682e58521f - trojan
+	b8b1283835ab2d4a17ae8be840e755c4 - trojan
 Benign Hashes (1):
 	b3cc5f3514bf58ee55153795cf183754
 Score: 1.0000
@@ -38,16 +38,16 @@ Benign API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtCreateMutant,Ge
 ====================================================================================
 MATCH 3
 Malicious Hashes (10):
-	b3643b8cadd9a638737e853d4d41b725 - adware trojan _
-	e26a04425b2f0794e818f283033aae4b - adware trojan pua
-	ab9d37d87b06dd28bc21b30f32fbb617 - adware trojan ransomware
-	b9c8c0ba567ed4d13d7f0a6642d252c5 - adware trojan ransomware
-	7640c932febe590bb7239149b6ce0f70 - adware trojan ransomware
-	4914b45bf950d900823a771b08937675 - adware trojan pua
-	823ee1bf1eb634107e389918d849521d - adware trojan pua
-	72940a839c9e547b7197301c675d55bd - adware trojan pua
-	9d6255805512404fb4c2cb8440bcd0ba - adware trojan pua
-	61655d0c500a649794a2868a4258a201 - adware trojan pua
+	b3643b8cadd9a638737e853d4d41b725 - adware
+	e26a04425b2f0794e818f283033aae4b - adware
+	ab9d37d87b06dd28bc21b30f32fbb617 - adware
+	b9c8c0ba567ed4d13d7f0a6642d252c5 - adware
+	7640c932febe590bb7239149b6ce0f70 - adware
+	4914b45bf950d900823a771b08937675 - adware
+	823ee1bf1eb634107e389918d849521d - adware
+	72940a839c9e547b7197301c675d55bd - adware
+	9d6255805512404fb4c2cb8440bcd0ba - adware
+	61655d0c500a649794a2868a4258a201 - adware
 Benign Hashes (7):
 	cff4037fdce24af9d2c6f03b749c55f6
 	554ce484aba0f97dcf7658257b643c28
@@ -63,16 +63,16 @@ Benign API Call Pattern: SetErrorMode,LdrGetDllHandle,LdrGetProcedureAddress,Get
 ====================================================================================
 MATCH 4
 Malicious Hashes (10):
-	59fdd5e90392581e6ba985c814b4ddef - trojan _ _
-	4ffb34c0d829924bd293383b93736c61 - trojan _ _
-	19f8d6f3db54f342111fb31e70052a49 - trojan _ _
-	7145bf8c17e4e5ded43e57aeb37d1eff - trojan _ _
-	1347458a74a4099331e396878d858dad - trojan _ _
-	772faedafbdf54e8adb84cff0497bb7a - trojan _ _
-	604bfcd4097b6f0024c7dc8e77981349 - trojan _ _
-	a77718019b486658df75fec44881a886 - trojan dropper _
-	88e70bfef618114fe23cd22979b2c687 - trojan miner dropper
-	8eb9edf302c80023a339fb02da46cc29 - trojan _ _
+	59fdd5e90392581e6ba985c814b4ddef - trojan
+	4ffb34c0d829924bd293383b93736c61 - trojan
+	19f8d6f3db54f342111fb31e70052a49 - trojan
+	7145bf8c17e4e5ded43e57aeb37d1eff - trojan
+	1347458a74a4099331e396878d858dad - trojan
+	772faedafbdf54e8adb84cff0497bb7a - trojan
+	604bfcd4097b6f0024c7dc8e77981349 - trojan
+	a77718019b486658df75fec44881a886 - trojan
+	88e70bfef618114fe23cd22979b2c687 - trojan
+	8eb9edf302c80023a339fb02da46cc29 - trojan
 Benign Hashes (1):
 	e66c6c58a773cde28710fc4018b3f59b
 Score: 1.0000
@@ -82,12 +82,12 @@ Benign API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtCreateMutant,Ge
 ====================================================================================
 MATCH 5
 Malicious Hashes (6):
-	966135e37abce456b978f0a345e36d9c - trojan dropper _
-	3046215569f0ddcfdda2e68f8f6de50b - trojan _ _
-	6d6b21456fb118d6629e74dbabc73cc7 - trojan _ _
-	7e0d4201f43e956c2668c71536822114 - trojan _ _
-	7b1f8a659f2c8583032ab54f57643373 - trojan dropper _
-	c6475e1f731c84e52dd99ac087c42e47 - trojan _ _
+	966135e37abce456b978f0a345e36d9c - trojan
+	3046215569f0ddcfdda2e68f8f6de50b - trojan
+	6d6b21456fb118d6629e74dbabc73cc7 - trojan
+	7e0d4201f43e956c2668c71536822114 - trojan
+	7b1f8a659f2c8583032ab54f57643373 - trojan
+	c6475e1f731c84e52dd99ac087c42e47 - trojan
 Benign Hashes (2):
 	eae3616631dc3eafbbf4a174113c02a9
 	acdbbae7823117ec9e9899dd01c66d5f
@@ -98,16 +98,16 @@ Benign API Call Pattern: GetSystemTimeAsFileTime,NtOpenKey,NtQueryValueKey,NtClo
 ====================================================================================
 MATCH 6
 Malicious Hashes (10):
-	ef8704330e0fdf50e9ad773965f81ce7 - trojan downloader adware
-	ee3a995e47265860e7fdfae70667a78b - adware trojan downloader
-	00375d73e30f85b7378676ed381d5f26 - trojan adware downloader
-	c3aede1b2273968dc088576dd948332b - trojan adware downloader
-	5d0561bded787751a47e3698ac025185 - trojan adware downloader
-	e14dab9254b4f07701292c445b236499 - adware trojan downloader
-	21025984320b56eba059fbbc829c9822 - trojan adware downloader
-	71407689795f3d30b994a841e31722ef - adware trojan downloader
-	28d77eadcc4c96b5e5116be2c048a170 - adware trojan downloader
-	d369f61c4b1b56e45b63ef0f605f2fc9 - adware trojan downloader
+	ef8704330e0fdf50e9ad773965f81ce7 - trojan
+	ee3a995e47265860e7fdfae70667a78b - adware
+	00375d73e30f85b7378676ed381d5f26 - trojan
+	c3aede1b2273968dc088576dd948332b - trojan
+	5d0561bded787751a47e3698ac025185 - trojan
+	e14dab9254b4f07701292c445b236499 - adware
+	21025984320b56eba059fbbc829c9822 - trojan
+	71407689795f3d30b994a841e31722ef - adware
+	28d77eadcc4c96b5e5116be2c048a170 - adware
+	d369f61c4b1b56e45b63ef0f605f2fc9 - adware
 Benign Hashes (1):
 	86f4637bf42a2b49862855a1c251aa04
 Score: 0.9908
@@ -117,15 +117,15 @@ Benign API Call Pattern: NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQ
 ====================================================================================
 MATCH 7
 Malicious Hashes (9):
-	0ddf7d214eacc57fed65f7c6b8cb08d5 - downloader trojan adware
-	850657ef3fb27c04dc8d18980623826a - adware trojan pua
-	c5efa7b2da0236b58584aaa9500c5857 - trojan _ _
-	60d0014ed352f90b23ebf4bd554899e8 - adware _ _
-	d01168898d75cd45d084625e3f213742 - downloader trojan _
-	3fd939fb532a1feec835fc77446a111b - trojan _ _
-	5c81221b77e411715462ce3ad59bce6c - downloader trojan adware
-	7ff331061715a67133fe0eac10e33af6 - downloader trojan _
-	54cd5a96bed9a93d998fd556139d9206 - downloader trojan _
+	0ddf7d214eacc57fed65f7c6b8cb08d5 - downloader
+	850657ef3fb27c04dc8d18980623826a - adware
+	c5efa7b2da0236b58584aaa9500c5857 - trojan
+	60d0014ed352f90b23ebf4bd554899e8 - adware
+	d01168898d75cd45d084625e3f213742 - downloader
+	3fd939fb532a1feec835fc77446a111b - trojan
+	5c81221b77e411715462ce3ad59bce6c - downloader
+	7ff331061715a67133fe0eac10e33af6 - downloader
+	54cd5a96bed9a93d998fd556139d9206 - downloader
 Benign Hashes (8):
 	657fa0774a9110e7a2b1df370ec1a927
 	2da848ab851c3c49681e5400f97df283
@@ -142,13 +142,13 @@ Benign API Call Pattern: SetErrorMode,OleInitialize,LdrGetDllHandle,LdrLoadDll,L
 ====================================================================================
 MATCH 8
 Malicious Hashes (7):
-	6b72d43704eadd08ed0ae1154cdfadc4 - trojan _ _
-	eeef51de09c028086af5c9a289e2d614 - downloader trojan _
-	c29187d7af93da67be30a59fa68c657b - adware trojan _
-	b818ae47e390401c6ce709c48b5dc3a9 - downloader trojan _
-	8f8a5e90ddc054d4c657d13554e2f0df - downloader trojan _
-	47183fcaa8fb2e0695eb15d1445491d3 - downloader trojan _
-	e8e6bc7af20edf604b7bc724818eb594 - downloader trojan _
+	6b72d43704eadd08ed0ae1154cdfadc4 - trojan
+	eeef51de09c028086af5c9a289e2d614 - downloader
+	c29187d7af93da67be30a59fa68c657b - adware
+	b818ae47e390401c6ce709c48b5dc3a9 - downloader
+	8f8a5e90ddc054d4c657d13554e2f0df - downloader
+	47183fcaa8fb2e0695eb15d1445491d3 - downloader
+	e8e6bc7af20edf604b7bc724818eb594 - downloader
 Benign Hashes (94):
 	6de26f67ceb1e3303b889489010f4c3f
 	ce74a819e7069f1846e3661cb0192913
@@ -251,16 +251,16 @@ Benign API Call Pattern: SetErrorMode,OleInitialize,LdrGetDllHandle,LdrLoadDll,L
 ====================================================================================
 MATCH 9
 Malicious Hashes (10):
-	48b1ea649b2a32f0cc6c8d93feaee9d4 - trojan adware _
-	4888ffbc6483d1da8cfe455102787fb1 - trojan adware _
-	289d67dccc6468b0623a322f5ffb02e2 - trojan adware _
-	fa526f1b0faedf885faa351e6b57777b - trojan adware _
-	c0bd396a36bdb934a071c4ee82636b96 - trojan adware _
-	15f582a5bff71727345f8b8ed81b8958 - trojan adware _
-	e64b89e131a125ce106b6e5ae6936dc4 - adware trojan _
-	a789907500f8d66ec9903b8903574d3f - trojan adware _
-	61b0a8f789ff6dd48cfdf2c88ed956b9 - trojan adware _
-	b2c57c24823aac65ee783a253fdaef84 - trojan adware _
+	48b1ea649b2a32f0cc6c8d93feaee9d4 - trojan
+	4888ffbc6483d1da8cfe455102787fb1 - trojan
+	289d67dccc6468b0623a322f5ffb02e2 - trojan
+	fa526f1b0faedf885faa351e6b57777b - trojan
+	c0bd396a36bdb934a071c4ee82636b96 - trojan
+	15f582a5bff71727345f8b8ed81b8958 - trojan
+	e64b89e131a125ce106b6e5ae6936dc4 - adware
+	a789907500f8d66ec9903b8903574d3f - trojan
+	61b0a8f789ff6dd48cfdf2c88ed956b9 - trojan
+	b2c57c24823aac65ee783a253fdaef84 - trojan
 Benign Hashes (2):
 	7f141742286094fc1dc29584e90c82be
 	125d4cdb14dbe86841037e5bbfc6a0bc
@@ -271,16 +271,16 @@ Benign API Call Pattern: NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQ
 ====================================================================================
 MATCH 10
 Malicious Hashes (10):
-	2d3a9ade3a6ea3e01850aee07faa259c - trojan adware _
-	d67417cc8b1245d7d29251b1709efb98 - trojan adware _
-	b8915b4ff987d2d68b3c243c826584b5 - trojan adware _
-	6973c9d71d2d5385cfd5584906d467ab - trojan adware _
-	75ea7c022b16aaf558cd8bebd8a7415f - trojan adware _
-	73cefa25040353baeeab3ea01fb2a65e - trojan adware _
-	9e043a00f4d46859d5aed35da0a9231d - trojan adware _
-	38695538646b67bf78e2bd4103005dea - trojan adware _
-	d55e2eb714f36ab872d66448e126b9ca - trojan adware _
-	9c043ddb21cc3789a39fda14e36bc7b2 - trojan adware _
+	2d3a9ade3a6ea3e01850aee07faa259c - trojan
+	d67417cc8b1245d7d29251b1709efb98 - trojan
+	b8915b4ff987d2d68b3c243c826584b5 - trojan
+	6973c9d71d2d5385cfd5584906d467ab - trojan
+	75ea7c022b16aaf558cd8bebd8a7415f - trojan
+	73cefa25040353baeeab3ea01fb2a65e - trojan
+	9e043a00f4d46859d5aed35da0a9231d - trojan
+	38695538646b67bf78e2bd4103005dea - trojan
+	d55e2eb714f36ab872d66448e126b9ca - trojan
+	9c043ddb21cc3789a39fda14e36bc7b2 - trojan
 Benign Hashes (2):
 	7f141742286094fc1dc29584e90c82be
 	125d4cdb14dbe86841037e5bbfc6a0bc
@@ -291,16 +291,16 @@ Benign API Call Pattern: NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQ
 ====================================================================================
 MATCH 11
 Malicious Hashes (10):
-	f8e4a48474ad442e2575a2637bede5ed - trojan _ _
-	434395db09e27d70ad1f0ddfd1a90f36 - downloader _ _
-	d4bc2243924cd00425a91f48567fa3f5 - trojan _ _
-	a027003e2c2f423c8b02cde7ff4befc3 - trojan _ _
-	826f2bbbf6ec4fb4257a3745c217a64e - trojan _ _
-	7199b0b2c94eb8727ff0a9446d16c718 - trojan _ _
-	031042799499dfb7a9b8cfe85dfdfd6c - trojan dropper _
-	c83fce260cce4480c7d3652819621eef - trojan worm _
-	afab5ebfa76c66e6dcc4584a4d2965ee - trojan dropper virus
-	7076fd285fe232b102f849ef3ad262ab - trojan _ _
+	f8e4a48474ad442e2575a2637bede5ed - trojan
+	434395db09e27d70ad1f0ddfd1a90f36 - downloader
+	d4bc2243924cd00425a91f48567fa3f5 - trojan
+	a027003e2c2f423c8b02cde7ff4befc3 - trojan
+	826f2bbbf6ec4fb4257a3745c217a64e - trojan
+	7199b0b2c94eb8727ff0a9446d16c718 - trojan
+	031042799499dfb7a9b8cfe85dfdfd6c - trojan
+	c83fce260cce4480c7d3652819621eef - trojan
+	afab5ebfa76c66e6dcc4584a4d2965ee - trojan
+	7076fd285fe232b102f849ef3ad262ab - trojan
 Benign Hashes (1):
 	e66c6c58a773cde28710fc4018b3f59b
 Score: 0.9801
@@ -310,16 +310,16 @@ Benign API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtCreateMutant,Ge
 ====================================================================================
 MATCH 12
 Malicious Hashes (10):
-	b3643b8cadd9a638737e853d4d41b725 - adware trojan _
-	e26a04425b2f0794e818f283033aae4b - adware trojan pua
-	ab9d37d87b06dd28bc21b30f32fbb617 - adware trojan ransomware
-	b9c8c0ba567ed4d13d7f0a6642d252c5 - adware trojan ransomware
-	7640c932febe590bb7239149b6ce0f70 - adware trojan ransomware
-	4914b45bf950d900823a771b08937675 - adware trojan pua
-	823ee1bf1eb634107e389918d849521d - adware trojan pua
-	72940a839c9e547b7197301c675d55bd - adware trojan pua
-	9d6255805512404fb4c2cb8440bcd0ba - adware trojan pua
-	61655d0c500a649794a2868a4258a201 - adware trojan pua
+	b3643b8cadd9a638737e853d4d41b725 - adware
+	e26a04425b2f0794e818f283033aae4b - adware
+	ab9d37d87b06dd28bc21b30f32fbb617 - adware
+	b9c8c0ba567ed4d13d7f0a6642d252c5 - adware
+	7640c932febe590bb7239149b6ce0f70 - adware
+	4914b45bf950d900823a771b08937675 - adware
+	823ee1bf1eb634107e389918d849521d - adware
+	72940a839c9e547b7197301c675d55bd - adware
+	9d6255805512404fb4c2cb8440bcd0ba - adware
+	61655d0c500a649794a2868a4258a201 - adware
 Benign Hashes (11):
 	3506356c329758e4f703cd2103d7daab
 	6d8c0c930480a524ad1e0e18e345b7ce
@@ -339,11 +339,11 @@ Benign API Call Pattern: SetErrorMode,LdrGetDllHandle,LdrGetProcedureAddress,Get
 ====================================================================================
 MATCH 13
 Malicious Hashes (5):
-	d8da793115abcd498782178757d498f2 - adware pua _
-	67752d2de2f7c2d2a45478fe79ce287c - trojan spyware _
-	8f6c3a073bbd2db655702ef0b1ef44c7 - trojan _ _
-	61075d84ac9188586c1c514fc89754d8 - trojan _ _
-	3347e1159f65110b081d23766209d552 - adware _ _
+	d8da793115abcd498782178757d498f2 - adware
+	67752d2de2f7c2d2a45478fe79ce287c - trojan
+	8f6c3a073bbd2db655702ef0b1ef44c7 - trojan
+	61075d84ac9188586c1c514fc89754d8 - trojan
+	3347e1159f65110b081d23766209d552 - adware
 Benign Hashes (1):
 	6c4914b4a8d22a0ec8b3d2d423b890ce
 Score: 0.9784
@@ -353,12 +353,12 @@ Benign API Call Pattern: GetSystemInfo,LdrGetDllHandle,LdrGetProcedureAddress,Re
 ====================================================================================
 MATCH 14
 Malicious Hashes (6):
-	6591998e47e32ebb8e446d9da9e80b96 - adware virus _
-	9f6684f8ddd1a227970de6d9299bc109 - adware virus _
-	d89e6224e18a1f179386a4964045291a - adware pua trojan
-	eddb3868260b45a6d6e8ba5d1f076d74 - adware trojan _
-	7c229698c78c050286cf899f4eed4aee - adware trojan virus
-	f6fc91c5ce1339bff41c7945423282b5 - adware _ _
+	6591998e47e32ebb8e446d9da9e80b96 - adware
+	9f6684f8ddd1a227970de6d9299bc109 - adware
+	d89e6224e18a1f179386a4964045291a - adware
+	eddb3868260b45a6d6e8ba5d1f076d74 - adware
+	7c229698c78c050286cf899f4eed4aee - adware
+	f6fc91c5ce1339bff41c7945423282b5 - adware
 Benign Hashes (7):
 	cff4037fdce24af9d2c6f03b749c55f6
 	554ce484aba0f97dcf7658257b643c28
@@ -374,16 +374,16 @@ Benign API Call Pattern: SetErrorMode,LdrGetDllHandle,LdrGetProcedureAddress,Get
 ====================================================================================
 MATCH 15
 Malicious Hashes (10):
-	2736bf941b165729789885bd9a44a627 - trojan _ _
-	b341c5a421d466da7d790829491085bb - trojan dropper _
-	03de12c843cecfb24f3c176ad320774c - trojan _ _
-	b993c82a45066d0f7d84ab5dd6fe4c78 - trojan dropper _
-	59743ca1541e65e41ced9765368e307d - trojan _ _
-	c59670891b9f5bc63101326e11a45d83 - trojan _ _
-	2f5e8951245586982b7f6077997f80d6 - trojan _ _
-	20a1b78cbb138530b01717b9e2c3199d - trojan _ _
-	4ef8c811942ba75289752b682e58521f - trojan _ _
-	b8b1283835ab2d4a17ae8be840e755c4 - trojan _ _
+	2736bf941b165729789885bd9a44a627 - trojan
+	b341c5a421d466da7d790829491085bb - trojan
+	03de12c843cecfb24f3c176ad320774c - trojan
+	b993c82a45066d0f7d84ab5dd6fe4c78 - trojan
+	59743ca1541e65e41ced9765368e307d - trojan
+	c59670891b9f5bc63101326e11a45d83 - trojan
+	2f5e8951245586982b7f6077997f80d6 - trojan
+	20a1b78cbb138530b01717b9e2c3199d - trojan
+	4ef8c811942ba75289752b682e58521f - trojan
+	b8b1283835ab2d4a17ae8be840e755c4 - trojan
 Benign Hashes (6):
 	608c58241918a7bf952ec094e0986ff8
 	e91b86766137a96b110579fd0375140f
@@ -398,15 +398,15 @@ Benign API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtOpenKey,NtQuery
 ====================================================================================
 MATCH 16
 Malicious Hashes (9):
-	490d584c7d303ed35c673460b63f3ca8 - trojan dropper pua
-	9ab8ea1d2d68a0d4110df413e677976c - trojan hacktool _
-	adbc74815ef2bd1ea4967abad812233d - trojan _ _
-	f5a0ad49337ebc87897698e70d03364e - trojan dropper _
-	4c972b447659f1e86769eb43593fd2a5 - trojan downloader dropper
-	f23ecef8b4f9618644532605576dc981 - trojan dropper _
-	a173ee9b4b2d991c37af8180bf511867 - trojan downloader dropper
-	233cd454304dc47b37830ce11a045eef - trojan _ _
-	fded249c870bd4014890c497ecc4e5b7 - trojan dropper pua
+	490d584c7d303ed35c673460b63f3ca8 - trojan
+	9ab8ea1d2d68a0d4110df413e677976c - trojan
+	adbc74815ef2bd1ea4967abad812233d - trojan
+	f5a0ad49337ebc87897698e70d03364e - trojan
+	4c972b447659f1e86769eb43593fd2a5 - trojan
+	f23ecef8b4f9618644532605576dc981 - trojan
+	a173ee9b4b2d991c37af8180bf511867 - trojan
+	233cd454304dc47b37830ce11a045eef - trojan
+	fded249c870bd4014890c497ecc4e5b7 - trojan
 Benign Hashes (2):
 	eae3616631dc3eafbbf4a174113c02a9
 	acdbbae7823117ec9e9899dd01c66d5f
@@ -417,16 +417,16 @@ Benign API Call Pattern: GetSystemTimeAsFileTime,NtOpenKey,NtQueryValueKey,NtClo
 ====================================================================================
 MATCH 17
 Malicious Hashes (10):
-	b3643b8cadd9a638737e853d4d41b725 - adware trojan _
-	e26a04425b2f0794e818f283033aae4b - adware trojan pua
-	ab9d37d87b06dd28bc21b30f32fbb617 - adware trojan ransomware
-	b9c8c0ba567ed4d13d7f0a6642d252c5 - adware trojan ransomware
-	7640c932febe590bb7239149b6ce0f70 - adware trojan ransomware
-	4914b45bf950d900823a771b08937675 - adware trojan pua
-	823ee1bf1eb634107e389918d849521d - adware trojan pua
-	72940a839c9e547b7197301c675d55bd - adware trojan pua
-	9d6255805512404fb4c2cb8440bcd0ba - adware trojan pua
-	61655d0c500a649794a2868a4258a201 - adware trojan pua
+	b3643b8cadd9a638737e853d4d41b725 - adware
+	e26a04425b2f0794e818f283033aae4b - adware
+	ab9d37d87b06dd28bc21b30f32fbb617 - adware
+	b9c8c0ba567ed4d13d7f0a6642d252c5 - adware
+	7640c932febe590bb7239149b6ce0f70 - adware
+	4914b45bf950d900823a771b08937675 - adware
+	823ee1bf1eb634107e389918d849521d - adware
+	72940a839c9e547b7197301c675d55bd - adware
+	9d6255805512404fb4c2cb8440bcd0ba - adware
+	61655d0c500a649794a2868a4258a201 - adware
 Benign Hashes (1):
 	0d35a5b94c14b39f8c347556e0b9a95a
 Score: 0.9750
@@ -436,16 +436,16 @@ Benign API Call Pattern: SetErrorMode,LdrGetDllHandle,LdrGetProcedureAddress,Get
 ====================================================================================
 MATCH 18
 Malicious Hashes (10):
-	48b1ea649b2a32f0cc6c8d93feaee9d4 - trojan adware _
-	4888ffbc6483d1da8cfe455102787fb1 - trojan adware _
-	289d67dccc6468b0623a322f5ffb02e2 - trojan adware _
-	fa526f1b0faedf885faa351e6b57777b - trojan adware _
-	c0bd396a36bdb934a071c4ee82636b96 - trojan adware _
-	15f582a5bff71727345f8b8ed81b8958 - trojan adware _
-	e64b89e131a125ce106b6e5ae6936dc4 - adware trojan _
-	a789907500f8d66ec9903b8903574d3f - trojan adware _
-	61b0a8f789ff6dd48cfdf2c88ed956b9 - trojan adware _
-	b2c57c24823aac65ee783a253fdaef84 - trojan adware _
+	48b1ea649b2a32f0cc6c8d93feaee9d4 - trojan
+	4888ffbc6483d1da8cfe455102787fb1 - trojan
+	289d67dccc6468b0623a322f5ffb02e2 - trojan
+	fa526f1b0faedf885faa351e6b57777b - trojan
+	c0bd396a36bdb934a071c4ee82636b96 - trojan
+	15f582a5bff71727345f8b8ed81b8958 - trojan
+	e64b89e131a125ce106b6e5ae6936dc4 - adware
+	a789907500f8d66ec9903b8903574d3f - trojan
+	61b0a8f789ff6dd48cfdf2c88ed956b9 - trojan
+	b2c57c24823aac65ee783a253fdaef84 - trojan
 Benign Hashes (1):
 	a83ac4bf4f589764625644ccbafd6fcb
 Score: 0.9747
@@ -455,16 +455,16 @@ Benign API Call Pattern: NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQ
 ====================================================================================
 MATCH 19
 Malicious Hashes (10):
-	2d3a9ade3a6ea3e01850aee07faa259c - trojan adware _
-	d67417cc8b1245d7d29251b1709efb98 - trojan adware _
-	b8915b4ff987d2d68b3c243c826584b5 - trojan adware _
-	6973c9d71d2d5385cfd5584906d467ab - trojan adware _
-	75ea7c022b16aaf558cd8bebd8a7415f - trojan adware _
-	73cefa25040353baeeab3ea01fb2a65e - trojan adware _
-	9e043a00f4d46859d5aed35da0a9231d - trojan adware _
-	38695538646b67bf78e2bd4103005dea - trojan adware _
-	d55e2eb714f36ab872d66448e126b9ca - trojan adware _
-	9c043ddb21cc3789a39fda14e36bc7b2 - trojan adware _
+	2d3a9ade3a6ea3e01850aee07faa259c - trojan
+	d67417cc8b1245d7d29251b1709efb98 - trojan
+	b8915b4ff987d2d68b3c243c826584b5 - trojan
+	6973c9d71d2d5385cfd5584906d467ab - trojan
+	75ea7c022b16aaf558cd8bebd8a7415f - trojan
+	73cefa25040353baeeab3ea01fb2a65e - trojan
+	9e043a00f4d46859d5aed35da0a9231d - trojan
+	38695538646b67bf78e2bd4103005dea - trojan
+	d55e2eb714f36ab872d66448e126b9ca - trojan
+	9c043ddb21cc3789a39fda14e36bc7b2 - trojan
 Benign Hashes (1):
 	a83ac4bf4f589764625644ccbafd6fcb
 Score: 0.9726
@@ -474,16 +474,16 @@ Benign API Call Pattern: NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQ
 ====================================================================================
 MATCH 20
 Malicious Hashes (10):
-	ef8704330e0fdf50e9ad773965f81ce7 - trojan downloader adware
-	ee3a995e47265860e7fdfae70667a78b - adware trojan downloader
-	00375d73e30f85b7378676ed381d5f26 - trojan adware downloader
-	c3aede1b2273968dc088576dd948332b - trojan adware downloader
-	5d0561bded787751a47e3698ac025185 - trojan adware downloader
-	e14dab9254b4f07701292c445b236499 - adware trojan downloader
-	21025984320b56eba059fbbc829c9822 - trojan adware downloader
-	71407689795f3d30b994a841e31722ef - adware trojan downloader
-	28d77eadcc4c96b5e5116be2c048a170 - adware trojan downloader
-	d369f61c4b1b56e45b63ef0f605f2fc9 - adware trojan downloader
+	ef8704330e0fdf50e9ad773965f81ce7 - trojan
+	ee3a995e47265860e7fdfae70667a78b - adware
+	00375d73e30f85b7378676ed381d5f26 - trojan
+	c3aede1b2273968dc088576dd948332b - trojan
+	5d0561bded787751a47e3698ac025185 - trojan
+	e14dab9254b4f07701292c445b236499 - adware
+	21025984320b56eba059fbbc829c9822 - trojan
+	71407689795f3d30b994a841e31722ef - adware
+	28d77eadcc4c96b5e5116be2c048a170 - adware
+	d369f61c4b1b56e45b63ef0f605f2fc9 - adware
 Benign Hashes (2):
 	3e0cbb0553e411b1d68c03f161fcb77b
 	ce945d424b93ea73fbbedf0254f6bc07
@@ -494,29 +494,8 @@ Benign API Call Pattern: NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQ
 ====================================================================================
 
 Malware Types of the Top 20 Most Matching API Call Patterns to Benign Samples:
-trojan _ _                   43
-trojan adware _              38
-adware trojan pua            19
-trojan dropper _             12
-adware trojan downloader     10
-adware trojan ransomware      9
-trojan adware downloader      8
-downloader trojan _           8
-adware trojan _               7
-trojan dropper pua            4
-trojan downloader dropper     4
-adware _ _                    3
-downloader trojan adware      2
-trojan downloader adware      2
-adware virus _                2
-trojan hacktool _             2
-adware pua _                  1
-downloader _ _                1
-adware trojan virus           1
-adware pua trojan             1
-trojan dropper virus          1
-trojan miner dropper          1
-trojan spyware _              1
-trojan worm _                 1
+trojan        117
+adware         53
+downloader     11
 Name: count, dtype: int64
 
