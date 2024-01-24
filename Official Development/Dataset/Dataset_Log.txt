@@ -112,3 +112,13 @@
 2024-01-16 21:39:49.525482@oliveira.csv: Label Encode - 23.926611s
 2024-01-16 21:40:04.436537@oliveira.csv: save_to_file - 14.618107s
 
+2024-01-24 14:21:29.418989@oliveira.csv: Inverse Data Encode - 15.113651s
+2024-01-24 14:41:53.280167@oliveira.csv: Feature Duplicate Process - 1213.188426s
+2024-01-24 14:41:53.794684@oliveira.csv: Data Split (1st Tranche) - 0.484195s
+2024-01-24 14:45:28.378510@oliveira.csv: Inverse Data Encode - 8.759988s
+2024-01-24 15:02:47.656244@oliveira.csv: Feature Duplicate Process - 1032.882158s
+2024-01-24 15:02:48.167297@oliveira.csv: Data Split (1st Tranche) - 0.471825s
+2024-01-24 15:21:22.768736@oliveira.csv: Rebalance via SMOTE - 1114.529385s
+2024-01-24 15:21:43.721123@oliveira.csv: Label Encode - 19.930856s
+2024-01-24 15:21:59.684871@oliveira.csv: save_to_file - 15.6201s
+
