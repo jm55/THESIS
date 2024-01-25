@@ -2,7 +2,8 @@ all_analysis_data.txt
 all_analysis_data.csv
 fixed.csv
 malware_dataset
-*Official Development/Dataset/Clustering/*
+*Official Development/Dataset/Clustering/Malicious*
+*Official Development/Dataset/Clustering/Benign*
 *Official Development/Dataset/.memory/*
 *Official Development/Dataset/.memory/*
 *Official Development/Dataset/IB/*

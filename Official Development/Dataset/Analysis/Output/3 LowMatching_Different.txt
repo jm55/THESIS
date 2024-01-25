@@ -329,7 +329,7 @@ Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,Loa
 
 ====================================================================================
 
-Malware Types of the Top 20 Most Matching API Call Patterns to Benign Samples:
+Malware Types of the Top 20 Least Matching API Call Patterns to Benign Samples:
 trojan        130
 ransomware      9
 adware          8
