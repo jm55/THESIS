@@ -1,0 +1,11 @@
+AhnLab,count
+NtDeviceIoControlFile,24
+NtClose,24
+GetFileType,23
+NtMapViewOfSection,23
+GetSystemTimeAsFileTime,1
+LdrGetDllHandle,1
+LdrGetProcedureAddress,1
+SetUnhandledExceptionFilter,1
+NtOpenFile,1
+NtAllocateVirtualMemory,1

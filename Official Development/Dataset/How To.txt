@@ -1,0 +1,9 @@
+1. Cluster Malicious Samples using DBSCAN with min_sample=5 (it means DBSCAN requires 5 close samples to signify that it is a cluster)
+
+2. Label the clustered samples (found in Labelling_DBSCAN_Clustering.xlsx in OneDrive)
+
+3. Run the Labelling_DBSCAN_Clustering (as csv) on VirusTotal to parse the VT outputs to single-label malware type for each of its cluster. Transfer the parsed labels back to Labelling_DBSCAN_Clustering.csv.
+
+3. Transfer the malware type labels from "Labelling_DBSCAN_Clustering.csv" to "Manual_DBSCAN_SampleHash_Common.csv". Make sure that the hash and its corresponding malware type are in sync.
+
+4. You can then use the Manual_DBSCAN_SampleHash_Common.csv in the notebooks found in the Analysis folder.
