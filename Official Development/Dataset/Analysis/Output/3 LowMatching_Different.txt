@@ -1,289 +1,1416 @@
 MATCH 1
-Malicious Hashes (5):
-	e6ebb74df7e080fed976ac9853999de2 - ransomware
-	c4fa8c5fb6cff2020b92aeb85532f98b - ransomware
-	6fe02dd2c401c05997b5802969812619 - trojan
-	694d7b3089e5f247c2af167ed4d4ee17 - trojan
-	6a31c443f97edb1e4af05a67e380f7a4 - trojan
+Malicious Hashes (186):
+	1949a60feaec1edfd6955f2f5f7dcf7c - trojan
+	e4e2d2f1abc1345a7cb5bc363889118d - trojan
+	260b768a03390af34cf4d91ced33fb0e - trojan
+	d4b2da7cfdc0311421b8722004ab4c88 - trojan
+	521b3e7c459f045ebc2aa40c0c082ee7 - trojan
+	fde1885e7688ceb35fa4b40812ee49f5 - trojan
+	42c09c932f7945fc5b93053a60623e7b - trojan
+	a7fa6f06f61fba7f034480f85b8cb2b9 - trojan
+	a902be388099f50c193879d4c84e864f - trojan
+	3771ba787329c060a1b9977727f0fb7c - trojan
+	47aad146ddf259236c9a85d728539f6c - trojan
+	012e9426b4cbd911d4583df40eab3593 - trojan
+	34f98861b13f108902d98cf50db17d6a - trojan
+	6940f68b4dbfcd0ff1ad8ac6e0515915 - trojan
+	5c249cafa31403d4c585725a222fc00f - trojan
+	71735e0f1b2e9777ac5c8e12d933825b - trojan
+	8bd60ed237de22759897cbc2150cc093 - trojan
+	ea779cabbdffd088e69ffcf07c14c253 - trojan
+	a26b9fda88ee220b1d1b0de52f966764 - trojan
+	21ab3da1d5a254ede6eda8be3533c249 - trojan
+	5939bad044a5763658873d93bb168048 - trojan
+	ae0df2b8388c694fe14f8509d40d58b5 - trojan
+	d8a049c9eac859af76f5333f88a7f58d - trojan
+	ffc10b707576f4226f49392ee245a514 - trojan
+	5ca4c5f7882fc294a2a194b6d2cf9b7f - trojan
+	ab32d287c7a7c9333dba8672ac290c38 - trojan
+	152452131f5d32af54e0d6c5f5f0583d - trojan
+	2f2f77a0db246d595f78831b543d72cf - trojan
+	c7e3ccb71f90d26f8b41726cfd21637a - trojan
+	a0439a8e8efbd0febebf180c5192df3b - trojan
+	8eb9edf302c80023a339fb02da46cc29 - trojan
+	ca38ce1942fb8f153fb3fc00865ee0d6 - trojan
+	158c84cc65140c2ee6327ad82e294af3 - trojan
+	ed56822fee075f183ce14304d169708c - trojan
+	b2a9a9b09f99d3236b66215533c751c2 - trojan
+	d9d3b81ebec6bf28a76f2b0fbba32caf - trojan
+	6c47d5ba9fa7f551842ebae619bed04d - trojan
+	b2f319e08a10debe31e01cf11f378947 - trojan
+	604bfcd4097b6f0024c7dc8e77981349 - downloader
+	5666558bf5f46419f2abb9ce0d830195 - trojan
+	e2f9aabb2e7969efd71694e749093c8b - trojan
+	121294d658ca17555251a4e33cdf2123 - trojan
+	89d4abfe2a3e57c09bcbb72e82e80262 - trojan
+	a6d11beedd3ed70f0b772e677a1db251 - trojan
+	8be680d5808acce81c1c31e54310f804 - trojan
+	927313d5546862ecf37970cb9bbf9525 - trojan
+	2ffe46e40b31596b7e513577c47c4945 - trojan
+	40c127e470fa77a1cac9839c4d523f84 - trojan
+	13d69f50331b8be49109731566dd8fce - trojan
+	f3fb8b44b5e49069b6825c3010feb893 - trojan
+	e637882a999b871151d7010e8ee30699 - trojan
+	584a1d7127ad0f2c57a7bea1e527997d - trojan
+	0e404376c4558a9c20f4422194aec6aa - trojan
+	6a92705c5e7137aa6456ffce9438055d - trojan
+	c587d0b498c4f1b9c104b907832bf362 - trojan
+	bbc540768057b40ad2c2d4836a8617a7 - trojan
+	c7f15e6f4fbce08eda1f8d88cb89c028 - trojan
+	5b13e1bcc26f7dbf8201169bbc0b4264 - trojan
+	637040fee95bf1c9caa0faf30aa737c9 - trojan
+	14fa0f0c7b39e823294c4439a600bdc7 - trojan
+	37adb1efb83cf3abafda9990651babae - miner
+	f257ed56d409a16fbb26675deaa78361 - trojan
+	1face63c2d197d9a178adbf95d3dbe33 - trojan
+	24f89244b03df7a065152b5e554fb8f0 - trojan
+	a0d72dc39ef047e0785f8e2dfd482ea8 - trojan
+	ba228348e2cbcab85c7c85b22c9ea01f - trojan
+	ff3e1869d673c28b87e42c776e7a0f04 - trojan
+	728353f9b4c65a108706c5a6f830605e - trojan
+	697c305a10809815aa220d7560eefb4c - trojan
+	818f2e488d9f79879430391a0ff8e42d - trojan
+	dc43fe86144557687abe4c5d7298adf8 - trojan
+	3c6ccad2b6665c5a4469ba535aa77609 - trojan
+	6b0d564c7da45731669f6d2eed3b3168 - trojan
+	d7fffec1532555ab735fd15802ebb4f7 - trojan
+	1de45bde439a3904517353cb08e197b9 - trojan
+	5c47ef53e1269db13123dc2e2d0d997d - trojan
+	b172a5dbd0e8aa16871424590132016a - trojan
+	26af706ca981a916cad52405c9a1bbc4 - trojan
+	3fe7fedbb86bc70f264677e3b65bb2bf - trojan
+	dd8465d6388540dab940033f23137447 - trojan
+	ad1f5433e0ceef3a3a5b64b385df2ca6 - trojan
+	c3364e514f184eb8c30f82f6e9783396 - trojan
+	7e831085ac01638dae93c62ad80aa2d4 - trojan
+	2d388bcf0ed35792db09f15f5f462133 - trojan
+	8074442fe2c934e6f1fd8a6d23ecfaca - trojan
+	ca9ff58d679441e7247173db342349b9 - trojan
+	ad3fa2a42db8ba6d9df2136a1771fb2b - trojan
+	f8a5ce33d14725da0ab0839366924250 - trojan
+	a16e18c114139b31b3d2e60bd2cfaf99 - trojan
+	ed4d174873ece94e263b1d63da07fd7c - trojan
+	d84769d63aa6b8718ab4bd86e27e26a4 - trojan
+	9848ed6b330af66b3d4cc6178aed0886 - trojan
+	e6a2c53089b2b3af0eb9dd1595e9c725 - trojan
+	66d3132ebcec2e44a591452485fc716e - trojan
+	c4919f002c3e3f8e17f6f130d46bfc54 - trojan
+	e3c9d0b7d57e92dbb239c370f8e415e9 - trojan
+	d349d835c90048650cf544d19b26a61e - trojan
+	1347458a74a4099331e396878d858dad - trojan
+	28a9a5e76170e07f291147b78c93b2ae - trojan
+	8be0d94d0bd2cebf6b43083861e1a00b - pua
+	83cb899b4b3574322711037b658759ea - trojan
+	b19e9ca3a2c3185f5ccf2c63864a4b86 - trojan
+	24b75ce9432f60950d101961258a82a3 - trojan
+	1b440d416103418759155fbdbd314721 - trojan
+	88454386cd209163d2ef83a0000fba0a - trojan
+	fce143852948595ec7f017d8659bcba3 - trojan
+	cebf3a1f3090055a3498cd556f6ec15c - trojan
+	86777703c64c0bf7ebb7065cfa577e9d - trojan
+	ccd2b5927a69137884379c4a7fa2afdd - trojan
+	7b492e9cba6f42f0cd7e7aea94f50fc8 - trojan
+	1680136ab1803e0b2e1dc217e4407e21 - trojan
+	964e2ebce5b31f7cfd8af7b4277b3e75 - trojan
+	79879164dd7bf7a5eaa2e9e2f8582b3d - trojan
+	3d7030426830af1ce3e9e06412954688 - trojan
+	bb73586cedd8767a216880ba2a7c7750 - trojan
+	7d1a24a3d1fd00a9869b9e6bb4cea083 - trojan
+	22e937956a58bf4d9d845fa4c2dd3eda - trojan
+	61dc0c1453543714395c5afac10c02cb - trojan
+	232dd20bc35e5e44531157fe4bff8e98 - trojan
+	d580cbe82c27d04f9b1b22b5cc50dbb5 - trojan
+	6c551eabc1e931402bbdfae64b55f701 - trojan
+	0e78bd5b9e0d700182bb920617144230 - trojan
+	a76b55b0ec0595797bfdbbe999c3bd7d - trojan
+	8787c7210b89c2e9a6201290b1094922 - trojan
+	8255351cb968c74f90f780250f36af98 - trojan
+	93cd2e45d8711452e03ed6114aff28ee - trojan
+	f2c2559d714056adcdc939ddf0577341 - trojan
+	ab5719fa3e6aa3b913b51721cc4a120a - trojan
+	cc3031a70d441a81b4a5d2a5ffbc99a6 - trojan
+	a1dd39e1168f462dd58627846494d948 - trojan
+	c75f1047c3239756faa34200a4c654d5 - trojan
+	8cf4757166d5ee6296aba9e94ed88577 - trojan
+	b9d9d626258577bebe503b27ab236efb - trojan
+	e554ef9729f8ce7481875a8e79782cac - trojan
+	a07f1964504869d6310685ddd9f59989 - trojan
+	702772d73197c339098b33db2fe23943 - trojan
+	f63754b5b263df3192bcbd4bcb4f0351 - trojan
+	9e81c23eef28a75c414b66dda2de9e87 - trojan
+	a9209ccaf4bdd0d78cdccb638435ba56 - trojan
+	5aed4a63e3e73129f3869d88de33681f - trojan
+	6e5051d5f85d6b0b22cd4606a23e7573 - trojan
+	fe0e697ea5c92b3ea72bedd8e4cc6163 - trojan
+	1be006bbbf06923da609f7502cb92955 - trojan
+	864f49b38336170b6c08b768e2d6b333 - trojan
+	5178170c45e0851784f91baa348dd124 - trojan
+	bfb19fdbff00ccb4a01e6d1d6cff9bb9 - trojan
+	207d960c0ac8ec72d7d9f56a5ccf5f34 - trojan
+	ba07f4a2431fc1bd79c7661c477caee3 - trojan
+	f095facf2dae483a44e1edc264200ad9 - trojan
+	5c1ec0caf7dff875528c101037f2fe6a - trojan
+	2c0496772ab90e286de9f7be0c493914 - trojan
+	f67fcbc55e6ff59bd37bc72cc5de178b - trojan
+	ba96a8948a5dd5e7b386907dda7fb0f4 - trojan
+	4ffb34c0d829924bd293383b93736c61 - trojan
+	dcd412e6bf853a10fbc9596406fbb3a7 - trojan
+	64bff341f60dc9adf255a191b07ed2c3 - trojan
+	d6d75952d12009b90cb8257de43eff49 - trojan
+	7cb188e7acdafe25ddee4786d2093a9e - trojan
+	77fb2fdacdb4470d8ffe8a62fbfe231c - trojan
+	235c2ecd2a8971e354350969bca7f77e - trojan
+	c0537fd9e1eae23fb5cc659c8b08ed10 - trojan
+	d99a012bc009652063836512138eb24e - trojan
+	f42606d0181996fdeaf946c96ecffdc2 - trojan
+	9d992c0df8aa5fcb981e1fc37c6cd631 - trojan
+	9976f599e88407d195ffc0ecce4ed38f - trojan
+	c8ecce33e0af35a8e8287a201a98da95 - trojan
+	4c4ecab592b4a44e8a3ffa8edc34ef03 - trojan
+	c4f15a17e6fbd7c013ad62021833f77e - trojan
+	6207454498608392a40fce6675556dbc - trojan
+	96afc9cdef3c623e0c5420e339c57283 - trojan
+	c9fa37cc4006b462f694b552c485bb62 - trojan
+	b478a7704c1dfd0cf272a3b8494bd808 - trojan
+	ae7d3563e35ad294eb440d968ac05bf3 - trojan
+	848740097d93b71d327b3aba95160c28 - trojan
+	07585e87cb70bf1b30e5723a6be47f13 - trojan
+	f0c9b65512b6e739c1692eee1a41b8d2 - trojan
+	e6bb07b89537d9bcc0bfb35bb95c247a - trojan
+	b1cb3f7d9d442bfa91da9957d7cf9125 - trojan
+	c709725aada3a8083acb5cf6e6f485b1 - trojan
+	b4dd18d49796a3005dbcd696ce82459b - trojan
+	88aace68d7cdef42015e72871a637436 - trojan
+	78526a7995bdd20f415a84763345a059 - trojan
+	29e8283398638124d6547a4825ce0a6f - trojan
+	72742ff8292bc627cc608dfaf4add745 - trojan
+	f89c8ea8f1244b7db2691a332c390bc0 - trojan
+	c5cbe27159d3c5bb095f1bdb75bf0d95 - trojan
 Benign Hashes (1):
-	7fccbc67c531bea150c95a9762d6f00a
-Score: 0.0006
-Malicious API Call Pattern: LdrGetDllHandle,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,FindWindowW,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,IsDebuggerPresent,LdrGetDllHandle,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot
-Benign API Call Pattern: NtAllocateVirtualMemory,NtProtectVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,NtProtectVirtualMemory,NtFreeVirtualMemory,OleInitialize,NtAllocateVirtualMemory,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,FindResourceA,LoadResource,SizeofResource,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemTimeAsFileTime,GetTimeZoneInformation,NtOpenFile,NtClose,SHGetSpecialFolderLocation,LdrGetDllHandle,LdrGetProcedureAddress,CoInitializeEx,LdrGetProcedureAddress,CoUninitialize,GetFileAttributesW,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile,NtClose,NtOpenFile
+	a1b913373cb8a0c5b1deef5578a082d7
+Score: 0.0037
+Malicious API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtOpenKeyEx,NtQueryValueKey,NtClose,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey
+Benign API Call Pattern: SetUnhandledExceptionFilter,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose
 
 ====================================================================================
 MATCH 2
-Malicious Hashes (5):
-	7e00280fc0380678135b0a00d3f68251 - trojan
-	daeb99b83a7e54e266e53dd6d47168e3 - trojan
-	523666b80b150f3602b908a66580cc6b - trojan
-	bd398ecfc327cc18439d270e73a92e38 - pua
-	e159c8deccd1f1c98959e4dcf00a1779 - trojan
+Malicious Hashes (65):
+	b75f6d642c7b79c2234bbb05c6fa1dbc - trojan
+	949075933e407c15b7788e95a0c94ade - adware
+	5e9fd6521a341fb6a20abc5869c51e2a - trojan
+	2b91567d717bf62f71d4971263e3bfec - trojan
+	80c34529b6402a5b65622ff51561dbb2 - trojan
+	650dc05ec9e612f0ff949b5462f4e6c7 - trojan
+	48f1200a88db21ca4a16dc908024f0f9 - trojan
+	d2d8f4daf514388b78472e5545405610 - trojan
+	06d8fe63dfdb10fe7157bb21ea4ef426 - trojan
+	cb763c16f58de7b74379845a7de318e0 - trojan
+	296a499057f79c6bd68b6911174048c1 - trojan
+	9e31246e3a46625c0b0a5c8bb1a00b02 - trojan
+	808f8b996412096c25194172e84c0aa7 - trojan
+	83aefa552fff62882f1d53dc94909661 - trojan
+	9b725a2dc4fcd8a98376fd999e0f7ba1 - trojan
+	324d739bb0ae1a02a04521e3d4337a15 - trojan
+	a4a1dfe6350392746b7fa4244559e127 - trojan
+	5ecb7137dd670890bc5f1f60d6312dae - trojan
+	e9462a4314639c95c404ddb202f9b6bb - adware
+	58e04b209bac2725139342259ac45870 - trojan
+	3690176dbfdeaa72972f410d729dd56a - trojan
+	754492a507177c07d91c4429dece7900 - trojan
+	adbc74815ef2bd1ea4967abad812233d - trojan
+	8f7bc3437b64a056a860def231afae55 - trojan
+	06603923d073ca7e92a9c0b4635ab765 - trojan
+	b3c0298278ae2076f74a06603a21ecd4 - trojan
+	2978f118cce8556d0cfa825641b9c54e - trojan
+	9dac713e41ce78a5a84b580f659244bb - trojan
+	ab59b5232c67c09b26313e4c5f2e049c - trojan
+	77caa04917b488efb5d02e907f9530ff - trojan
+	9f1257231194eb909cf94794d91fd051 - trojan
+	7fab75a32b57c08a2fb07f32bde36920 - trojan
+	f10cae3b532c86876e78f993b926813a - trojan
+	a1a911fd357cc66e2309190796d6084c - trojan
+	f9aa80e02104732c2a26ee2ef934b35f - trojan
+	c987ff5c60ca5d30e2a470fea0a15c5e - trojan
+	77f59ab89acb6119696270a81be20d1f - trojan
+	2bf40342ce7bade066cb571cbb481ca5 - trojan
+	f13f032286b6c5c2a50e2a15ab910e85 - trojan
+	7ed698717cdefaddcbbaf1a2ad2d7976 - trojan
+	d8917262dc113b7865329eb6a18705ff - trojan
+	57ec88d293066d9c5506f4fd7ef5e89b - trojan
+	732eabe16e1e499fb19e75877f7a477e - trojan
+	d232fbfb917a81a032ad3ff718009cf1 - trojan
+	bf4089a37bebd160887c2e2cf7947703 - trojan
+	f21497ae3982a8f819f5120b025d0ab0 - trojan
+	3afb8d2faf7400a4654fd9ace1606826 - trojan
+	12eccb51e97308e9e6cb0b528872bc39 - trojan
+	d8469e625ae90ab64d4aef0b63f42150 - trojan
+	d614cf56598e1fe6eca9abcd426cbaaa - trojan
+	8ae46f3a5267ebbe68746281bc731ee6 - trojan
+	932188c727be0e4d889cc9b3349ea771 - trojan
+	7bf655985f1896874217cc3b7ca89a33 - trojan
+	9c5fa25eb48d6652c84bff2b9cd4b7b4 - trojan
+	dd7cdadeae9b4ffc62ac460aeb0213b9 - trojan
+	ad6f9d5ada5e2e19c9788628ec77a507 - trojan
+	c35506bd3fedad57e7f1ea975ebcaec5 - trojan
+	edce3bf6d6431ec76178f24bfcca6540 - trojan
+	e2251a00f5d025ee89228720dc5c2f65 - trojan
+	1f794613062d85119152658b21ef46bb - trojan
+	a173ee9b4b2d991c37af8180bf511867 - trojan
+	8638f7ab4c12d72c3256550694aff81e - trojan
+	db0f74e4f6288b0a588d88e391de2687 - trojan
+	364c99cbfc97ba226452c68040af7509 - trojan
+	b5041fca26518a181a9b4732905d1bf7 - trojan
 Benign Hashes (1):
-	bac812641de6f78289c2b881c67f0a09
-Score: 0.0013
-Malicious API Call Pattern: GetSystemTimeAsFileTime,LdrGetDllHandle,LdrGetProcedureAddress,SetUnhandledExceptionFilter,NtAllocateVirtualMemory,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile,NtClose,NtDeviceIoControlFile
-Benign API Call Pattern: SetUnhandledExceptionFilter,CoInitializeEx,WSAStartup,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtAllocateVirtualMemory,LdrGetProcedureAddress,FindFirstFileExW,NtAllocateVirtualMemory,NtCreateMutant,NtClose,NtCreateMutant,NtClose,GetSystemMetrics,LdrLoadDll,LdrGetProcedureAddress,GetSystemMetrics,LdrGetProcedureAddress,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,NtOpenKey,NtQueryValueKey,NtAllocateVirtualMemory,GetSystemMetrics,NtAllocateVirtualMemory,GetSystemMetrics,NtAllocateVirtualMemory,GetSystemMetrics,NtAllocateVirtualMemory,GetSystemMetrics,FindResourceExW,LoadResource,FindResourceExW,LoadResource,GetSystemMetrics,LdrGetProcedureAddress,NtClose,LdrGetProcedureAddress,GetForegroundWindow,NtClose,RegOpenKeyExW,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,CoInitializeEx,LdrGetProcedureAddress,NtClose,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtClose,GetSystemMetrics,NtOpenMutant,NtClose,NtOpenMutant,NtClose,NtAllocateVirtualMemory,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,LdrGetDllHandle,FindResourceExW,LdrGetProcedureAddress,GetCursorPos,GetSystemMetrics,LdrGetProcedureAddress,DrawTextExW,GetCursorPos,NtDelayExecution,GetCursorPos,NtDelayExecution,GetCursorPos,NtDelayExecution,GetCursorPos,NtDelayExecution,GetCursorPos,NtDelayExecution,GetCursorPos,NtDelayExecution,GetCursorPos,NtDelayExecution,GetCursorPos,NtDelayExecution,GetCursorPos,NtDelayExecution,GetCursorPos,NtDelayExecution
+	a1b913373cb8a0c5b1deef5578a082d7
+Score: 0.0037
+Malicious API Call Pattern: GetSystemTimeAsFileTime,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile
+Benign API Call Pattern: SetUnhandledExceptionFilter,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose
 
 ====================================================================================
 MATCH 3
 Malicious Hashes (3):
-	7610eb4a4e290563f87db1cc0480b6e7 - trojan
-	40a1224cdd030dc2d71f524f6db52cef - trojan
-	0bfbaeaad97e09bf786ea7117bf57c47 - adware
+	6d6b21456fb118d6629e74dbabc73cc7 - spyware
+	966135e37abce456b978f0a345e36d9c - trojan
+	7b1f8a659f2c8583032ab54f57643373 - trojan
 Benign Hashes (1):
-	f5c2ae9df21186ee1a6eff568985bbac
-Score: 0.0014
-Malicious API Call Pattern: LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,LoadStringA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,LoadStringA,NtClose,LoadStringA,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,SetErrorMode,LdrLoadDll,SetErrorMode,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,NtQueryAttributesFile,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,GetSystemInfo,NtProtectVirtualMemory,NtCreateFile,FindResourceA,SizeofResource,LoadResource,GetFileSize,SetFilePointer,NtReadFile,SetFilePointer,GetFileSize,NtAllocateVirtualMemory,NtReadFile,NtAllocateVirtualMemory,NtReadFile,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,NtFreeVirtualMemory,SetFilePointer,LdrGetDllHandle,LdrGetProcedureAddress,GetFileAttributesW,CreateDirectoryW,SetFilePointer,NtCreateFile,NtAllocateVirtualMemory,NtReadFile,SetFilePointer,GetFileSize,NtAllocateVirtualMemory,NtReadFile,NtAllocateVirtualMemory,NtReadFile,NtFreeVirtualMemory,SetFilePointer,SetEndOfFile,SetFilePointer,NtWriteFile,NtFreeVirtualMemory,NtClose,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,GetSystemWindowsDirectoryW,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,IsDebuggerPresent,GetSystemMetrics,NtMapViewOfSection,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,CreateProcessInternalW,NtClose
-Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
+	a1b913373cb8a0c5b1deef5578a082d7
+Score: 0.0037
+Malicious API Call Pattern: GetSystemTimeAsFileTime,NtOpenKey,NtQueryValueKey,NtClose,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW
+Benign API Call Pattern: SetUnhandledExceptionFilter,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose
 
 ====================================================================================
 MATCH 4
-Malicious Hashes (5):
-	e6ebb74df7e080fed976ac9853999de2 - ransomware
-	c4fa8c5fb6cff2020b92aeb85532f98b - ransomware
-	6fe02dd2c401c05997b5802969812619 - trojan
-	694d7b3089e5f247c2af167ed4d4ee17 - trojan
-	6a31c443f97edb1e4af05a67e380f7a4 - trojan
+Malicious Hashes (1):
+	7aefe2ef38cc6e6102f3cf002b5c36d8 - miner
 Benign Hashes (1):
-	f5c2ae9df21186ee1a6eff568985bbac
-Score: 0.0014
-Malicious API Call Pattern: LdrGetDllHandle,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,FindWindowW,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,IsDebuggerPresent,LdrGetDllHandle,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtClose,CreateToolhelp32Snapshot
-Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
+	a1b913373cb8a0c5b1deef5578a082d7
+Score: 0.0038
+Malicious API Call Pattern: GetSystemTimeAsFileTime,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtOpenKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo
+Benign API Call Pattern: SetUnhandledExceptionFilter,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose
 
 ====================================================================================
 MATCH 5
-Malicious Hashes (4):
-	d4481a34ab3cd2c42bceb32e82af74f6 - adware
-	2ea8b6ce573f8cc5a1d2b78b4661ae94 - trojan
-	fb7569d1c2c1fa36a97fdc732f51a637 - miner
-	2973360d9ca0cbc06d0a965bd21b3b4d - downloader
+Malicious Hashes (124):
+	268a6e44780afd1605558fbba0b15ee6 - trojan
+	f8d716e541b5016f603c7f6bfbec3db6 - trojan
+	792dcf0245309ad2cb84bd51b18e0948 - trojan
+	ad22b28c758a37d2fbe1a21f9a13dbd7 - trojan
+	a6f3134aaa80c860006f16d86eefe09d - trojan
+	08163455449ae2704f83dea9cc29d831 - trojan
+	53f4a126624e2bca5d27ee2786a5db70 - trojan
+	3dffecba1c8f7fed3a67f2f2b394e11e - trojan
+	056acd9ea3e1fedf7b5a1558da05496e - trojan
+	b198a95e2d3916c2c4ff1f50317042f6 - trojan
+	d5141f0f09282399cfc1a5de229717f2 - trojan
+	11fc567794a331b24ac173eec6f941cd - trojan
+	c4e19cd8425cdf95d8eddb816f8faa50 - trojan
+	010dce8f1727f2ac367098673b556849 - trojan
+	dd94b1c7dac5c11ee35c3eec2d556009 - trojan
+	b78c4e823bb16126ff7993a18a6c06fa - trojan
+	687cad4427cf912d7207865942276fa4 - trojan
+	ef6b5acc3560ab386423327f4d1b554e - trojan
+	b2df550257b1444c381f55199372eb0a - trojan
+	f26044b98c5b97604a827c080c1734b5 - trojan
+	4f21127db287e2b3ff36576708f07165 - trojan
+	a7fd480472ea3c4138d374fb1be5f7cc - trojan
+	8ab81857bb42a0d9a9442c5090d82b13 - trojan
+	6ace5c5a65977df46fe10f85be766998 - trojan
+	20a1b78cbb138530b01717b9e2c3199d - trojan
+	f9a7951892d0b0364f1237899ceab781 - trojan
+	02e475cff44acb970f77268d27911f90 - trojan
+	f50cc0cbf2718d71be37d227dbcdc9b1 - trojan
+	b88f2938061d8764aabe5b716870ce07 - trojan
+	b66945842ea04c15f4bf4c0215a61c5e - trojan
+	b341c5a421d466da7d790829491085bb - trojan
+	6626c0e7ada1106ab493d0e865edc726 - trojan
+	08d33e55222a06c57c7226998ae49e9b - trojan
+	9af0152e60e8b6ae6a9ed8ca6d63aa32 - trojan
+	2bd265771d5935f74a547dc08ceec3eb - trojan
+	1d60fdc18347ebba24fe7f627b540079 - trojan
+	b8b1283835ab2d4a17ae8be840e755c4 - downloader
+	e76c5a55547e1c26041a8d22def3fa73 - trojan
+	f9408e1696237a0c8fcf6f7aa8c9e8c0 - trojan
+	d16b5285f2f890d671561a48bfd027b4 - trojan
+	3f6e195f148abd75b171a2444cb93945 - trojan
+	f2bfc9da8c0f8d65d2285c4ab897bf5e - trojan
+	ce1784f1c435975ac4067161a51294d2 - trojan
+	d1bcc7017afd14e3a69f8f73cba89c94 - trojan
+	3b06ececa107033d2c68326916b33b2b - trojan
+	51eff710d33e2e05aac26775c4dc5704 - trojan
+	a0925ed753f258a6ad941dac2362846e - trojan
+	aead659f7b6042d86cdb2d00f785afa8 - trojan
+	79c95514b57792ae9b065136ad3919c4 - trojan
+	d01035625121651d9fe6fe244bbb1a4f - trojan
+	f58d31adac5b879b50ce07a9da086736 - trojan
+	b8c2a58e357b3ee544f4f21f200fd8c0 - trojan
+	571c53ccb51b00efe3b975ebe8219da1 - trojan
+	01f7881f6364ff42c51b3957e8891a8b - trojan
+	3cc2d9db631c22503e1e9e3b518e2480 - trojan
+	462b767e71149ee7d99e089a3666134f - trojan
+	9a5ac1b8da837a6b299c84e5378b0daf - trojan
+	08d78a1ab6259c47bb8a4b741f46513e - trojan
+	fda0881a94ce1f45f6171065ecd28294 - trojan
+	248217f5933aee60a0c53ef9ccfb5837 - trojan
+	3dee52b7fb46fbf580134b56047eb3ca - trojan
+	4e91506907c0764f859e1602dd551e56 - trojan
+	1db01fb97dc5365aef8a7cc4a4e2af0a - trojan
+	a1fc84f24f715d88c388810f52672783 - trojan
+	6d6e6d27380ce69f043be7dc379fbf15 - trojan
+	95f22940fa1840c2d7c47e7f7528886a - trojan
+	eab90c0a9bc633ba988eb4d2db4afe3b - trojan
+	a0b65a447b9bb6641919b715295cddd3 - trojan
+	ef7a3e9400af1c2806d9eb4fad1c8541 - trojan
+	58a8b0d42d6523b8c44644c246c39267 - trojan
+	f1a990711b905f0d43a3cd7951e52c63 - trojan
+	7fa275c4720679c386f65b9fd7355951 - trojan
+	f9db012c7d138a03da03625510b9a49f - trojan
+	6638b718d6632a93679ea660cd6539fb - trojan
+	747f1ed0b7c761f6348db4eac0cc84b9 - trojan
+	e23b6a4a3f9a691aa57140829b735dec - trojan
+	586d675a040cb34840b9f08ab1dedbaf - trojan
+	3b91025a53a5602fcc2a1aed20b6b763 - trojan
+	0876376e86b04c4979b510fa96c77e3c - trojan
+	00866e623fe587231575f71aac174d67 - trojan
+	f107a8d33adeb3249e3b590329b691d9 - trojan
+	1935155c3eb1fb714c0bfafc0ccab1f2 - trojan
+	29d0fc62716a23d2b4ddfad7e9604c9f - trojan
+	2cc27dce85e0771b23d404c5e1b17e27 - trojan
+	0afb3a897b5b73b79c49fec0ffa5d768 - trojan
+	50787cb08c0f499fa16d27f3a4ad8e67 - trojan
+	f04fb89be6f7846cde84a4692d938d06 - trojan
+	e1618002c8700b4ae261b1e5aea00e42 - trojan
+	819ff07dfe557f55282df56a94f6ec80 - trojan
+	22639520d4dbf71d77608a166fe14fc7 - trojan
+	2736bf941b165729789885bd9a44a627 - trojan
+	c23ed7c4744a2f89da775652229ff5a6 - trojan
+	7033296a3a601d9b55b3d3b0208816e8 - trojan
+	5b232921ea2b1443040c5190b778e353 - trojan
+	ec26a06ccc883c6f7b604ef5879677c9 - trojan
+	0f8572c94b8f080d42963ac4812ec631 - trojan
+	b07bdcc9226056a37c8a4130a77618a8 - trojan
+	1b1b2b20bbac727529ee0ecb6c86eb72 - trojan
+	dd8f536e9bc71c495a3e735a08a92914 - trojan
+	4e95d625b2400873b75e2e75ea5a0c96 - trojan
+	e448f6747277337d370e8ec53c78fbbf - trojan
+	a10be35036e039e23361670a720f1a08 - trojan
+	9e113aa6ac2b00e915efcabe016d832f - trojan
+	0eaae2884fa1f5c869280c62309951a9 - trojan
+	6a9e9ac8590b4b03af1752f89f092c62 - trojan
+	abd0a62be28231fa92379f044f1ad7f2 - trojan
+	cf4e557fae0400be25950605b6b166a2 - trojan
+	096072a8d2083a47e5107caad1258a8c - trojan
+	f2154621a36168796e20e749de83feda - trojan
+	03de12c843cecfb24f3c176ad320774c - trojan
+	8600bb3e5ba9987a454f543bff8bf173 - trojan
+	e5bf0a922052338602a32e23b73bab41 - trojan
+	cf45b369bc6010eecc52e2a75cda5fc3 - trojan
+	9669c3f38b343b6fccf0ac973f95df28 - trojan
+	c5c0370a15454ca6096de3f269d498b2 - trojan
+	b639cd208f8220e766b25eb97457bcde - trojan
+	2a32151b33498f6e5c64191684d407e7 - trojan
+	17c45dd7d20e118d3254e5e7646af5af - trojan
+	d54127dd91d947f4c5f22c03f9807224 - trojan
+	2475fda58a0ac4c571deb76001a6d81d - trojan
+	2dea8043beb9513bec58024b4cc65603 - trojan
+	5fad1ec1ebbbc0c10dda8faa31ce9133 - trojan
+	b9174a0a24a4871c6f04558a227738a0 - trojan
+	2746e11bd63f23470250d42fe2a53776 - trojan
 Benign Hashes (1):
-	f5c2ae9df21186ee1a6eff568985bbac
-Score: 0.0014
-Malicious API Call Pattern: LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,LoadStringA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,LoadStringA,NtClose,LoadStringA,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,SetErrorMode,LdrLoadDll,SetErrorMode,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,NtQueryAttributesFile,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,GetSystemInfo,NtProtectVirtualMemory,NtCreateFile,FindResourceA,SizeofResource,LoadResource,GetFileSize,SetFilePointer,NtReadFile,SetFilePointer,GetFileSize,NtAllocateVirtualMemory,NtReadFile,NtAllocateVirtualMemory,NtReadFile,NtFreeVirtualMemory,SetFilePointer,LdrGetDllHandle,LdrGetProcedureAddress,GetFileAttributesW,CreateDirectoryW,SetFilePointer,NtCreateFile,NtAllocateVirtualMemory,NtReadFile,SetFilePointer,GetFileSize,NtAllocateVirtualMemory,NtReadFile,NtAllocateVirtualMemory,NtReadFile,NtFreeVirtualMemory,SetFilePointer,SetEndOfFile,SetFilePointer,NtWriteFile,NtFreeVirtualMemory,NtClose,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,GetSystemWindowsDirectoryW,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,IsDebuggerPresent,GetSystemMetrics,NtMapViewOfSection,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,CreateProcessInternalW,NtClose,DeleteFileW,RemoveDirectoryA,NtFreeVirtualMemory
-Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
+	a1b913373cb8a0c5b1deef5578a082d7
+Score: 0.0038
+Malicious API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtOpenKey,NtQueryValueKey,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtEnumerateKey,NtOpenKey,NtQueryValueKey,NtClose,NtEnumerateKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKeyEx,NtQueryValueKey,NtClose
+Benign API Call Pattern: SetUnhandledExceptionFilter,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose
 
 ====================================================================================
 MATCH 6
-Malicious Hashes (5):
-	be3ba43eb5d44a1546c62f9456e56026 - trojan
-	55b5c34d54bcc07481613f66f52e281f - trojan
-	a864bb896b24175d58aa15bacf646954 - trojan
-	c7d02d07eb05f5c9bf301445f96f2944 - trojan
-	8d6e7098c300d3a1497eb4b443416a6d - trojan
+Malicious Hashes (1):
+	0bc8af28f4dd291c18de42ec62f40417 - trojan
 Benign Hashes (1):
 	a1b913373cb8a0c5b1deef5578a082d7
-Score: 0.0015
-Malicious API Call Pattern: FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,NtProtectVirtualMemory,NtClose,LdrLoadDll,LdrGetProcedureAddress,GetSystemWindowsDirectoryW,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,LdrLoadDll,LdrGetProcedureAddress,LdrUnloadDll,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,NtClose,FindResourceA,FindResourceExA,LoadResource,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,NtOpenKey,NtQueryValueKey,GetForegroundWindow,LdrLoadDll,LdrGetProcedureAddress,IsDebuggerPresent,GetSystemMetrics,NtMapViewOfSection,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,FindResourceExW,LoadResource,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtAllocateVirtualMemory,GetSystemMetrics,LdrGetProcedureAddress,GetSystemMetrics,LdrGetProcedureAddress,GetSystemMetrics,LdrGetProcedureAddress,GetSystemMetrics,LdrLoadDll,LdrGetProcedureAddress,GetSystemMetrics,CreateActCtxW,LdrLoadDll,NtUnmapViewOfSection,NtClose,LdrGetProcedureAddress,GetSystemMetrics,LdrGetProcedureAddress,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress
+Score: 0.0038
+Malicious API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtOpenKey,NtQueryValueKey,NtClose,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtOpenKey,NtQueryValueKey,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtEnumerateKey,NtOpenKey,NtQueryValueKey,NtClose,NtEnumerateKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose
 Benign API Call Pattern: SetUnhandledExceptionFilter,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose
 
 ====================================================================================
 MATCH 7
-Malicious Hashes (5):
-	6d5ad914d0a2670f98a5d7aeedf40572 - trojan
-	2dfa6920f54b225d96331c083dfd9877 - trojan
-	1a63e8c19fc33579dfbb6a8b660e55f8 - trojan
-	6f5600c8eeb512d93476d31ce978253c - trojan
-	1570d7d2e899c2e076add07f3e644a28 - trojan
+Malicious Hashes (4):
+	62946b0c1917d5333f68d397f76b9ab8 - trojan
+	2b676a9f79e26c731b1d0fa96d4f60d0 - pua
+	e0ece9cc4f4588fcde3693e1f2f7bbd8 - trojan
+	ac127121b6b02a0db12dbf7bee17f5e2 - trojan
 Benign Hashes (1):
-	34d0c34237b09bd1c650eedba9bc5fa0
-Score: 0.0018
-Malicious API Call Pattern: NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos
-Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,GetCursorPos,SetErrorMode,CreateActCtxW,FindResourceW,LoadResource,SizeofResource,FindResourceW,LoadResource,SizeofResource,FindResourceW,LoadResource,SizeofResource,FindResourceW,LoadResource,SizeofResource,SetWindowsHookExA,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExA,RegCreateKeyExA,RegSetValueExA,RegOpenKeyExA,RegQueryValueExA,LdrLoadDll,RegCloseKey,RegOpenKeyExA,LdrGetProcedureAddress,RegCreateKeyExA,LdrGetProcedureAddress,RegCloseKey,LdrGetProcedureAddress,RegCloseKey,RegCreateKeyExA,RegCloseKey,LdrGetProcedureAddress,RegQueryValueExA,RegCloseKey,RegOpenKeyExA,RegCreateKeyExA,RegCloseKey,RegCreateKeyExA,RegCloseKey,RegQueryValueExA,RegCloseKey,RegOpenKeyExA,RegCreateKeyExA,RegCloseKey,RegCreateKeyExA,RegCloseKey,RegQueryValueExA,RegCloseKey,RegOpenKeyExA,RegCreateKeyExA,RegCloseKey,RegCreateKeyExA,RegCloseKey,RegQueryValueExA,RegCloseKey,RegOpenKeyExA,RegCreateKeyExA,RegCloseKey,RegCreateKeyExA,RegCloseKey,RegQueryValueExA,RegCloseKey,FindResourceW,LoadResource,SizeofResource,FindResourceW,LoadResource,SizeofResource,FindResourceW,LoadResource,SizeofResource,FindResourceW,LoadResource,SizeofResource,FindResourceA,FindResourceExW,FindResourceA,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceA,FindResourceExA,LoadResource,SetWindowsHookExA,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrLoadDll,LdrGetProcedureAddress,IsDebuggerPresent,GetSystemMetrics,NtMapViewOfSection
+	f5c2ae9df21186ee1a6eff568985bbac
+Score: 0.0041
+Malicious API Call Pattern: SetErrorMode,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemDirectoryW,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,GetSystemWindowsDirectoryW,GetSystemDirectoryW,RegOpenKeyExA,GetSystemWindowsDirectoryW,LoadStringW,GetSystemWindowsDirectoryW,GetSystemDirectoryW,RegOpenKeyExW,LdrLoadDll,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,RegCloseKey,NtCreateMutant,GetNativeSystemInfo,GetSystemWindowsDirectoryW,NtClose,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,NtAllocateVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,NtQueryAttributesFile,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,LdrGetDllHandle,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,OleInitialize,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtOpenSection,NtMapViewOfSection,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,NtClose,LdrLoadDll,LdrGetProcedureAddress,GetSystemWindowsDirectoryW,NtCreateFile,NtCreateSection
+Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
 
 ====================================================================================
 MATCH 8
-Malicious Hashes (5):
-	1cea8c006fb89508b6d05741b394c5f1 - ransomware
-	dcf17cbbba9b807cf39b755167c91e5a - ransomware
-	5d781f69efccdf760bf180a7e8d0c5b2 - ransomware
-	e14fe59a265236f0a814347080931a1d - trojan
-	82ea41f56bb54eb002a811c7d20341ca - ransomware
+Malicious Hashes (15):
+	9d6255805512404fb4c2cb8440bcd0ba - adware
+	72940a839c9e547b7197301c675d55bd - adware
+	27b23cafb241ae079b7e9bb3c3a15455 - adware
+	0194f32019b00ad8d0a6585c0c1a826b - adware
+	95b1cdc238a534570138b260532d9cb5 - hacktool
+	4116cfab40b1fc0b6b41d539a9972225 - adware
+	9697f0c92db65a0a3a02f58f4c0be7d2 - adware
+	4e367838f7c650d3461e67f849ab344a - adware
+	8964bd86a5feaf6a92005942f8b45efc - adware
+	bfb36be6b4f440312b672ff2f045e321 - trojan
+	803a556923b9d5ae461b401d769cc187 - adware
+	417c8777968d7d904efff59b016a95d7 - adware
+	5d1f090414365f7747e6fb35824bbf80 - adware
+	e51d74fb68a513788f3e05b7d6461c6a - adware
+	3240531a7e108ea7357a76258bb89151 - pua
 Benign Hashes (1):
 	f5c2ae9df21186ee1a6eff568985bbac
-Score: 0.0018
-Malicious API Call Pattern: NtDelayExecution,NtAllocateVirtualMemory,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtAllocateVirtualMemory,NtOpenFile,NtQueryInformationFile,NtClose,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,NtFreeVirtualMemory,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtCreateMutant,NtFreeVirtualMemory,CreateThread,NtQuerySystemInformation,NtAllocateVirtualMemory,NtQuerySystemInformation,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,LdrLoadDll,LdrGetProcedureAddress,GetSystemWindowsDirectoryW,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,NtQuerySystemInformation,NtFreeVirtualMemory,NtQuerySystemInformation,NtAllocateVirtualMemory,NtQuerySystemInformation,NtFreeVirtualMemory,NtQuerySystemInformation,NtAllocateVirtualMemory,NtQuerySystemInformation,NtFreeVirtualMemory,NtQuerySystemInformation,NtAllocateVirtualMemory,NtQuerySystemInformation,NtFreeVirtualMemory,NtQuerySystemInformation,NtAllocateVirtualMemory,NtQuerySystemInformation,NtFreeVirtualMemory,NtQuerySystemInformation,NtAllocateVirtualMemory,NtQuerySystemInformation,NtFreeVirtualMemory,NtQuerySystemInformation,NtAllocateVirtualMemory,NtQuerySystemInformation,NtFreeVirtualMemory,NtAllocateVirtualMemory,GetTempPathW,LdrLoadDll,LdrGetProcedureAddress,CryptAcquireContextW,NtAllocateVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,NtFreeVirtualMemory,NtCreateFile,GetFileSize,NtQuerySystemInformation,NtAllocateVirtualMemory,NtQuerySystemInformation,NtFreeVirtualMemory,NtQuerySystemInformation,NtAllocateVirtualMemory,NtQuerySystemInformation,NtFreeVirtualMemory,NtQuerySystemInformation,NtAllocateVirtualMemory,NtQuerySystemInformation,NtFreeVirtualMemory,NtQuerySystemInformation,NtAllocateVirtualMemory,NtQuerySystemInformation,NtFreeVirtualMemory,NtCreateSection,NtMapViewOfSection,NtQuerySystemInformation,NtAllocateVirtualMemory,NtQuerySystemInformation,NtFreeVirtualMemory,NtQuerySystemInformation
+Score: 0.0041
+Malicious API Call Pattern: SetErrorMode,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemDirectoryW,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,GetSystemWindowsDirectoryW,GetSystemDirectoryW,RegOpenKeyExA,GetSystemWindowsDirectoryW,LoadStringW,GetSystemWindowsDirectoryW,GetSystemDirectoryW,RegOpenKeyExW,LdrLoadDll,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,RegCloseKey,NtCreateMutant,GetNativeSystemInfo,GetSystemWindowsDirectoryW,NtClose,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,NtAllocateVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,NtQueryAttributesFile,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,LdrGetDllHandle,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,OleInitialize,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtOpenSection,NtMapViewOfSection,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,NtClose,LdrLoadDll,LdrGetProcedureAddress,GetSystemWindowsDirectoryW,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose
 Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
 
 ====================================================================================
 MATCH 9
-Malicious Hashes (5):
-	6d5ad914d0a2670f98a5d7aeedf40572 - trojan
-	2dfa6920f54b225d96331c083dfd9877 - trojan
-	1a63e8c19fc33579dfbb6a8b660e55f8 - trojan
-	6f5600c8eeb512d93476d31ce978253c - trojan
-	1570d7d2e899c2e076add07f3e644a28 - trojan
-Benign Hashes (2):
-	cfc93190f945f791cf541d3a9fbe39ab
-	5cf9401dbd25d65bfee389e602e3ec28
-Score: 0.0019
-Malicious API Call Pattern: NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos,NtQuerySystemInformation,GetCursorPos
-Benign API Call Pattern: SetUnhandledExceptionFilter,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,FindFirstFileExW,NtQueryDirectoryFile,NtClose,LdrGetDllHandle,LdrLoadDll,LdrGetProcedureAddress,NtAllocateVirtualMemory,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey
+Malicious Hashes (65):
+	b75f6d642c7b79c2234bbb05c6fa1dbc - trojan
+	949075933e407c15b7788e95a0c94ade - adware
+	5e9fd6521a341fb6a20abc5869c51e2a - trojan
+	2b91567d717bf62f71d4971263e3bfec - trojan
+	80c34529b6402a5b65622ff51561dbb2 - trojan
+	650dc05ec9e612f0ff949b5462f4e6c7 - trojan
+	48f1200a88db21ca4a16dc908024f0f9 - trojan
+	d2d8f4daf514388b78472e5545405610 - trojan
+	06d8fe63dfdb10fe7157bb21ea4ef426 - trojan
+	cb763c16f58de7b74379845a7de318e0 - trojan
+	296a499057f79c6bd68b6911174048c1 - trojan
+	9e31246e3a46625c0b0a5c8bb1a00b02 - trojan
+	808f8b996412096c25194172e84c0aa7 - trojan
+	83aefa552fff62882f1d53dc94909661 - trojan
+	9b725a2dc4fcd8a98376fd999e0f7ba1 - trojan
+	324d739bb0ae1a02a04521e3d4337a15 - trojan
+	a4a1dfe6350392746b7fa4244559e127 - trojan
+	5ecb7137dd670890bc5f1f60d6312dae - trojan
+	e9462a4314639c95c404ddb202f9b6bb - adware
+	58e04b209bac2725139342259ac45870 - trojan
+	3690176dbfdeaa72972f410d729dd56a - trojan
+	754492a507177c07d91c4429dece7900 - trojan
+	adbc74815ef2bd1ea4967abad812233d - trojan
+	8f7bc3437b64a056a860def231afae55 - trojan
+	06603923d073ca7e92a9c0b4635ab765 - trojan
+	b3c0298278ae2076f74a06603a21ecd4 - trojan
+	2978f118cce8556d0cfa825641b9c54e - trojan
+	9dac713e41ce78a5a84b580f659244bb - trojan
+	ab59b5232c67c09b26313e4c5f2e049c - trojan
+	77caa04917b488efb5d02e907f9530ff - trojan
+	9f1257231194eb909cf94794d91fd051 - trojan
+	7fab75a32b57c08a2fb07f32bde36920 - trojan
+	f10cae3b532c86876e78f993b926813a - trojan
+	a1a911fd357cc66e2309190796d6084c - trojan
+	f9aa80e02104732c2a26ee2ef934b35f - trojan
+	c987ff5c60ca5d30e2a470fea0a15c5e - trojan
+	77f59ab89acb6119696270a81be20d1f - trojan
+	2bf40342ce7bade066cb571cbb481ca5 - trojan
+	f13f032286b6c5c2a50e2a15ab910e85 - trojan
+	7ed698717cdefaddcbbaf1a2ad2d7976 - trojan
+	d8917262dc113b7865329eb6a18705ff - trojan
+	57ec88d293066d9c5506f4fd7ef5e89b - trojan
+	732eabe16e1e499fb19e75877f7a477e - trojan
+	d232fbfb917a81a032ad3ff718009cf1 - trojan
+	bf4089a37bebd160887c2e2cf7947703 - trojan
+	f21497ae3982a8f819f5120b025d0ab0 - trojan
+	3afb8d2faf7400a4654fd9ace1606826 - trojan
+	12eccb51e97308e9e6cb0b528872bc39 - trojan
+	d8469e625ae90ab64d4aef0b63f42150 - trojan
+	d614cf56598e1fe6eca9abcd426cbaaa - trojan
+	8ae46f3a5267ebbe68746281bc731ee6 - trojan
+	932188c727be0e4d889cc9b3349ea771 - trojan
+	7bf655985f1896874217cc3b7ca89a33 - trojan
+	9c5fa25eb48d6652c84bff2b9cd4b7b4 - trojan
+	dd7cdadeae9b4ffc62ac460aeb0213b9 - trojan
+	ad6f9d5ada5e2e19c9788628ec77a507 - trojan
+	c35506bd3fedad57e7f1ea975ebcaec5 - trojan
+	edce3bf6d6431ec76178f24bfcca6540 - trojan
+	e2251a00f5d025ee89228720dc5c2f65 - trojan
+	1f794613062d85119152658b21ef46bb - trojan
+	a173ee9b4b2d991c37af8180bf511867 - trojan
+	8638f7ab4c12d72c3256550694aff81e - trojan
+	db0f74e4f6288b0a588d88e391de2687 - trojan
+	364c99cbfc97ba226452c68040af7509 - trojan
+	b5041fca26518a181a9b4732905d1bf7 - trojan
+Benign Hashes (1):
+	79e6b398dfa86e16871f2eaa55435fbc
+Score: 0.0051
+Malicious API Call Pattern: GetSystemTimeAsFileTime,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile
+Benign API Call Pattern: SetUnhandledExceptionFilter,NtAllocateVirtualMemory,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemInfo,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,NtOpenDirectoryObject,GetSystemDirectoryW,RegOpenKeyExA,GetSystemWindowsDirectoryW,LoadStringW,GetSystemWindowsDirectoryW,GetSystemDirectoryW,RegOpenKeyExW,LdrLoadDll,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,RegCloseKey,NtCreateMutant,GetNativeSystemInfo,GetSystemWindowsDirectoryW,NtClose,NtOpenKey,NtQueryValueKey,NtClose,LdrLoadDll,LdrUnloadDll,NtCreateFile,GetFileType,NtCreateFile,GetFileType,NtAllocateVirtualMemory,timeGetTime,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,SetWindowsHookExW,UnhookWindowsHookEx,LdrLoadDll,LdrUnloadDll,GetSystemWindowsDirectoryW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemInfo,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,GetSystemDirectoryW,RegOpenKeyExA,GetSystemWindowsDirectoryW,LoadStringW,GetSystemWindowsDirectoryW,GetSystemDirectoryW,RegOpenKeyExW,LdrLoadDll,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtCreateMutant,GetNativeSystemInfo,GetSystemWindowsDirectoryW,NtClose,NtOpenKey,NtQueryValueKey,NtClose,LdrLoadDll,LdrGetProcedureAddress,NtOpenFile,NtQueryInformationFile,NtAllocateVirtualMemory,NtReadFile,NtFreeVirtualMemory,NtClose,NtCreateMutant,LdrLoadDll,NtQuerySystemInformation,RegOpenKeyExA
 
 ====================================================================================
 MATCH 10
-Malicious Hashes (5):
-	a18527bb7215c63ca04b39f9d17ddcf8 - trojan
-	a17fa8fe79e0d92bd609c1df333501a0 - trojan
-	c1863c638fe81cf561e79d534b76196c - trojan
-	d10802a1d8dc26fb051bfc094b9df5f2 - trojan
-	361552b7ba55faa7674c5d4056645927 - trojan
+Malicious Hashes (1):
+	7aefe2ef38cc6e6102f3cf002b5c36d8 - miner
 Benign Hashes (1):
-	f5c2ae9df21186ee1a6eff568985bbac
-Score: 0.0020
-Malicious API Call Pattern: RegOpenKeyExA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryAttributesFile,LoadStringA,NtAllocateVirtualMemory,LoadStringA,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemMetrics,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExA,RegQueryValueExA,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemMetrics,FindResourceExW,LdrGetProcedureAddress,FindResourceExW,LoadResource,FindResourceExW,LoadResource,NtClose,NtAllocateVirtualMemory,GetSystemMetrics,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,DrawTextExW,GetSystemMetrics,FindResourceExW,LoadResource,GetSystemMetrics,DrawTextExW,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetDllHandle,LdrGetProcedureAddress,LoadStringA,LdrLoadDll,LdrGetProcedureAddress,GetSystemWindowsDirectoryW,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemMetrics,FindResourceA,LoadResource,SizeofResource,LdrLoadDll,LdrGetProcedureAddress,GetFileVersionInfoSizeW,GetFileVersionInfoW,DrawTextExA,GetSystemMetrics,NtAllocateVirtualMemory,CreateActCtxW,GetSystemWindowsDirectoryW,CreateActCtxW,LdrGetDllHandle,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,GetSystemMetrics,LdrGetProcedureAddress,GetSystemMetrics,FindResourceExW,LoadResource,GetSystemMetrics,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,GetSystemMetrics,NtAllocateVirtualMemory,GetSystemMetrics
-Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
+	79e6b398dfa86e16871f2eaa55435fbc
+Score: 0.0052
+Malicious API Call Pattern: GetSystemTimeAsFileTime,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtOpenKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo
+Benign API Call Pattern: SetUnhandledExceptionFilter,NtAllocateVirtualMemory,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemInfo,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,NtOpenDirectoryObject,GetSystemDirectoryW,RegOpenKeyExA,GetSystemWindowsDirectoryW,LoadStringW,GetSystemWindowsDirectoryW,GetSystemDirectoryW,RegOpenKeyExW,LdrLoadDll,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,RegCloseKey,NtCreateMutant,GetNativeSystemInfo,GetSystemWindowsDirectoryW,NtClose,NtOpenKey,NtQueryValueKey,NtClose,LdrLoadDll,LdrUnloadDll,NtCreateFile,GetFileType,NtCreateFile,GetFileType,NtAllocateVirtualMemory,timeGetTime,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,SetWindowsHookExW,UnhookWindowsHookEx,LdrLoadDll,LdrUnloadDll,GetSystemWindowsDirectoryW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemInfo,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,GetSystemDirectoryW,RegOpenKeyExA,GetSystemWindowsDirectoryW,LoadStringW,GetSystemWindowsDirectoryW,GetSystemDirectoryW,RegOpenKeyExW,LdrLoadDll,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtCreateMutant,GetNativeSystemInfo,GetSystemWindowsDirectoryW,NtClose,NtOpenKey,NtQueryValueKey,NtClose,LdrLoadDll,LdrGetProcedureAddress,NtOpenFile,NtQueryInformationFile,NtAllocateVirtualMemory,NtReadFile,NtFreeVirtualMemory,NtClose,NtCreateMutant,LdrLoadDll,NtQuerySystemInformation,RegOpenKeyExA
 
 ====================================================================================
 MATCH 11
-Malicious Hashes (5):
-	854bde64cd2c153bcb2f3e76b47ee0e8 - trojan
-	c066cdf506b0186642a159af353a0f6b - trojan
-	c7022db00b53283d6d42afd3fdc3c8fb - trojan
-	69e4d98a30c3ade8fa24c92dd93a26ea - trojan
-	e1c4286b58b6f549dcd3cc362ddcb74a - trojan
+Malicious Hashes (1):
+	0bc8af28f4dd291c18de42ec62f40417 - trojan
 Benign Hashes (1):
-	f5c2ae9df21186ee1a6eff568985bbac
-Score: 0.0020
-Malicious API Call Pattern: RegOpenKeyExA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryAttributesFile,LoadStringA,NtAllocateVirtualMemory,LoadStringA,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LoadStringA,LdrGetProcedureAddress,GetSystemMetrics,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetProcedureAddress,FindResourceExW,LoadResource,FindResourceExW,LoadResource,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,DrawTextExW,GetSystemMetrics,FindResourceExW,LoadResource,GetSystemMetrics,DrawTextExW,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,NtFreeVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,NtDelayExecution,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtProtectVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,CreateToolhelp32Snapshot,Process32FirstW
-Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
+	658e9a0dd41a4e7f194282a6d94beaa9
+Score: 0.0063
+Malicious API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtOpenKey,NtQueryValueKey,NtClose,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtOpenKey,NtQueryValueKey,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtEnumerateKey,NtOpenKey,NtQueryValueKey,NtClose,NtEnumerateKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose
+Benign API Call Pattern: SetUnhandledExceptionFilter,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemDirectoryW,LdrLoadDll,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,IsDebuggerPresent,GetSystemMetrics,NtMapViewOfSection,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,GetSystemMetrics,LdrLoadDll,LdrGetProcedureAddress,SetWindowsHookExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,OleInitialize,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,NtAllocateVirtualMemory,GetSystemDirectoryW,NtAllocateVirtualMemory,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,UuidCreate,GetSystemMetrics,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,NtAllocateVirtualMemory,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,NtAllocateVirtualMemory,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,NtAllocateVirtualMemory,FindResourceExW,LoadResource,FindResourceExW,LoadResource,GetSystemMetrics,FindResourceExW
 
 ====================================================================================
 MATCH 12
-Malicious Hashes (5):
-	aff3c8428564b1c19b681a53c204fcc1 - trojan
-	0a263bd916161a7fa468e46059f77401 - trojan
-	e909c28e8ece9ef01f14bda3d84ea8e7 - trojan
-	27f3ad32e2eddc62e5434f19748fa0be - trojan
-	266c65c68ca81a3cca49fe76954247c6 - trojan
+Malicious Hashes (65):
+	b75f6d642c7b79c2234bbb05c6fa1dbc - trojan
+	949075933e407c15b7788e95a0c94ade - adware
+	5e9fd6521a341fb6a20abc5869c51e2a - trojan
+	2b91567d717bf62f71d4971263e3bfec - trojan
+	80c34529b6402a5b65622ff51561dbb2 - trojan
+	650dc05ec9e612f0ff949b5462f4e6c7 - trojan
+	48f1200a88db21ca4a16dc908024f0f9 - trojan
+	d2d8f4daf514388b78472e5545405610 - trojan
+	06d8fe63dfdb10fe7157bb21ea4ef426 - trojan
+	cb763c16f58de7b74379845a7de318e0 - trojan
+	296a499057f79c6bd68b6911174048c1 - trojan
+	9e31246e3a46625c0b0a5c8bb1a00b02 - trojan
+	808f8b996412096c25194172e84c0aa7 - trojan
+	83aefa552fff62882f1d53dc94909661 - trojan
+	9b725a2dc4fcd8a98376fd999e0f7ba1 - trojan
+	324d739bb0ae1a02a04521e3d4337a15 - trojan
+	a4a1dfe6350392746b7fa4244559e127 - trojan
+	5ecb7137dd670890bc5f1f60d6312dae - trojan
+	e9462a4314639c95c404ddb202f9b6bb - adware
+	58e04b209bac2725139342259ac45870 - trojan
+	3690176dbfdeaa72972f410d729dd56a - trojan
+	754492a507177c07d91c4429dece7900 - trojan
+	adbc74815ef2bd1ea4967abad812233d - trojan
+	8f7bc3437b64a056a860def231afae55 - trojan
+	06603923d073ca7e92a9c0b4635ab765 - trojan
+	b3c0298278ae2076f74a06603a21ecd4 - trojan
+	2978f118cce8556d0cfa825641b9c54e - trojan
+	9dac713e41ce78a5a84b580f659244bb - trojan
+	ab59b5232c67c09b26313e4c5f2e049c - trojan
+	77caa04917b488efb5d02e907f9530ff - trojan
+	9f1257231194eb909cf94794d91fd051 - trojan
+	7fab75a32b57c08a2fb07f32bde36920 - trojan
+	f10cae3b532c86876e78f993b926813a - trojan
+	a1a911fd357cc66e2309190796d6084c - trojan
+	f9aa80e02104732c2a26ee2ef934b35f - trojan
+	c987ff5c60ca5d30e2a470fea0a15c5e - trojan
+	77f59ab89acb6119696270a81be20d1f - trojan
+	2bf40342ce7bade066cb571cbb481ca5 - trojan
+	f13f032286b6c5c2a50e2a15ab910e85 - trojan
+	7ed698717cdefaddcbbaf1a2ad2d7976 - trojan
+	d8917262dc113b7865329eb6a18705ff - trojan
+	57ec88d293066d9c5506f4fd7ef5e89b - trojan
+	732eabe16e1e499fb19e75877f7a477e - trojan
+	d232fbfb917a81a032ad3ff718009cf1 - trojan
+	bf4089a37bebd160887c2e2cf7947703 - trojan
+	f21497ae3982a8f819f5120b025d0ab0 - trojan
+	3afb8d2faf7400a4654fd9ace1606826 - trojan
+	12eccb51e97308e9e6cb0b528872bc39 - trojan
+	d8469e625ae90ab64d4aef0b63f42150 - trojan
+	d614cf56598e1fe6eca9abcd426cbaaa - trojan
+	8ae46f3a5267ebbe68746281bc731ee6 - trojan
+	932188c727be0e4d889cc9b3349ea771 - trojan
+	7bf655985f1896874217cc3b7ca89a33 - trojan
+	9c5fa25eb48d6652c84bff2b9cd4b7b4 - trojan
+	dd7cdadeae9b4ffc62ac460aeb0213b9 - trojan
+	ad6f9d5ada5e2e19c9788628ec77a507 - trojan
+	c35506bd3fedad57e7f1ea975ebcaec5 - trojan
+	edce3bf6d6431ec76178f24bfcca6540 - trojan
+	e2251a00f5d025ee89228720dc5c2f65 - trojan
+	1f794613062d85119152658b21ef46bb - trojan
+	a173ee9b4b2d991c37af8180bf511867 - trojan
+	8638f7ab4c12d72c3256550694aff81e - trojan
+	db0f74e4f6288b0a588d88e391de2687 - trojan
+	364c99cbfc97ba226452c68040af7509 - trojan
+	b5041fca26518a181a9b4732905d1bf7 - trojan
 Benign Hashes (1):
-	f5c2ae9df21186ee1a6eff568985bbac
-Score: 0.0020
-Malicious API Call Pattern: RegOpenKeyExA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryAttributesFile,LoadStringA,NtAllocateVirtualMemory,LoadStringA,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LoadStringA,LdrGetProcedureAddress,GetSystemMetrics,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetProcedureAddress,FindResourceExW,LoadResource,FindResourceExW,LoadResource,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,DrawTextExW,GetSystemMetrics,FindResourceExW,LoadResource,GetSystemMetrics,DrawTextExW,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,NtFreeVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,NtDelayExecution,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtProtectVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory
-Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
+	5689d43c3b201dd3810fa3bba4a6476a
+Score: 0.0065
+Malicious API Call Pattern: GetSystemTimeAsFileTime,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile
+Benign API Call Pattern: NtCreateFile,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,NtClose,GetFileAttributesW,CreateThread,FindResourceExA,LoadResource,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,NtOpenKey,NtQueryValueKey,GetForegroundWindow,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,IsDebuggerPresent,GetSystemMetrics,NtMapViewOfSection,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,GetSystemMetrics,LdrLoadDll,LdrGetProcedureAddress,FindResourceExW,LoadResource,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,GetSystemWindowsDirectoryW,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,GetSystemMetrics,NtClose,NtOpenKey,GetSystemMetrics,RegCloseKey,DrawTextExW,GetSystemMetrics,DrawTextExW,NtClose,RegOpenKeyExW,GetSystemDirectoryW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemInfo,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,NtOpenDirectoryObject,LdrLoadDll,LdrGetProcedureAddress,CoInitializeEx,LdrGetProcedureAddress,NtClose,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtClose,GetSystemMetrics,NtOpenMutant,NtClose,NtOpenMutant,NtClose,NtAllocateVirtualMemory,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,LdrGetDllHandle,FindResourceExW,DrawTextExW,GetSystemMetrics,DrawTextExW,GetSystemMetrics
 
 ====================================================================================
 MATCH 13
-Malicious Hashes (5):
-	5a26f686f6daa73aeee67d30587721c3 - trojan
-	976f2ff75195c0adef0fc64bd6910d07 - trojan
-	2b4e1accb870487dc03b2c30c6540e0f - trojan
-	8da8d69a328643d9acd2995e31345c11 - trojan
-	5576db4b5134bd3ade83f2be9f25a095 - trojan
+Malicious Hashes (1):
+	7aefe2ef38cc6e6102f3cf002b5c36d8 - miner
 Benign Hashes (1):
-	f5c2ae9df21186ee1a6eff568985bbac
-Score: 0.0021
-Malicious API Call Pattern: RegOpenKeyExA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryAttributesFile,LoadStringA,NtAllocateVirtualMemory,LoadStringA,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LoadStringA,LdrGetProcedureAddress,GetSystemMetrics,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetProcedureAddress,FindResourceExW,LoadResource,FindResourceExW,LoadResource,GetSystemDirectoryW,NtOpenKey,NtQueryValueKey,LdrLoadDll,NtClose,LdrLoadDll,LdrGetProcedureAddress,GetSystemInfo,RegOpenKeyExW,RegCloseKey,LdrLoadDll,LdrGetProcedureAddress,NtAllocateVirtualMemory,RegOpenKeyExW,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,NtCreateMutant,GetSystemInfo,NtAllocateVirtualMemory,GetSystemInfo,NtAllocateVirtualMemory,LdrGetProcedureAddress,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,NtFreeVirtualMemory,DrawTextExW,GetSystemMetrics,FindResourceExW
-Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
+	5689d43c3b201dd3810fa3bba4a6476a
+Score: 0.0066
+Malicious API Call Pattern: GetSystemTimeAsFileTime,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtOpenKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo
+Benign API Call Pattern: NtCreateFile,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,NtClose,GetFileAttributesW,CreateThread,FindResourceExA,LoadResource,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,NtOpenKey,NtQueryValueKey,GetForegroundWindow,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,IsDebuggerPresent,GetSystemMetrics,NtMapViewOfSection,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,GetSystemMetrics,LdrLoadDll,LdrGetProcedureAddress,FindResourceExW,LoadResource,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,GetSystemWindowsDirectoryW,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,GetSystemMetrics,NtClose,NtOpenKey,GetSystemMetrics,RegCloseKey,DrawTextExW,GetSystemMetrics,DrawTextExW,NtClose,RegOpenKeyExW,GetSystemDirectoryW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemInfo,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,NtOpenDirectoryObject,LdrLoadDll,LdrGetProcedureAddress,CoInitializeEx,LdrGetProcedureAddress,NtClose,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtClose,GetSystemMetrics,NtOpenMutant,NtClose,NtOpenMutant,NtClose,NtAllocateVirtualMemory,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,LdrGetDllHandle,FindResourceExW,DrawTextExW,GetSystemMetrics,DrawTextExW,GetSystemMetrics
 
 ====================================================================================
 MATCH 14
-Malicious Hashes (5):
-	bdd861cbc7bb4e4a2a83137be9ed908e - trojan
-	c97b580c05da1cafb1c18681a4eb4a0c - trojan
-	a8721e39894598a58b3bc26897d1a848 - trojan
-	77165128e935eb781c9d2f4b7c50cba9 - trojan
-	35d3e2842add8582a9a4b1101ae857b9 - trojan
+Malicious Hashes (1):
+	0bc8af28f4dd291c18de42ec62f40417 - trojan
 Benign Hashes (1):
-	f5c2ae9df21186ee1a6eff568985bbac
-Score: 0.0021
-Malicious API Call Pattern: RegOpenKeyExA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryAttributesFile,LoadStringA,NtAllocateVirtualMemory,LoadStringA,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LoadStringA,LdrGetProcedureAddress,GetSystemMetrics,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetProcedureAddress,FindResourceExW,LoadResource,FindResourceExW,LoadResource,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,DrawTextExW,GetSystemMetrics,FindResourceExW,LoadResource,GetSystemMetrics,DrawTextExW,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,NtFreeVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,NtDelayExecution,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtProtectVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,CreateToolhelp32Snapshot,Process32FirstW,Process32NextW,NtTerminateProcess
-Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
+	6866f0d3f89116e179fc9b34460d7e98
+Score: 0.0069
+Malicious API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtOpenKey,NtQueryValueKey,NtClose,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtOpenKey,NtQueryValueKey,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtEnumerateKey,NtOpenKey,NtQueryValueKey,NtClose,NtEnumerateKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose
+Benign API Call Pattern: SetUnhandledExceptionFilter,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,IsDebuggerPresent,GetSystemMetrics,NtMapViewOfSection,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,GetSystemMetrics,LdrLoadDll,LdrGetProcedureAddress,SetWindowsHookExW,NtAllocateVirtualMemory,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,NtAllocateVirtualMemory,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,OleInitialize,NtAllocateVirtualMemory,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,NtAllocateVirtualMemory,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,UuidCreate,GetSystemMetrics,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,SetErrorMode,GetFileAttributesExW,SetErrorMode,FindWindowA,GetSystemTimeAsFileTime,WSAStartup,FindResourceExW,LoadResource,FindResourceExW,LoadResource,GetSystemMetrics,FindResourceExW
 
 ====================================================================================
 MATCH 15
-Malicious Hashes (5):
-	ec32717d6f666b2d4135f353416ddd70 - trojan
-	52755f837f39b6583b7547865d1df664 - trojan
-	c7af150d4ce93eaec5f8883b7f051a6d - trojan
-	3882ad42dae762b11732c580f28e5481 - trojan
-	6b21b62cf4edcff11be0dd4eecfce6a6 - trojan
+Malicious Hashes (186):
+	1949a60feaec1edfd6955f2f5f7dcf7c - trojan
+	e4e2d2f1abc1345a7cb5bc363889118d - trojan
+	260b768a03390af34cf4d91ced33fb0e - trojan
+	d4b2da7cfdc0311421b8722004ab4c88 - trojan
+	521b3e7c459f045ebc2aa40c0c082ee7 - trojan
+	fde1885e7688ceb35fa4b40812ee49f5 - trojan
+	42c09c932f7945fc5b93053a60623e7b - trojan
+	a7fa6f06f61fba7f034480f85b8cb2b9 - trojan
+	a902be388099f50c193879d4c84e864f - trojan
+	3771ba787329c060a1b9977727f0fb7c - trojan
+	47aad146ddf259236c9a85d728539f6c - trojan
+	012e9426b4cbd911d4583df40eab3593 - trojan
+	34f98861b13f108902d98cf50db17d6a - trojan
+	6940f68b4dbfcd0ff1ad8ac6e0515915 - trojan
+	5c249cafa31403d4c585725a222fc00f - trojan
+	71735e0f1b2e9777ac5c8e12d933825b - trojan
+	8bd60ed237de22759897cbc2150cc093 - trojan
+	ea779cabbdffd088e69ffcf07c14c253 - trojan
+	a26b9fda88ee220b1d1b0de52f966764 - trojan
+	21ab3da1d5a254ede6eda8be3533c249 - trojan
+	5939bad044a5763658873d93bb168048 - trojan
+	ae0df2b8388c694fe14f8509d40d58b5 - trojan
+	d8a049c9eac859af76f5333f88a7f58d - trojan
+	ffc10b707576f4226f49392ee245a514 - trojan
+	5ca4c5f7882fc294a2a194b6d2cf9b7f - trojan
+	ab32d287c7a7c9333dba8672ac290c38 - trojan
+	152452131f5d32af54e0d6c5f5f0583d - trojan
+	2f2f77a0db246d595f78831b543d72cf - trojan
+	c7e3ccb71f90d26f8b41726cfd21637a - trojan
+	a0439a8e8efbd0febebf180c5192df3b - trojan
+	8eb9edf302c80023a339fb02da46cc29 - trojan
+	ca38ce1942fb8f153fb3fc00865ee0d6 - trojan
+	158c84cc65140c2ee6327ad82e294af3 - trojan
+	ed56822fee075f183ce14304d169708c - trojan
+	b2a9a9b09f99d3236b66215533c751c2 - trojan
+	d9d3b81ebec6bf28a76f2b0fbba32caf - trojan
+	6c47d5ba9fa7f551842ebae619bed04d - trojan
+	b2f319e08a10debe31e01cf11f378947 - trojan
+	604bfcd4097b6f0024c7dc8e77981349 - downloader
+	5666558bf5f46419f2abb9ce0d830195 - trojan
+	e2f9aabb2e7969efd71694e749093c8b - trojan
+	121294d658ca17555251a4e33cdf2123 - trojan
+	89d4abfe2a3e57c09bcbb72e82e80262 - trojan
+	a6d11beedd3ed70f0b772e677a1db251 - trojan
+	8be680d5808acce81c1c31e54310f804 - trojan
+	927313d5546862ecf37970cb9bbf9525 - trojan
+	2ffe46e40b31596b7e513577c47c4945 - trojan
+	40c127e470fa77a1cac9839c4d523f84 - trojan
+	13d69f50331b8be49109731566dd8fce - trojan
+	f3fb8b44b5e49069b6825c3010feb893 - trojan
+	e637882a999b871151d7010e8ee30699 - trojan
+	584a1d7127ad0f2c57a7bea1e527997d - trojan
+	0e404376c4558a9c20f4422194aec6aa - trojan
+	6a92705c5e7137aa6456ffce9438055d - trojan
+	c587d0b498c4f1b9c104b907832bf362 - trojan
+	bbc540768057b40ad2c2d4836a8617a7 - trojan
+	c7f15e6f4fbce08eda1f8d88cb89c028 - trojan
+	5b13e1bcc26f7dbf8201169bbc0b4264 - trojan
+	637040fee95bf1c9caa0faf30aa737c9 - trojan
+	14fa0f0c7b39e823294c4439a600bdc7 - trojan
+	37adb1efb83cf3abafda9990651babae - miner
+	f257ed56d409a16fbb26675deaa78361 - trojan
+	1face63c2d197d9a178adbf95d3dbe33 - trojan
+	24f89244b03df7a065152b5e554fb8f0 - trojan
+	a0d72dc39ef047e0785f8e2dfd482ea8 - trojan
+	ba228348e2cbcab85c7c85b22c9ea01f - trojan
+	ff3e1869d673c28b87e42c776e7a0f04 - trojan
+	728353f9b4c65a108706c5a6f830605e - trojan
+	697c305a10809815aa220d7560eefb4c - trojan
+	818f2e488d9f79879430391a0ff8e42d - trojan
+	dc43fe86144557687abe4c5d7298adf8 - trojan
+	3c6ccad2b6665c5a4469ba535aa77609 - trojan
+	6b0d564c7da45731669f6d2eed3b3168 - trojan
+	d7fffec1532555ab735fd15802ebb4f7 - trojan
+	1de45bde439a3904517353cb08e197b9 - trojan
+	5c47ef53e1269db13123dc2e2d0d997d - trojan
+	b172a5dbd0e8aa16871424590132016a - trojan
+	26af706ca981a916cad52405c9a1bbc4 - trojan
+	3fe7fedbb86bc70f264677e3b65bb2bf - trojan
+	dd8465d6388540dab940033f23137447 - trojan
+	ad1f5433e0ceef3a3a5b64b385df2ca6 - trojan
+	c3364e514f184eb8c30f82f6e9783396 - trojan
+	7e831085ac01638dae93c62ad80aa2d4 - trojan
+	2d388bcf0ed35792db09f15f5f462133 - trojan
+	8074442fe2c934e6f1fd8a6d23ecfaca - trojan
+	ca9ff58d679441e7247173db342349b9 - trojan
+	ad3fa2a42db8ba6d9df2136a1771fb2b - trojan
+	f8a5ce33d14725da0ab0839366924250 - trojan
+	a16e18c114139b31b3d2e60bd2cfaf99 - trojan
+	ed4d174873ece94e263b1d63da07fd7c - trojan
+	d84769d63aa6b8718ab4bd86e27e26a4 - trojan
+	9848ed6b330af66b3d4cc6178aed0886 - trojan
+	e6a2c53089b2b3af0eb9dd1595e9c725 - trojan
+	66d3132ebcec2e44a591452485fc716e - trojan
+	c4919f002c3e3f8e17f6f130d46bfc54 - trojan
+	e3c9d0b7d57e92dbb239c370f8e415e9 - trojan
+	d349d835c90048650cf544d19b26a61e - trojan
+	1347458a74a4099331e396878d858dad - trojan
+	28a9a5e76170e07f291147b78c93b2ae - trojan
+	8be0d94d0bd2cebf6b43083861e1a00b - pua
+	83cb899b4b3574322711037b658759ea - trojan
+	b19e9ca3a2c3185f5ccf2c63864a4b86 - trojan
+	24b75ce9432f60950d101961258a82a3 - trojan
+	1b440d416103418759155fbdbd314721 - trojan
+	88454386cd209163d2ef83a0000fba0a - trojan
+	fce143852948595ec7f017d8659bcba3 - trojan
+	cebf3a1f3090055a3498cd556f6ec15c - trojan
+	86777703c64c0bf7ebb7065cfa577e9d - trojan
+	ccd2b5927a69137884379c4a7fa2afdd - trojan
+	7b492e9cba6f42f0cd7e7aea94f50fc8 - trojan
+	1680136ab1803e0b2e1dc217e4407e21 - trojan
+	964e2ebce5b31f7cfd8af7b4277b3e75 - trojan
+	79879164dd7bf7a5eaa2e9e2f8582b3d - trojan
+	3d7030426830af1ce3e9e06412954688 - trojan
+	bb73586cedd8767a216880ba2a7c7750 - trojan
+	7d1a24a3d1fd00a9869b9e6bb4cea083 - trojan
+	22e937956a58bf4d9d845fa4c2dd3eda - trojan
+	61dc0c1453543714395c5afac10c02cb - trojan
+	232dd20bc35e5e44531157fe4bff8e98 - trojan
+	d580cbe82c27d04f9b1b22b5cc50dbb5 - trojan
+	6c551eabc1e931402bbdfae64b55f701 - trojan
+	0e78bd5b9e0d700182bb920617144230 - trojan
+	a76b55b0ec0595797bfdbbe999c3bd7d - trojan
+	8787c7210b89c2e9a6201290b1094922 - trojan
+	8255351cb968c74f90f780250f36af98 - trojan
+	93cd2e45d8711452e03ed6114aff28ee - trojan
+	f2c2559d714056adcdc939ddf0577341 - trojan
+	ab5719fa3e6aa3b913b51721cc4a120a - trojan
+	cc3031a70d441a81b4a5d2a5ffbc99a6 - trojan
+	a1dd39e1168f462dd58627846494d948 - trojan
+	c75f1047c3239756faa34200a4c654d5 - trojan
+	8cf4757166d5ee6296aba9e94ed88577 - trojan
+	b9d9d626258577bebe503b27ab236efb - trojan
+	e554ef9729f8ce7481875a8e79782cac - trojan
+	a07f1964504869d6310685ddd9f59989 - trojan
+	702772d73197c339098b33db2fe23943 - trojan
+	f63754b5b263df3192bcbd4bcb4f0351 - trojan
+	9e81c23eef28a75c414b66dda2de9e87 - trojan
+	a9209ccaf4bdd0d78cdccb638435ba56 - trojan
+	5aed4a63e3e73129f3869d88de33681f - trojan
+	6e5051d5f85d6b0b22cd4606a23e7573 - trojan
+	fe0e697ea5c92b3ea72bedd8e4cc6163 - trojan
+	1be006bbbf06923da609f7502cb92955 - trojan
+	864f49b38336170b6c08b768e2d6b333 - trojan
+	5178170c45e0851784f91baa348dd124 - trojan
+	bfb19fdbff00ccb4a01e6d1d6cff9bb9 - trojan
+	207d960c0ac8ec72d7d9f56a5ccf5f34 - trojan
+	ba07f4a2431fc1bd79c7661c477caee3 - trojan
+	f095facf2dae483a44e1edc264200ad9 - trojan
+	5c1ec0caf7dff875528c101037f2fe6a - trojan
+	2c0496772ab90e286de9f7be0c493914 - trojan
+	f67fcbc55e6ff59bd37bc72cc5de178b - trojan
+	ba96a8948a5dd5e7b386907dda7fb0f4 - trojan
+	4ffb34c0d829924bd293383b93736c61 - trojan
+	dcd412e6bf853a10fbc9596406fbb3a7 - trojan
+	64bff341f60dc9adf255a191b07ed2c3 - trojan
+	d6d75952d12009b90cb8257de43eff49 - trojan
+	7cb188e7acdafe25ddee4786d2093a9e - trojan
+	77fb2fdacdb4470d8ffe8a62fbfe231c - trojan
+	235c2ecd2a8971e354350969bca7f77e - trojan
+	c0537fd9e1eae23fb5cc659c8b08ed10 - trojan
+	d99a012bc009652063836512138eb24e - trojan
+	f42606d0181996fdeaf946c96ecffdc2 - trojan
+	9d992c0df8aa5fcb981e1fc37c6cd631 - trojan
+	9976f599e88407d195ffc0ecce4ed38f - trojan
+	c8ecce33e0af35a8e8287a201a98da95 - trojan
+	4c4ecab592b4a44e8a3ffa8edc34ef03 - trojan
+	c4f15a17e6fbd7c013ad62021833f77e - trojan
+	6207454498608392a40fce6675556dbc - trojan
+	96afc9cdef3c623e0c5420e339c57283 - trojan
+	c9fa37cc4006b462f694b552c485bb62 - trojan
+	b478a7704c1dfd0cf272a3b8494bd808 - trojan
+	ae7d3563e35ad294eb440d968ac05bf3 - trojan
+	848740097d93b71d327b3aba95160c28 - trojan
+	07585e87cb70bf1b30e5723a6be47f13 - trojan
+	f0c9b65512b6e739c1692eee1a41b8d2 - trojan
+	e6bb07b89537d9bcc0bfb35bb95c247a - trojan
+	b1cb3f7d9d442bfa91da9957d7cf9125 - trojan
+	c709725aada3a8083acb5cf6e6f485b1 - trojan
+	b4dd18d49796a3005dbcd696ce82459b - trojan
+	88aace68d7cdef42015e72871a637436 - trojan
+	78526a7995bdd20f415a84763345a059 - trojan
+	29e8283398638124d6547a4825ce0a6f - trojan
+	72742ff8292bc627cc608dfaf4add745 - trojan
+	f89c8ea8f1244b7db2691a332c390bc0 - trojan
+	c5cbe27159d3c5bb095f1bdb75bf0d95 - trojan
 Benign Hashes (1):
-	f5c2ae9df21186ee1a6eff568985bbac
-Score: 0.0021
-Malicious API Call Pattern: RegOpenKeyExA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryAttributesFile,LoadStringA,NtAllocateVirtualMemory,LoadStringA,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LoadStringA,LdrGetProcedureAddress,GetSystemMetrics,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetProcedureAddress,FindResourceExW,LoadResource,FindResourceExW,LoadResource,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,DrawTextExW,GetSystemMetrics,FindResourceExW,LoadResource,GetSystemMetrics,DrawTextExW,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,NtFreeVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,NtDelayExecution,NtAllocateVirtualMemory,NtFreeVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,NtProtectVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory
-Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
+	30068e77fb2ecb55fedadef6a5194102
+Score: 0.0070
+Malicious API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtOpenKeyEx,NtQueryValueKey,NtClose,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey
+Benign API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtProtectVirtualMemory,SetUnhandledExceptionFilter,OutputDebugStringA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey
 
 ====================================================================================
 MATCH 16
-Malicious Hashes (5):
-	bd448ed9c8b1e367ea4f846bfc13c17e - trojan
-	260317263ee16a8550f9fdbf9476f52e - trojan
-	0c790406925a782b65e5c52eb8407670 - trojan
-	80344c4534b958df0da9954d0f9def82 - trojan
-	3a838ca417e2ca2fb171981190a928d0 - trojan
+Malicious Hashes (186):
+	1949a60feaec1edfd6955f2f5f7dcf7c - trojan
+	e4e2d2f1abc1345a7cb5bc363889118d - trojan
+	260b768a03390af34cf4d91ced33fb0e - trojan
+	d4b2da7cfdc0311421b8722004ab4c88 - trojan
+	521b3e7c459f045ebc2aa40c0c082ee7 - trojan
+	fde1885e7688ceb35fa4b40812ee49f5 - trojan
+	42c09c932f7945fc5b93053a60623e7b - trojan
+	a7fa6f06f61fba7f034480f85b8cb2b9 - trojan
+	a902be388099f50c193879d4c84e864f - trojan
+	3771ba787329c060a1b9977727f0fb7c - trojan
+	47aad146ddf259236c9a85d728539f6c - trojan
+	012e9426b4cbd911d4583df40eab3593 - trojan
+	34f98861b13f108902d98cf50db17d6a - trojan
+	6940f68b4dbfcd0ff1ad8ac6e0515915 - trojan
+	5c249cafa31403d4c585725a222fc00f - trojan
+	71735e0f1b2e9777ac5c8e12d933825b - trojan
+	8bd60ed237de22759897cbc2150cc093 - trojan
+	ea779cabbdffd088e69ffcf07c14c253 - trojan
+	a26b9fda88ee220b1d1b0de52f966764 - trojan
+	21ab3da1d5a254ede6eda8be3533c249 - trojan
+	5939bad044a5763658873d93bb168048 - trojan
+	ae0df2b8388c694fe14f8509d40d58b5 - trojan
+	d8a049c9eac859af76f5333f88a7f58d - trojan
+	ffc10b707576f4226f49392ee245a514 - trojan
+	5ca4c5f7882fc294a2a194b6d2cf9b7f - trojan
+	ab32d287c7a7c9333dba8672ac290c38 - trojan
+	152452131f5d32af54e0d6c5f5f0583d - trojan
+	2f2f77a0db246d595f78831b543d72cf - trojan
+	c7e3ccb71f90d26f8b41726cfd21637a - trojan
+	a0439a8e8efbd0febebf180c5192df3b - trojan
+	8eb9edf302c80023a339fb02da46cc29 - trojan
+	ca38ce1942fb8f153fb3fc00865ee0d6 - trojan
+	158c84cc65140c2ee6327ad82e294af3 - trojan
+	ed56822fee075f183ce14304d169708c - trojan
+	b2a9a9b09f99d3236b66215533c751c2 - trojan
+	d9d3b81ebec6bf28a76f2b0fbba32caf - trojan
+	6c47d5ba9fa7f551842ebae619bed04d - trojan
+	b2f319e08a10debe31e01cf11f378947 - trojan
+	604bfcd4097b6f0024c7dc8e77981349 - downloader
+	5666558bf5f46419f2abb9ce0d830195 - trojan
+	e2f9aabb2e7969efd71694e749093c8b - trojan
+	121294d658ca17555251a4e33cdf2123 - trojan
+	89d4abfe2a3e57c09bcbb72e82e80262 - trojan
+	a6d11beedd3ed70f0b772e677a1db251 - trojan
+	8be680d5808acce81c1c31e54310f804 - trojan
+	927313d5546862ecf37970cb9bbf9525 - trojan
+	2ffe46e40b31596b7e513577c47c4945 - trojan
+	40c127e470fa77a1cac9839c4d523f84 - trojan
+	13d69f50331b8be49109731566dd8fce - trojan
+	f3fb8b44b5e49069b6825c3010feb893 - trojan
+	e637882a999b871151d7010e8ee30699 - trojan
+	584a1d7127ad0f2c57a7bea1e527997d - trojan
+	0e404376c4558a9c20f4422194aec6aa - trojan
+	6a92705c5e7137aa6456ffce9438055d - trojan
+	c587d0b498c4f1b9c104b907832bf362 - trojan
+	bbc540768057b40ad2c2d4836a8617a7 - trojan
+	c7f15e6f4fbce08eda1f8d88cb89c028 - trojan
+	5b13e1bcc26f7dbf8201169bbc0b4264 - trojan
+	637040fee95bf1c9caa0faf30aa737c9 - trojan
+	14fa0f0c7b39e823294c4439a600bdc7 - trojan
+	37adb1efb83cf3abafda9990651babae - miner
+	f257ed56d409a16fbb26675deaa78361 - trojan
+	1face63c2d197d9a178adbf95d3dbe33 - trojan
+	24f89244b03df7a065152b5e554fb8f0 - trojan
+	a0d72dc39ef047e0785f8e2dfd482ea8 - trojan
+	ba228348e2cbcab85c7c85b22c9ea01f - trojan
+	ff3e1869d673c28b87e42c776e7a0f04 - trojan
+	728353f9b4c65a108706c5a6f830605e - trojan
+	697c305a10809815aa220d7560eefb4c - trojan
+	818f2e488d9f79879430391a0ff8e42d - trojan
+	dc43fe86144557687abe4c5d7298adf8 - trojan
+	3c6ccad2b6665c5a4469ba535aa77609 - trojan
+	6b0d564c7da45731669f6d2eed3b3168 - trojan
+	d7fffec1532555ab735fd15802ebb4f7 - trojan
+	1de45bde439a3904517353cb08e197b9 - trojan
+	5c47ef53e1269db13123dc2e2d0d997d - trojan
+	b172a5dbd0e8aa16871424590132016a - trojan
+	26af706ca981a916cad52405c9a1bbc4 - trojan
+	3fe7fedbb86bc70f264677e3b65bb2bf - trojan
+	dd8465d6388540dab940033f23137447 - trojan
+	ad1f5433e0ceef3a3a5b64b385df2ca6 - trojan
+	c3364e514f184eb8c30f82f6e9783396 - trojan
+	7e831085ac01638dae93c62ad80aa2d4 - trojan
+	2d388bcf0ed35792db09f15f5f462133 - trojan
+	8074442fe2c934e6f1fd8a6d23ecfaca - trojan
+	ca9ff58d679441e7247173db342349b9 - trojan
+	ad3fa2a42db8ba6d9df2136a1771fb2b - trojan
+	f8a5ce33d14725da0ab0839366924250 - trojan
+	a16e18c114139b31b3d2e60bd2cfaf99 - trojan
+	ed4d174873ece94e263b1d63da07fd7c - trojan
+	d84769d63aa6b8718ab4bd86e27e26a4 - trojan
+	9848ed6b330af66b3d4cc6178aed0886 - trojan
+	e6a2c53089b2b3af0eb9dd1595e9c725 - trojan
+	66d3132ebcec2e44a591452485fc716e - trojan
+	c4919f002c3e3f8e17f6f130d46bfc54 - trojan
+	e3c9d0b7d57e92dbb239c370f8e415e9 - trojan
+	d349d835c90048650cf544d19b26a61e - trojan
+	1347458a74a4099331e396878d858dad - trojan
+	28a9a5e76170e07f291147b78c93b2ae - trojan
+	8be0d94d0bd2cebf6b43083861e1a00b - pua
+	83cb899b4b3574322711037b658759ea - trojan
+	b19e9ca3a2c3185f5ccf2c63864a4b86 - trojan
+	24b75ce9432f60950d101961258a82a3 - trojan
+	1b440d416103418759155fbdbd314721 - trojan
+	88454386cd209163d2ef83a0000fba0a - trojan
+	fce143852948595ec7f017d8659bcba3 - trojan
+	cebf3a1f3090055a3498cd556f6ec15c - trojan
+	86777703c64c0bf7ebb7065cfa577e9d - trojan
+	ccd2b5927a69137884379c4a7fa2afdd - trojan
+	7b492e9cba6f42f0cd7e7aea94f50fc8 - trojan
+	1680136ab1803e0b2e1dc217e4407e21 - trojan
+	964e2ebce5b31f7cfd8af7b4277b3e75 - trojan
+	79879164dd7bf7a5eaa2e9e2f8582b3d - trojan
+	3d7030426830af1ce3e9e06412954688 - trojan
+	bb73586cedd8767a216880ba2a7c7750 - trojan
+	7d1a24a3d1fd00a9869b9e6bb4cea083 - trojan
+	22e937956a58bf4d9d845fa4c2dd3eda - trojan
+	61dc0c1453543714395c5afac10c02cb - trojan
+	232dd20bc35e5e44531157fe4bff8e98 - trojan
+	d580cbe82c27d04f9b1b22b5cc50dbb5 - trojan
+	6c551eabc1e931402bbdfae64b55f701 - trojan
+	0e78bd5b9e0d700182bb920617144230 - trojan
+	a76b55b0ec0595797bfdbbe999c3bd7d - trojan
+	8787c7210b89c2e9a6201290b1094922 - trojan
+	8255351cb968c74f90f780250f36af98 - trojan
+	93cd2e45d8711452e03ed6114aff28ee - trojan
+	f2c2559d714056adcdc939ddf0577341 - trojan
+	ab5719fa3e6aa3b913b51721cc4a120a - trojan
+	cc3031a70d441a81b4a5d2a5ffbc99a6 - trojan
+	a1dd39e1168f462dd58627846494d948 - trojan
+	c75f1047c3239756faa34200a4c654d5 - trojan
+	8cf4757166d5ee6296aba9e94ed88577 - trojan
+	b9d9d626258577bebe503b27ab236efb - trojan
+	e554ef9729f8ce7481875a8e79782cac - trojan
+	a07f1964504869d6310685ddd9f59989 - trojan
+	702772d73197c339098b33db2fe23943 - trojan
+	f63754b5b263df3192bcbd4bcb4f0351 - trojan
+	9e81c23eef28a75c414b66dda2de9e87 - trojan
+	a9209ccaf4bdd0d78cdccb638435ba56 - trojan
+	5aed4a63e3e73129f3869d88de33681f - trojan
+	6e5051d5f85d6b0b22cd4606a23e7573 - trojan
+	fe0e697ea5c92b3ea72bedd8e4cc6163 - trojan
+	1be006bbbf06923da609f7502cb92955 - trojan
+	864f49b38336170b6c08b768e2d6b333 - trojan
+	5178170c45e0851784f91baa348dd124 - trojan
+	bfb19fdbff00ccb4a01e6d1d6cff9bb9 - trojan
+	207d960c0ac8ec72d7d9f56a5ccf5f34 - trojan
+	ba07f4a2431fc1bd79c7661c477caee3 - trojan
+	f095facf2dae483a44e1edc264200ad9 - trojan
+	5c1ec0caf7dff875528c101037f2fe6a - trojan
+	2c0496772ab90e286de9f7be0c493914 - trojan
+	f67fcbc55e6ff59bd37bc72cc5de178b - trojan
+	ba96a8948a5dd5e7b386907dda7fb0f4 - trojan
+	4ffb34c0d829924bd293383b93736c61 - trojan
+	dcd412e6bf853a10fbc9596406fbb3a7 - trojan
+	64bff341f60dc9adf255a191b07ed2c3 - trojan
+	d6d75952d12009b90cb8257de43eff49 - trojan
+	7cb188e7acdafe25ddee4786d2093a9e - trojan
+	77fb2fdacdb4470d8ffe8a62fbfe231c - trojan
+	235c2ecd2a8971e354350969bca7f77e - trojan
+	c0537fd9e1eae23fb5cc659c8b08ed10 - trojan
+	d99a012bc009652063836512138eb24e - trojan
+	f42606d0181996fdeaf946c96ecffdc2 - trojan
+	9d992c0df8aa5fcb981e1fc37c6cd631 - trojan
+	9976f599e88407d195ffc0ecce4ed38f - trojan
+	c8ecce33e0af35a8e8287a201a98da95 - trojan
+	4c4ecab592b4a44e8a3ffa8edc34ef03 - trojan
+	c4f15a17e6fbd7c013ad62021833f77e - trojan
+	6207454498608392a40fce6675556dbc - trojan
+	96afc9cdef3c623e0c5420e339c57283 - trojan
+	c9fa37cc4006b462f694b552c485bb62 - trojan
+	b478a7704c1dfd0cf272a3b8494bd808 - trojan
+	ae7d3563e35ad294eb440d968ac05bf3 - trojan
+	848740097d93b71d327b3aba95160c28 - trojan
+	07585e87cb70bf1b30e5723a6be47f13 - trojan
+	f0c9b65512b6e739c1692eee1a41b8d2 - trojan
+	e6bb07b89537d9bcc0bfb35bb95c247a - trojan
+	b1cb3f7d9d442bfa91da9957d7cf9125 - trojan
+	c709725aada3a8083acb5cf6e6f485b1 - trojan
+	b4dd18d49796a3005dbcd696ce82459b - trojan
+	88aace68d7cdef42015e72871a637436 - trojan
+	78526a7995bdd20f415a84763345a059 - trojan
+	29e8283398638124d6547a4825ce0a6f - trojan
+	72742ff8292bc627cc608dfaf4add745 - trojan
+	f89c8ea8f1244b7db2691a332c390bc0 - trojan
+	c5cbe27159d3c5bb095f1bdb75bf0d95 - trojan
 Benign Hashes (1):
-	f5c2ae9df21186ee1a6eff568985bbac
-Score: 0.0021
-Malicious API Call Pattern: RegOpenKeyExA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryAttributesFile,LoadStringA,NtAllocateVirtualMemory,LoadStringA,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LoadStringA,LdrGetProcedureAddress,GetSystemMetrics,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetProcedureAddress,FindResourceExW,LoadResource,FindResourceExW,LoadResource,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,DrawTextExW,GetSystemMetrics,FindResourceExW,LoadResource,GetSystemMetrics,DrawTextExW,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,NtFreeVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtDelayExecution,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtProtectVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory
-Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
+	f171b1fcffd100b59aaefc14c1e163ae
+Score: 0.0071
+Malicious API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtOpenKeyEx,NtQueryValueKey,NtClose,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey
+Benign API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtProtectVirtualMemory,SetUnhandledExceptionFilter,OutputDebugStringA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey
 
 ====================================================================================
 MATCH 17
-Malicious Hashes (5):
-	f073e14adb7e3f4e14f77cc1f8926e3f - trojan
-	bc56338861c9d99940cb48c363fe1044 - trojan
-	2b5b68344d19b695017e09e32ba5cbd4 - trojan
-	93b1c113833c29e73553c5545f74cb3f - trojan
-	0a011e5bb7bd3650c4817ac85f3a010b - trojan
-Benign Hashes (1):
-	f5c2ae9df21186ee1a6eff568985bbac
-Score: 0.0021
-Malicious API Call Pattern: RegOpenKeyExA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryAttributesFile,LoadStringA,NtAllocateVirtualMemory,LoadStringA,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LoadStringA,LdrGetProcedureAddress,GetSystemMetrics,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetProcedureAddress,FindResourceExW,LoadResource,FindResourceExW,LoadResource,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,DrawTextExW,GetSystemMetrics,FindResourceExW,LoadResource,GetSystemMetrics,DrawTextExW,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,GetTempPathW,LoadStringA,NtAllocateVirtualMemory,NtFreeVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,NtDelayExecution,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtProtectVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,CreateToolhelp32Snapshot,Process32FirstW
-Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
+Malicious Hashes (186):
+	1949a60feaec1edfd6955f2f5f7dcf7c - trojan
+	e4e2d2f1abc1345a7cb5bc363889118d - trojan
+	260b768a03390af34cf4d91ced33fb0e - trojan
+	d4b2da7cfdc0311421b8722004ab4c88 - trojan
+	521b3e7c459f045ebc2aa40c0c082ee7 - trojan
+	fde1885e7688ceb35fa4b40812ee49f5 - trojan
+	42c09c932f7945fc5b93053a60623e7b - trojan
+	a7fa6f06f61fba7f034480f85b8cb2b9 - trojan
+	a902be388099f50c193879d4c84e864f - trojan
+	3771ba787329c060a1b9977727f0fb7c - trojan
+	47aad146ddf259236c9a85d728539f6c - trojan
+	012e9426b4cbd911d4583df40eab3593 - trojan
+	34f98861b13f108902d98cf50db17d6a - trojan
+	6940f68b4dbfcd0ff1ad8ac6e0515915 - trojan
+	5c249cafa31403d4c585725a222fc00f - trojan
+	71735e0f1b2e9777ac5c8e12d933825b - trojan
+	8bd60ed237de22759897cbc2150cc093 - trojan
+	ea779cabbdffd088e69ffcf07c14c253 - trojan
+	a26b9fda88ee220b1d1b0de52f966764 - trojan
+	21ab3da1d5a254ede6eda8be3533c249 - trojan
+	5939bad044a5763658873d93bb168048 - trojan
+	ae0df2b8388c694fe14f8509d40d58b5 - trojan
+	d8a049c9eac859af76f5333f88a7f58d - trojan
+	ffc10b707576f4226f49392ee245a514 - trojan
+	5ca4c5f7882fc294a2a194b6d2cf9b7f - trojan
+	ab32d287c7a7c9333dba8672ac290c38 - trojan
+	152452131f5d32af54e0d6c5f5f0583d - trojan
+	2f2f77a0db246d595f78831b543d72cf - trojan
+	c7e3ccb71f90d26f8b41726cfd21637a - trojan
+	a0439a8e8efbd0febebf180c5192df3b - trojan
+	8eb9edf302c80023a339fb02da46cc29 - trojan
+	ca38ce1942fb8f153fb3fc00865ee0d6 - trojan
+	158c84cc65140c2ee6327ad82e294af3 - trojan
+	ed56822fee075f183ce14304d169708c - trojan
+	b2a9a9b09f99d3236b66215533c751c2 - trojan
+	d9d3b81ebec6bf28a76f2b0fbba32caf - trojan
+	6c47d5ba9fa7f551842ebae619bed04d - trojan
+	b2f319e08a10debe31e01cf11f378947 - trojan
+	604bfcd4097b6f0024c7dc8e77981349 - downloader
+	5666558bf5f46419f2abb9ce0d830195 - trojan
+	e2f9aabb2e7969efd71694e749093c8b - trojan
+	121294d658ca17555251a4e33cdf2123 - trojan
+	89d4abfe2a3e57c09bcbb72e82e80262 - trojan
+	a6d11beedd3ed70f0b772e677a1db251 - trojan
+	8be680d5808acce81c1c31e54310f804 - trojan
+	927313d5546862ecf37970cb9bbf9525 - trojan
+	2ffe46e40b31596b7e513577c47c4945 - trojan
+	40c127e470fa77a1cac9839c4d523f84 - trojan
+	13d69f50331b8be49109731566dd8fce - trojan
+	f3fb8b44b5e49069b6825c3010feb893 - trojan
+	e637882a999b871151d7010e8ee30699 - trojan
+	584a1d7127ad0f2c57a7bea1e527997d - trojan
+	0e404376c4558a9c20f4422194aec6aa - trojan
+	6a92705c5e7137aa6456ffce9438055d - trojan
+	c587d0b498c4f1b9c104b907832bf362 - trojan
+	bbc540768057b40ad2c2d4836a8617a7 - trojan
+	c7f15e6f4fbce08eda1f8d88cb89c028 - trojan
+	5b13e1bcc26f7dbf8201169bbc0b4264 - trojan
+	637040fee95bf1c9caa0faf30aa737c9 - trojan
+	14fa0f0c7b39e823294c4439a600bdc7 - trojan
+	37adb1efb83cf3abafda9990651babae - miner
+	f257ed56d409a16fbb26675deaa78361 - trojan
+	1face63c2d197d9a178adbf95d3dbe33 - trojan
+	24f89244b03df7a065152b5e554fb8f0 - trojan
+	a0d72dc39ef047e0785f8e2dfd482ea8 - trojan
+	ba228348e2cbcab85c7c85b22c9ea01f - trojan
+	ff3e1869d673c28b87e42c776e7a0f04 - trojan
+	728353f9b4c65a108706c5a6f830605e - trojan
+	697c305a10809815aa220d7560eefb4c - trojan
+	818f2e488d9f79879430391a0ff8e42d - trojan
+	dc43fe86144557687abe4c5d7298adf8 - trojan
+	3c6ccad2b6665c5a4469ba535aa77609 - trojan
+	6b0d564c7da45731669f6d2eed3b3168 - trojan
+	d7fffec1532555ab735fd15802ebb4f7 - trojan
+	1de45bde439a3904517353cb08e197b9 - trojan
+	5c47ef53e1269db13123dc2e2d0d997d - trojan
+	b172a5dbd0e8aa16871424590132016a - trojan
+	26af706ca981a916cad52405c9a1bbc4 - trojan
+	3fe7fedbb86bc70f264677e3b65bb2bf - trojan
+	dd8465d6388540dab940033f23137447 - trojan
+	ad1f5433e0ceef3a3a5b64b385df2ca6 - trojan
+	c3364e514f184eb8c30f82f6e9783396 - trojan
+	7e831085ac01638dae93c62ad80aa2d4 - trojan
+	2d388bcf0ed35792db09f15f5f462133 - trojan
+	8074442fe2c934e6f1fd8a6d23ecfaca - trojan
+	ca9ff58d679441e7247173db342349b9 - trojan
+	ad3fa2a42db8ba6d9df2136a1771fb2b - trojan
+	f8a5ce33d14725da0ab0839366924250 - trojan
+	a16e18c114139b31b3d2e60bd2cfaf99 - trojan
+	ed4d174873ece94e263b1d63da07fd7c - trojan
+	d84769d63aa6b8718ab4bd86e27e26a4 - trojan
+	9848ed6b330af66b3d4cc6178aed0886 - trojan
+	e6a2c53089b2b3af0eb9dd1595e9c725 - trojan
+	66d3132ebcec2e44a591452485fc716e - trojan
+	c4919f002c3e3f8e17f6f130d46bfc54 - trojan
+	e3c9d0b7d57e92dbb239c370f8e415e9 - trojan
+	d349d835c90048650cf544d19b26a61e - trojan
+	1347458a74a4099331e396878d858dad - trojan
+	28a9a5e76170e07f291147b78c93b2ae - trojan
+	8be0d94d0bd2cebf6b43083861e1a00b - pua
+	83cb899b4b3574322711037b658759ea - trojan
+	b19e9ca3a2c3185f5ccf2c63864a4b86 - trojan
+	24b75ce9432f60950d101961258a82a3 - trojan
+	1b440d416103418759155fbdbd314721 - trojan
+	88454386cd209163d2ef83a0000fba0a - trojan
+	fce143852948595ec7f017d8659bcba3 - trojan
+	cebf3a1f3090055a3498cd556f6ec15c - trojan
+	86777703c64c0bf7ebb7065cfa577e9d - trojan
+	ccd2b5927a69137884379c4a7fa2afdd - trojan
+	7b492e9cba6f42f0cd7e7aea94f50fc8 - trojan
+	1680136ab1803e0b2e1dc217e4407e21 - trojan
+	964e2ebce5b31f7cfd8af7b4277b3e75 - trojan
+	79879164dd7bf7a5eaa2e9e2f8582b3d - trojan
+	3d7030426830af1ce3e9e06412954688 - trojan
+	bb73586cedd8767a216880ba2a7c7750 - trojan
+	7d1a24a3d1fd00a9869b9e6bb4cea083 - trojan
+	22e937956a58bf4d9d845fa4c2dd3eda - trojan
+	61dc0c1453543714395c5afac10c02cb - trojan
+	232dd20bc35e5e44531157fe4bff8e98 - trojan
+	d580cbe82c27d04f9b1b22b5cc50dbb5 - trojan
+	6c551eabc1e931402bbdfae64b55f701 - trojan
+	0e78bd5b9e0d700182bb920617144230 - trojan
+	a76b55b0ec0595797bfdbbe999c3bd7d - trojan
+	8787c7210b89c2e9a6201290b1094922 - trojan
+	8255351cb968c74f90f780250f36af98 - trojan
+	93cd2e45d8711452e03ed6114aff28ee - trojan
+	f2c2559d714056adcdc939ddf0577341 - trojan
+	ab5719fa3e6aa3b913b51721cc4a120a - trojan
+	cc3031a70d441a81b4a5d2a5ffbc99a6 - trojan
+	a1dd39e1168f462dd58627846494d948 - trojan
+	c75f1047c3239756faa34200a4c654d5 - trojan
+	8cf4757166d5ee6296aba9e94ed88577 - trojan
+	b9d9d626258577bebe503b27ab236efb - trojan
+	e554ef9729f8ce7481875a8e79782cac - trojan
+	a07f1964504869d6310685ddd9f59989 - trojan
+	702772d73197c339098b33db2fe23943 - trojan
+	f63754b5b263df3192bcbd4bcb4f0351 - trojan
+	9e81c23eef28a75c414b66dda2de9e87 - trojan
+	a9209ccaf4bdd0d78cdccb638435ba56 - trojan
+	5aed4a63e3e73129f3869d88de33681f - trojan
+	6e5051d5f85d6b0b22cd4606a23e7573 - trojan
+	fe0e697ea5c92b3ea72bedd8e4cc6163 - trojan
+	1be006bbbf06923da609f7502cb92955 - trojan
+	864f49b38336170b6c08b768e2d6b333 - trojan
+	5178170c45e0851784f91baa348dd124 - trojan
+	bfb19fdbff00ccb4a01e6d1d6cff9bb9 - trojan
+	207d960c0ac8ec72d7d9f56a5ccf5f34 - trojan
+	ba07f4a2431fc1bd79c7661c477caee3 - trojan
+	f095facf2dae483a44e1edc264200ad9 - trojan
+	5c1ec0caf7dff875528c101037f2fe6a - trojan
+	2c0496772ab90e286de9f7be0c493914 - trojan
+	f67fcbc55e6ff59bd37bc72cc5de178b - trojan
+	ba96a8948a5dd5e7b386907dda7fb0f4 - trojan
+	4ffb34c0d829924bd293383b93736c61 - trojan
+	dcd412e6bf853a10fbc9596406fbb3a7 - trojan
+	64bff341f60dc9adf255a191b07ed2c3 - trojan
+	d6d75952d12009b90cb8257de43eff49 - trojan
+	7cb188e7acdafe25ddee4786d2093a9e - trojan
+	77fb2fdacdb4470d8ffe8a62fbfe231c - trojan
+	235c2ecd2a8971e354350969bca7f77e - trojan
+	c0537fd9e1eae23fb5cc659c8b08ed10 - trojan
+	d99a012bc009652063836512138eb24e - trojan
+	f42606d0181996fdeaf946c96ecffdc2 - trojan
+	9d992c0df8aa5fcb981e1fc37c6cd631 - trojan
+	9976f599e88407d195ffc0ecce4ed38f - trojan
+	c8ecce33e0af35a8e8287a201a98da95 - trojan
+	4c4ecab592b4a44e8a3ffa8edc34ef03 - trojan
+	c4f15a17e6fbd7c013ad62021833f77e - trojan
+	6207454498608392a40fce6675556dbc - trojan
+	96afc9cdef3c623e0c5420e339c57283 - trojan
+	c9fa37cc4006b462f694b552c485bb62 - trojan
+	b478a7704c1dfd0cf272a3b8494bd808 - trojan
+	ae7d3563e35ad294eb440d968ac05bf3 - trojan
+	848740097d93b71d327b3aba95160c28 - trojan
+	07585e87cb70bf1b30e5723a6be47f13 - trojan
+	f0c9b65512b6e739c1692eee1a41b8d2 - trojan
+	e6bb07b89537d9bcc0bfb35bb95c247a - trojan
+	b1cb3f7d9d442bfa91da9957d7cf9125 - trojan
+	c709725aada3a8083acb5cf6e6f485b1 - trojan
+	b4dd18d49796a3005dbcd696ce82459b - trojan
+	88aace68d7cdef42015e72871a637436 - trojan
+	78526a7995bdd20f415a84763345a059 - trojan
+	29e8283398638124d6547a4825ce0a6f - trojan
+	72742ff8292bc627cc608dfaf4add745 - trojan
+	f89c8ea8f1244b7db2691a332c390bc0 - trojan
+	c5cbe27159d3c5bb095f1bdb75bf0d95 - trojan
+Benign Hashes (2):
+	bca0ce2634812df00370861b7af1dd70
+	57c91b12e7d4cec2c9ae38c7c517e09f
+Score: 0.0071
+Malicious API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtOpenKeyEx,NtQueryValueKey,NtClose,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey
+Benign API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtProtectVirtualMemory,SetUnhandledExceptionFilter,OutputDebugStringA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose
 
 ====================================================================================
 MATCH 18
-Malicious Hashes (5):
-	2c90b188f365d2c534e68aa7541ca2e0 - trojan
-	e4564ac913ba36e3cbad6f5ccd722685 - trojan
-	6a44ff9224b07ddbc5fece74d50f998e - trojan
-	b4bc88391f85d2e2c5d8eef1327ae3e3 - trojan
-	99ea6e5334122de7feb46d68d9e4ed10 - trojan
+Malicious Hashes (65):
+	b75f6d642c7b79c2234bbb05c6fa1dbc - trojan
+	949075933e407c15b7788e95a0c94ade - adware
+	5e9fd6521a341fb6a20abc5869c51e2a - trojan
+	2b91567d717bf62f71d4971263e3bfec - trojan
+	80c34529b6402a5b65622ff51561dbb2 - trojan
+	650dc05ec9e612f0ff949b5462f4e6c7 - trojan
+	48f1200a88db21ca4a16dc908024f0f9 - trojan
+	d2d8f4daf514388b78472e5545405610 - trojan
+	06d8fe63dfdb10fe7157bb21ea4ef426 - trojan
+	cb763c16f58de7b74379845a7de318e0 - trojan
+	296a499057f79c6bd68b6911174048c1 - trojan
+	9e31246e3a46625c0b0a5c8bb1a00b02 - trojan
+	808f8b996412096c25194172e84c0aa7 - trojan
+	83aefa552fff62882f1d53dc94909661 - trojan
+	9b725a2dc4fcd8a98376fd999e0f7ba1 - trojan
+	324d739bb0ae1a02a04521e3d4337a15 - trojan
+	a4a1dfe6350392746b7fa4244559e127 - trojan
+	5ecb7137dd670890bc5f1f60d6312dae - trojan
+	e9462a4314639c95c404ddb202f9b6bb - adware
+	58e04b209bac2725139342259ac45870 - trojan
+	3690176dbfdeaa72972f410d729dd56a - trojan
+	754492a507177c07d91c4429dece7900 - trojan
+	adbc74815ef2bd1ea4967abad812233d - trojan
+	8f7bc3437b64a056a860def231afae55 - trojan
+	06603923d073ca7e92a9c0b4635ab765 - trojan
+	b3c0298278ae2076f74a06603a21ecd4 - trojan
+	2978f118cce8556d0cfa825641b9c54e - trojan
+	9dac713e41ce78a5a84b580f659244bb - trojan
+	ab59b5232c67c09b26313e4c5f2e049c - trojan
+	77caa04917b488efb5d02e907f9530ff - trojan
+	9f1257231194eb909cf94794d91fd051 - trojan
+	7fab75a32b57c08a2fb07f32bde36920 - trojan
+	f10cae3b532c86876e78f993b926813a - trojan
+	a1a911fd357cc66e2309190796d6084c - trojan
+	f9aa80e02104732c2a26ee2ef934b35f - trojan
+	c987ff5c60ca5d30e2a470fea0a15c5e - trojan
+	77f59ab89acb6119696270a81be20d1f - trojan
+	2bf40342ce7bade066cb571cbb481ca5 - trojan
+	f13f032286b6c5c2a50e2a15ab910e85 - trojan
+	7ed698717cdefaddcbbaf1a2ad2d7976 - trojan
+	d8917262dc113b7865329eb6a18705ff - trojan
+	57ec88d293066d9c5506f4fd7ef5e89b - trojan
+	732eabe16e1e499fb19e75877f7a477e - trojan
+	d232fbfb917a81a032ad3ff718009cf1 - trojan
+	bf4089a37bebd160887c2e2cf7947703 - trojan
+	f21497ae3982a8f819f5120b025d0ab0 - trojan
+	3afb8d2faf7400a4654fd9ace1606826 - trojan
+	12eccb51e97308e9e6cb0b528872bc39 - trojan
+	d8469e625ae90ab64d4aef0b63f42150 - trojan
+	d614cf56598e1fe6eca9abcd426cbaaa - trojan
+	8ae46f3a5267ebbe68746281bc731ee6 - trojan
+	932188c727be0e4d889cc9b3349ea771 - trojan
+	7bf655985f1896874217cc3b7ca89a33 - trojan
+	9c5fa25eb48d6652c84bff2b9cd4b7b4 - trojan
+	dd7cdadeae9b4ffc62ac460aeb0213b9 - trojan
+	ad6f9d5ada5e2e19c9788628ec77a507 - trojan
+	c35506bd3fedad57e7f1ea975ebcaec5 - trojan
+	edce3bf6d6431ec76178f24bfcca6540 - trojan
+	e2251a00f5d025ee89228720dc5c2f65 - trojan
+	1f794613062d85119152658b21ef46bb - trojan
+	a173ee9b4b2d991c37af8180bf511867 - trojan
+	8638f7ab4c12d72c3256550694aff81e - trojan
+	db0f74e4f6288b0a588d88e391de2687 - trojan
+	364c99cbfc97ba226452c68040af7509 - trojan
+	b5041fca26518a181a9b4732905d1bf7 - trojan
 Benign Hashes (1):
-	f5c2ae9df21186ee1a6eff568985bbac
-Score: 0.0021
-Malicious API Call Pattern: RegOpenKeyExA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryAttributesFile,LoadStringA,NtAllocateVirtualMemory,LoadStringA,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LoadStringA,LdrGetProcedureAddress,GetSystemMetrics,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetProcedureAddress,FindResourceExW,LoadResource,FindResourceExW,LoadResource,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,DrawTextExW,GetSystemMetrics,FindResourceExW,LoadResource,GetSystemMetrics,DrawTextExW,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,GetTempPathW,LoadStringA,NtAllocateVirtualMemory,NtFreeVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,NtDelayExecution,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtProtectVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory
-Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
+	30068e77fb2ecb55fedadef6a5194102
+Score: 0.0071
+Malicious API Call Pattern: GetSystemTimeAsFileTime,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile
+Benign API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtProtectVirtualMemory,SetUnhandledExceptionFilter,OutputDebugStringA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey
 
 ====================================================================================
 MATCH 19
-Malicious Hashes (5):
-	21b17916e758714c09ae088971e5e5cb - trojan
-	a4f40c2b971db7b27edb6dd676344ec5 - trojan
-	42a3f997b68dc4a87c99688a72bde4f3 - trojan
-	76c36c4fb656dc4d720e025b7b7328f2 - trojan
-	4903f48d10a27e389535f8885fbf3db1 - trojan
+Malicious Hashes (3):
+	6d6b21456fb118d6629e74dbabc73cc7 - spyware
+	966135e37abce456b978f0a345e36d9c - trojan
+	7b1f8a659f2c8583032ab54f57643373 - trojan
 Benign Hashes (1):
-	f5c2ae9df21186ee1a6eff568985bbac
-Score: 0.0021
-Malicious API Call Pattern: RegOpenKeyExA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryAttributesFile,LoadStringA,NtAllocateVirtualMemory,LoadStringA,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LoadStringA,LdrGetProcedureAddress,GetSystemMetrics,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetProcedureAddress,FindResourceExW,LoadResource,FindResourceExW,LoadResource,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,DrawTextExW,GetSystemMetrics,FindResourceExW,LoadResource,GetSystemMetrics,DrawTextExW,LdrGetDllHandle,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,NtFreeVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtDelayExecution,NtAllocateVirtualMemory,NtFreeVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,NtProtectVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,NtAllocateVirtualMemory
-Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
+	30068e77fb2ecb55fedadef6a5194102
+Score: 0.0071
+Malicious API Call Pattern: GetSystemTimeAsFileTime,NtOpenKey,NtQueryValueKey,NtClose,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW
+Benign API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtProtectVirtualMemory,SetUnhandledExceptionFilter,OutputDebugStringA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey
 
 ====================================================================================
 MATCH 20
-Malicious Hashes (5):
-	80caa7ad8fca4a67add0c8650e011103 - spyware
-	ea7b754c4ec53de5a78d109640122473 - spyware
-	fcbcc8cf35ad42c612e8bfd1703f0442 - spyware
-	76c0d3f6d87ab5cd283bfada0dc3479e - spyware
-	ba8d307d8fd150133b061ab78879bc55 - spyware
+Malicious Hashes (65):
+	b75f6d642c7b79c2234bbb05c6fa1dbc - trojan
+	949075933e407c15b7788e95a0c94ade - adware
+	5e9fd6521a341fb6a20abc5869c51e2a - trojan
+	2b91567d717bf62f71d4971263e3bfec - trojan
+	80c34529b6402a5b65622ff51561dbb2 - trojan
+	650dc05ec9e612f0ff949b5462f4e6c7 - trojan
+	48f1200a88db21ca4a16dc908024f0f9 - trojan
+	d2d8f4daf514388b78472e5545405610 - trojan
+	06d8fe63dfdb10fe7157bb21ea4ef426 - trojan
+	cb763c16f58de7b74379845a7de318e0 - trojan
+	296a499057f79c6bd68b6911174048c1 - trojan
+	9e31246e3a46625c0b0a5c8bb1a00b02 - trojan
+	808f8b996412096c25194172e84c0aa7 - trojan
+	83aefa552fff62882f1d53dc94909661 - trojan
+	9b725a2dc4fcd8a98376fd999e0f7ba1 - trojan
+	324d739bb0ae1a02a04521e3d4337a15 - trojan
+	a4a1dfe6350392746b7fa4244559e127 - trojan
+	5ecb7137dd670890bc5f1f60d6312dae - trojan
+	e9462a4314639c95c404ddb202f9b6bb - adware
+	58e04b209bac2725139342259ac45870 - trojan
+	3690176dbfdeaa72972f410d729dd56a - trojan
+	754492a507177c07d91c4429dece7900 - trojan
+	adbc74815ef2bd1ea4967abad812233d - trojan
+	8f7bc3437b64a056a860def231afae55 - trojan
+	06603923d073ca7e92a9c0b4635ab765 - trojan
+	b3c0298278ae2076f74a06603a21ecd4 - trojan
+	2978f118cce8556d0cfa825641b9c54e - trojan
+	9dac713e41ce78a5a84b580f659244bb - trojan
+	ab59b5232c67c09b26313e4c5f2e049c - trojan
+	77caa04917b488efb5d02e907f9530ff - trojan
+	9f1257231194eb909cf94794d91fd051 - trojan
+	7fab75a32b57c08a2fb07f32bde36920 - trojan
+	f10cae3b532c86876e78f993b926813a - trojan
+	a1a911fd357cc66e2309190796d6084c - trojan
+	f9aa80e02104732c2a26ee2ef934b35f - trojan
+	c987ff5c60ca5d30e2a470fea0a15c5e - trojan
+	77f59ab89acb6119696270a81be20d1f - trojan
+	2bf40342ce7bade066cb571cbb481ca5 - trojan
+	f13f032286b6c5c2a50e2a15ab910e85 - trojan
+	7ed698717cdefaddcbbaf1a2ad2d7976 - trojan
+	d8917262dc113b7865329eb6a18705ff - trojan
+	57ec88d293066d9c5506f4fd7ef5e89b - trojan
+	732eabe16e1e499fb19e75877f7a477e - trojan
+	d232fbfb917a81a032ad3ff718009cf1 - trojan
+	bf4089a37bebd160887c2e2cf7947703 - trojan
+	f21497ae3982a8f819f5120b025d0ab0 - trojan
+	3afb8d2faf7400a4654fd9ace1606826 - trojan
+	12eccb51e97308e9e6cb0b528872bc39 - trojan
+	d8469e625ae90ab64d4aef0b63f42150 - trojan
+	d614cf56598e1fe6eca9abcd426cbaaa - trojan
+	8ae46f3a5267ebbe68746281bc731ee6 - trojan
+	932188c727be0e4d889cc9b3349ea771 - trojan
+	7bf655985f1896874217cc3b7ca89a33 - trojan
+	9c5fa25eb48d6652c84bff2b9cd4b7b4 - trojan
+	dd7cdadeae9b4ffc62ac460aeb0213b9 - trojan
+	ad6f9d5ada5e2e19c9788628ec77a507 - trojan
+	c35506bd3fedad57e7f1ea975ebcaec5 - trojan
+	edce3bf6d6431ec76178f24bfcca6540 - trojan
+	e2251a00f5d025ee89228720dc5c2f65 - trojan
+	1f794613062d85119152658b21ef46bb - trojan
+	a173ee9b4b2d991c37af8180bf511867 - trojan
+	8638f7ab4c12d72c3256550694aff81e - trojan
+	db0f74e4f6288b0a588d88e391de2687 - trojan
+	364c99cbfc97ba226452c68040af7509 - trojan
+	b5041fca26518a181a9b4732905d1bf7 - trojan
 Benign Hashes (1):
-	f5c2ae9df21186ee1a6eff568985bbac
-Score: 0.0021
-Malicious API Call Pattern: RegOpenKeyExA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryAttributesFile,LoadStringA,NtAllocateVirtualMemory,LoadStringA,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemMetrics,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExA,RegQueryValueExA,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LoadStringA,LdrLoadDll,LdrGetProcedureAddress,GetSystemWindowsDirectoryW,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,LdrGetProcedureAddress,GetSystemMetrics,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,LdrGetProcedureAddress,FindResourceExW,NtClose,NtAllocateVirtualMemory,GetSystemMetrics,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,FindResourceExW,DrawTextExW,GetSystemMetrics,FindResourceExW,LoadResource,GetSystemMetrics,DrawTextExW,LdrGetDllHandle,FindResourceExW,LoadResource,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,GetSystemInfo,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemMetrics,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemDirectoryW,LdrLoadDll,CreateThread,FindResourceExW,NtClose
-Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
+	f171b1fcffd100b59aaefc14c1e163ae
+Score: 0.0071
+Malicious API Call Pattern: GetSystemTimeAsFileTime,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile
+Benign API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtProtectVirtualMemory,SetUnhandledExceptionFilter,OutputDebugStringA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey
 
 ====================================================================================
 
 Malware Types of the Top 20 Least Matching API Call Patterns to Benign Samples:
-trojan        79
-ransomware     8
-spyware        5
-adware         2
-downloader     1
-miner          1
-pua            1
+trojan        1181
+adware          22
+miner            7
+pua              6
+downloader       5
+spyware          2
+hacktool         1
 Name: count, dtype: int64
 
