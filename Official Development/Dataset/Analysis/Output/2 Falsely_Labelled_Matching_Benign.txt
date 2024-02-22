@@ -1,7 +1,15 @@
 Falsely Labelled Malicious Samples that Match API Call Patterns of Benign Samples
 
-No. of API Call Patterns of Falsely-Labelled Malicious Samples that match the API Call Patterns of Benign Samples: 0 (0.0000%)
+PATTERN: 1
+API Call Pattern: GetSystemInfo,NtAllocateVirtualMemory,NtOpenSection,GetTempPathW,CreateDirectoryW,GetFileAttributesW,FindFirstFileExW,DeleteFileW,NtQueryDirectoryFile,DeleteFileW,NtQueryDirectoryFile,NtClose,RemoveDirectoryW,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,FindResourceA,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,RegOpenKeyExW,RegQueryValueExW,GetSystemTimeAsFileTime,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrLoadDll,LdrGetProcedureAddress,RegCloseKey,NtCreateMutant,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtOpenSection,NtCreateSection,NtMapViewOfSection,NtAllocateVirtualMemory,NtClose,RegOpenKeyExW,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryAttributesFile,FindResourceA,LoadResource,NtCreateFile,NtCreateSection,NtMapViewOfSection,GetFileSize,NtUnmapViewOfSection,NtClose,FindResourceW,LoadResource,SizeofResource,NtProtectVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtCreateSection,NtMapViewOfSection,NtCreateMutant,LdrGetDllHandle,LdrGetProcedureAddress,NtQuerySystemInformation,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,GetNativeSystemInfo,GetSystemMetrics,NtOpenThread,LdrGetProcedureAddress,LdrGetDllHandle,NtProtectVirtualMemory,NtOpenFile,CreateThread,NtOpenThread,NtCreateMutant,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress
+Hashes of Benign Samples with Matching API Call Patterns:
+	576d81529c1689e49a44fee403d6f7ab
+
+No. of API Call Patterns of Falsely-Labelled Malicious Samples that match the API Call Patterns of Benign Samples: 1 (0.0927%)
 
 ===================================================================================================================
 
 In terms of unique API Calls:
+PATTERN: 1
+['GetSystemInfo', 'NtAllocateVirtualMemory', 'NtOpenSection', 'GetTempPathW', 'CreateDirectoryW', 'GetFileAttributesW', 'FindFirstFileExW', 'DeleteFileW', 'NtQueryDirectoryFile', 'NtClose', 'RemoveDirectoryW', 'LdrGetProcedureAddress', 'LdrLoadDll', 'LdrGetDllHandle', 'FindResourceA', 'RegOpenKeyExW', 'RegQueryValueExW', 'GetSystemTimeAsFileTime', 'RegCloseKey', 'NtCreateMutant', 'NtCreateSection', 'NtMapViewOfSection', 'NtOpenKey', 'NtQueryValueKey', 'NtQueryAttributesFile', 'LoadResource', 'NtCreateFile', 'GetFileSize', 'NtUnmapViewOfSection', 'FindResourceW', 'SizeofResource', 'NtProtectVirtualMemory', 'NtQuerySystemInformation', 'GetNativeSystemInfo', 'GetSystemMetrics', 'NtOpenThread', 'NtOpenFile', 'CreateThread']
+
