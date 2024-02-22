@@ -1,3 +1,3 @@
-Average Similarity Ratio: 0.0044%
-Time Elapsed: 55.9483s
+Average Similarity Ratio: 0.0031%
+Time Elapsed: 115.4628s
 Time per Sample: 0.0000s

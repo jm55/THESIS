@@ -1,73 +1,7 @@
 Falsely Labelled Malicious Samples that Match API Call Patterns of Benign Samples
 
-PATTERN: 1
-API Call Pattern: GetSystemTimeAsFileTime,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile
-Hashes of Benign Samples with Matching API Call Patterns:
-	1d5be1a1f06fb4af76db691286667685
-	e17c7fc99e55278c9377e0ba686b4002
-
-PATTERN: 2
-API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtOpenKeyEx,NtQueryValueKey,NtClose,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey
-Hashes of Benign Samples with Matching API Call Patterns:
-	e66c6c58a773cde28710fc4018b3f59b
-
-PATTERN: 3
-API Call Pattern: SetErrorMode,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemDirectoryW,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,GetSystemWindowsDirectoryW,GetSystemDirectoryW,RegOpenKeyExA,GetSystemWindowsDirectoryW,LoadStringW,GetSystemWindowsDirectoryW,GetSystemDirectoryW,RegOpenKeyExW,LdrLoadDll,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,RegCloseKey,NtCreateMutant,GetNativeSystemInfo,GetSystemWindowsDirectoryW,NtClose,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,NtAllocateVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,NtQueryAttributesFile,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,LdrGetDllHandle,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,OleInitialize,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtOpenSection,NtMapViewOfSection,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,NtClose,LdrLoadDll,LdrGetProcedureAddress,GetSystemWindowsDirectoryW,NtCreateFile,NtCreateSection
-Hashes of Benign Samples with Matching API Call Patterns:
-	3506356c329758e4f703cd2103d7daab
-	6d8c0c930480a524ad1e0e18e345b7ce
-	e550d4d96d8b9d771c6e227aff2b9029
-	5bbb49bd36321b485368490d3af09f15
-	ff8a61c9edbcbd84e23b069496e73db3
-	53d78ecdf3675e83b152b09f73398ccc
-	cdbfad3dc698d8e5afa87bdc540f2fbb
-	c124a717590ec531d658a4abcc367fee
-	f2e6e397c0a2a605c791c63466c9d5ae
-	4dabfc6c5aeabd35fac449258e174856
-	70b78f7bdf9c484913d10365348ed2ba
-
-PATTERN: 4
-API Call Pattern: SetErrorMode,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemDirectoryW,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,GetSystemWindowsDirectoryW,GetSystemDirectoryW,RegOpenKeyExA,GetSystemWindowsDirectoryW,LoadStringW,GetSystemWindowsDirectoryW,GetSystemDirectoryW,RegOpenKeyExW,LdrLoadDll,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,RegCloseKey,NtCreateMutant,GetNativeSystemInfo,GetSystemWindowsDirectoryW,NtClose,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,NtAllocateVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,NtQueryAttributesFile,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,LdrGetDllHandle,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,OleInitialize,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtOpenSection,NtMapViewOfSection,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,NtClose,LdrLoadDll,LdrGetProcedureAddress,GetSystemWindowsDirectoryW,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose
-Hashes of Benign Samples with Matching API Call Patterns:
-	cff4037fdce24af9d2c6f03b749c55f6
-	554ce484aba0f97dcf7658257b643c28
-	6bb6a989b0a6a12af08ea951565be8d4
-	78ba3a6c3809dbdf9ad4b02d8b08da7f
-	f97186c239da55339bef96b1fae0d247
-	c301fda32da5efcf6021509ffd06f940
-	96e1c48e4c3d42943930e8474b7c0882
-
-PATTERN: 5
-API Call Pattern: GetSystemTimeAsFileTime,NtOpenKey,NtQueryValueKey,NtClose,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW
-Hashes of Benign Samples with Matching API Call Patterns:
-	eae3616631dc3eafbbf4a174113c02a9
-	acdbbae7823117ec9e9899dd01c66d5f
-
-PATTERN: 6
-API Call Pattern: GetSystemInfo,NtAllocateVirtualMemory,NtOpenSection,GetTempPathW,CreateDirectoryW,GetFileAttributesW,FindFirstFileExW,DeleteFileW,NtQueryDirectoryFile,DeleteFileW,NtQueryDirectoryFile,NtClose,RemoveDirectoryW,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,FindResourceA,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,RegOpenKeyExW,RegQueryValueExW,GetSystemTimeAsFileTime,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrLoadDll,LdrGetProcedureAddress,RegCloseKey,NtCreateMutant,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtOpenSection,NtCreateSection,NtMapViewOfSection,NtAllocateVirtualMemory,NtClose,RegOpenKeyExW,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryAttributesFile,FindResourceA,LoadResource,NtCreateFile,NtCreateSection,NtMapViewOfSection,GetFileSize,NtUnmapViewOfSection,NtClose,FindResourceW,LoadResource,SizeofResource,NtProtectVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtCreateSection,NtMapViewOfSection,NtCreateMutant,LdrGetDllHandle,LdrGetProcedureAddress,NtQuerySystemInformation,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,GetNativeSystemInfo,GetSystemMetrics,NtOpenThread,LdrGetProcedureAddress,LdrGetDllHandle,NtProtectVirtualMemory,NtOpenFile,CreateThread,NtOpenThread,NtCreateMutant,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress
-Hashes of Benign Samples with Matching API Call Patterns:
-	576d81529c1689e49a44fee403d6f7ab
-
-No. of API Call Patterns of Falsely-Labelled Malicious Samples that match the API Call Patterns of Benign Samples: 6 (0.5561%)
+No. of API Call Patterns of Falsely-Labelled Malicious Samples that match the API Call Patterns of Benign Samples: 0 (0.0000%)
 
 ===================================================================================================================
 
 In terms of unique API Calls:
-PATTERN: 1
-['GetSystemTimeAsFileTime', 'NtCreateMutant', 'NtOpenKeyEx', 'NtQueryKey', 'LdrLoadDll', 'LdrGetProcedureAddress', 'RegOpenKeyExW', 'RegQueryInfoKeyW', 'RegEnumKeyExW', 'RegEnumValueW', 'RegCloseKey', 'GetFileAttributesW', 'RegQueryValueExW', 'NtOpenFile', 'NtQueryDirectoryFile', 'NtClose', 'NtQuerySystemInformation', 'NtProtectVirtualMemory', 'GetSystemDirectoryW', 'LdrGetDllHandle', 'NtOpenKey', 'NtQueryValueKey', 'NtCreateFile', 'GetFileSize', 'NtCreateSection', 'NtMapViewOfSection', 'GetSystemInfo', 'NtUnmapViewOfSection']
-
-PATTERN: 2
-['GetSystemTimeAsFileTime', 'GetSystemInfo', 'NtCreateMutant', 'NtOpenKey', 'NtOpenKeyEx', 'LdrLoadDll', 'LdrGetProcedureAddress', 'RegOpenKeyExW', 'RegQueryInfoKeyW', 'RegEnumKeyExW', 'RegEnumValueW', 'RegCloseKey', 'GetFileAttributesW', 'RegQueryValueExW', 'FindFirstFileExW', 'LdrGetDllHandle', 'NtQuerySystemInformation', 'NtProtectVirtualMemory', 'GetSystemDirectoryW', 'NtQueryValueKey', 'NtClose', 'NtCreateFile', 'GetFileSize', 'NtCreateSection', 'NtMapViewOfSection', 'NtUnmapViewOfSection']
-
-PATTERN: 3
-['SetErrorMode', 'LdrGetDllHandle', 'LdrGetProcedureAddress', 'GetSystemDirectoryW', 'NtAllocateVirtualMemory', 'NtFreeVirtualMemory', 'LdrLoadDll', 'GetSystemWindowsDirectoryW', 'RegOpenKeyExA', 'LoadStringW', 'RegOpenKeyExW', 'RegQueryValueExW', 'RegCloseKey', 'NtOpenKey', 'NtQueryValueKey', 'NtClose', 'NtCreateMutant', 'GetNativeSystemInfo', 'NtQueryAttributesFile', 'NtCreateFile', 'NtCreateSection', 'NtMapViewOfSection', 'OleInitialize', 'NtOpenSection']
-
-PATTERN: 4
-['SetErrorMode', 'LdrGetDllHandle', 'LdrGetProcedureAddress', 'GetSystemDirectoryW', 'NtAllocateVirtualMemory', 'NtFreeVirtualMemory', 'LdrLoadDll', 'GetSystemWindowsDirectoryW', 'RegOpenKeyExA', 'LoadStringW', 'RegOpenKeyExW', 'RegQueryValueExW', 'RegCloseKey', 'NtOpenKey', 'NtQueryValueKey', 'NtClose', 'NtCreateMutant', 'GetNativeSystemInfo', 'NtQueryAttributesFile', 'NtCreateFile', 'NtCreateSection', 'NtMapViewOfSection', 'OleInitialize', 'NtOpenSection']
-
-PATTERN: 5
-['GetSystemTimeAsFileTime', 'NtOpenKey', 'NtQueryValueKey', 'NtClose', 'NtCreateMutant', 'NtOpenKeyEx', 'NtQueryKey', 'LdrLoadDll', 'LdrGetProcedureAddress', 'RegOpenKeyExW', 'RegQueryInfoKeyW', 'RegEnumKeyExW', 'RegEnumValueW', 'RegCloseKey', 'GetFileAttributesW', 'RegQueryValueExW', 'NtOpenFile', 'NtQueryDirectoryFile', 'NtQuerySystemInformation', 'NtProtectVirtualMemory', 'GetSystemDirectoryW', 'LdrGetDllHandle', 'NtCreateFile', 'GetFileSize', 'NtCreateSection', 'NtMapViewOfSection', 'GetSystemInfo', 'NtUnmapViewOfSection']
-
-PATTERN: 6
-['GetSystemInfo', 'NtAllocateVirtualMemory', 'NtOpenSection', 'GetTempPathW', 'CreateDirectoryW', 'GetFileAttributesW', 'FindFirstFileExW', 'DeleteFileW', 'NtQueryDirectoryFile', 'NtClose', 'RemoveDirectoryW', 'LdrGetProcedureAddress', 'LdrLoadDll', 'LdrGetDllHandle', 'FindResourceA', 'RegOpenKeyExW', 'RegQueryValueExW', 'GetSystemTimeAsFileTime', 'RegCloseKey', 'NtCreateMutant', 'NtCreateSection', 'NtMapViewOfSection', 'NtOpenKey', 'NtQueryValueKey', 'NtQueryAttributesFile', 'LoadResource', 'NtCreateFile', 'GetFileSize', 'NtUnmapViewOfSection', 'FindResourceW', 'SizeofResource', 'NtProtectVirtualMemory', 'NtQuerySystemInformation', 'GetNativeSystemInfo', 'GetSystemMetrics', 'NtOpenThread', 'NtOpenFile', 'CreateThread']
-
