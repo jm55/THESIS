@@ -27,17 +27,17 @@ Benign API Call Pattern: SetUnhandledExceptionFilter,LdrGetDllHandle,NtOpenKey,N
 ====================================================================================
 
 MATCH 3
-Malicious Counts: 431
+Malicious Counts: 475
 Benign Counts: 1
 
 Malware Type Counts:
-trojan        348
-pua            29
-adware         26
-downloader     20
-ransomware      4
-virus           2
-miner           2
+trojan        392
+downloader     26
+pua            25
+adware         24
+miner           4
+ransomware      3
+virus           1
 Score: 0.0037
 
 Malicious API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtOpenKeyEx,NtQueryValueKey,NtClose,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey
@@ -46,17 +46,18 @@ Benign API Call Pattern: SetUnhandledExceptionFilter,NtOpenKey,NtQueryValueKey,N
 ====================================================================================
 
 MATCH 4
-Malicious Counts: 169
+Malicious Counts: 195
 Benign Counts: 1
 
 Malware Type Counts:
-trojan        137
-downloader     14
-adware          7
-pua             6
-ransomware      3
+trojan        163
+downloader     11
+pua             8
+adware          5
+ransomware      4
+spyware         2
 miner           1
-spyware         1
+virus           1
 Score: 0.0037
 
 Malicious API Call Pattern: GetSystemTimeAsFileTime,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile
@@ -65,13 +66,12 @@ Benign API Call Pattern: SetUnhandledExceptionFilter,NtOpenKey,NtQueryValueKey,N
 ====================================================================================
 
 MATCH 5
-Malicious Counts: 6
+Malicious Counts: 8
 Benign Counts: 1
 
 Malware Type Counts:
-trojan    4
-adware    1
-pua       1
+trojan    6
+adware    2
 Score: 0.0037
 
 Malicious API Call Pattern: GetSystemTimeAsFileTime,NtOpenKey,NtQueryValueKey,NtClose,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW
@@ -80,11 +80,12 @@ Benign API Call Pattern: SetUnhandledExceptionFilter,NtOpenKey,NtQueryValueKey,N
 ====================================================================================
 
 MATCH 6
-Malicious Counts: 7
+Malicious Counts: 6
 Benign Counts: 1
 
 Malware Type Counts:
-trojan    7
+trojan        5
+downloader    1
 Score: 0.0038
 
 Malicious API Call Pattern: GetSystemTimeAsFileTime,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtOpenKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo
@@ -93,15 +94,15 @@ Benign API Call Pattern: SetUnhandledExceptionFilter,NtOpenKey,NtQueryValueKey,N
 ====================================================================================
 
 MATCH 7
-Malicious Counts: 318
+Malicious Counts: 338
 Benign Counts: 1
 
 Malware Type Counts:
-trojan        259
-downloader     24
-adware         18
-pua            16
-spyware         1
+trojan        275
+downloader     26
+pua            21
+adware         15
+ransomware      1
 Score: 0.0038
 
 Malicious API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtOpenKey,NtQueryValueKey,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtEnumerateKey,NtOpenKey,NtQueryValueKey,NtClose,NtEnumerateKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKeyEx,NtQueryValueKey,NtClose
@@ -127,8 +128,8 @@ Malicious Counts: 7
 Benign Counts: 1
 
 Malware Type Counts:
-trojan        5
-downloader    2
+trojan        6
+downloader    1
 Score: 0.0041
 
 Malicious API Call Pattern: SetErrorMode,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemDirectoryW,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,GetSystemWindowsDirectoryW,GetSystemDirectoryW,RegOpenKeyExA,GetSystemWindowsDirectoryW,LoadStringW,GetSystemWindowsDirectoryW,GetSystemDirectoryW,RegOpenKeyExW,LdrLoadDll,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,RegCloseKey,NtCreateMutant,GetNativeSystemInfo,GetSystemWindowsDirectoryW,NtClose,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,GetSystemDirectoryW,NtAllocateVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,NtQueryAttributesFile,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,LdrGetDllHandle,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,OleInitialize,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtOpenSection,NtMapViewOfSection,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,NtClose,LdrLoadDll,LdrGetProcedureAddress,GetSystemWindowsDirectoryW,NtCreateFile,NtCreateSection
@@ -141,9 +142,9 @@ Malicious Counts: 30
 Benign Counts: 1
 
 Malware Type Counts:
-trojan        27
+trojan        25
+downloader     3
 ransomware     1
-downloader     1
 pua            1
 Score: 0.0041
 
@@ -186,25 +187,12 @@ Malware Type Counts:
 trojan    1
 Score: 0.0047
 
-Malicious API Call Pattern: GetSystemTimeAsFileTime,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,LdrGetDllHandle,LdrGetProcedureAddress,SetUnhandledExceptionFilter,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,GetNativeSystemInfo,LdrUnloadDll,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,GetNativeSystemInfo,LdrUnloadDll,NtAllocateVirtualMemory,RegOpenKeyExW,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,NtClose,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,GetNativeSystemInfo,LdrUnloadDll,LdrLoadDll,LdrGetProcedureAddress,IsDebuggerPresent,GetSystemMetrics,NtMapViewOfSection,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,GetSystemMetrics
-Benign API Call Pattern: NtCreateFile,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,NtClose,GetFileAttributesW,CreateThread,FindResourceExA,LoadResource,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,NtOpenKey,NtQueryValueKey,GetForegroundWindow,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,IsDebuggerPresent,GetSystemMetrics,NtMapViewOfSection,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,GetSystemMetrics,LdrLoadDll,LdrGetProcedureAddress,FindResourceExW,LoadResource,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,GetSystemWindowsDirectoryW,NtCreateFile,NtCreateSection,NtMapViewOfSection,NtClose,GetSystemMetrics,NtClose,NtOpenKey,GetSystemMetrics,RegCloseKey,DrawTextExW,GetSystemMetrics,DrawTextExW,NtClose,RegOpenKeyExW,GetSystemDirectoryW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemInfo,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,NtOpenDirectoryObject,LdrLoadDll,LdrGetProcedureAddress,CoInitializeEx,LdrGetProcedureAddress,NtClose,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtClose,GetSystemMetrics,NtOpenMutant,NtClose,NtOpenMutant,NtClose,NtAllocateVirtualMemory,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,LdrGetDllHandle,FindResourceExW,DrawTextExW,GetSystemMetrics,DrawTextExW,GetSystemMetrics
-
-====================================================================================
-
-MATCH 14
-Malicious Counts: 1
-Benign Counts: 1
-
-Malware Type Counts:
-trojan    1
-Score: 0.0047
-
 Malicious API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtProtectVirtualMemory,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemInfo,NtAllocateVirtualMemory,RegOpenKeyExW,FindFirstFileExW,LoadStringW,LdrLoadDll,LdrGetProcedureAddress,GetNativeSystemInfo,LoadStringW,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,NtOpenKey,NtQueryValueKey,LdrGetDllHandle,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,GetTimeZoneInformation,LoadStringW
 Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType,WriteConsoleW,LoadStringW,GetFileType
 
 ====================================================================================
 
-MATCH 15
+MATCH 14
 Malicious Counts: 1
 Benign Counts: 1
 
@@ -217,12 +205,12 @@ Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,Loa
 
 ====================================================================================
 
-MATCH 16
-Malicious Counts: 1
+MATCH 15
+Malicious Counts: 2
 Benign Counts: 1
 
 Malware Type Counts:
-trojan    1
+trojan    2
 Score: 0.0049
 
 Malicious API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtProtectVirtualMemory,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,SetUnhandledExceptionFilter,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtOpenFile,DeviceIoControl,CoInitializeEx,LdrGetDllHandle,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,SetErrorMode,GetFileAttributesW,SetErrorMode,GetFileAttributesW,SetErrorMode,SHGetFolderPathW,LdrGetDllHandle,LdrGetProcedureAddress,SetErrorMode,CoInitializeEx,GetFileAttributesW,NtAllocateVirtualMemory,GetFileAttributesW,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,GetFileAttributesW,NtCreateFile,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,NtClose,NtCreateFile
@@ -230,18 +218,19 @@ Benign API Call Pattern: RegOpenKeyExA,NtOpenKey,NtQueryValueKey,NtClose,NtOpenK
 
 ====================================================================================
 
-MATCH 17
-Malicious Counts: 169
+MATCH 16
+Malicious Counts: 195
 Benign Counts: 1
 
 Malware Type Counts:
-trojan        137
-downloader     14
-adware          7
-pua             6
-ransomware      3
+trojan        163
+downloader     11
+pua             8
+adware          5
+ransomware      4
+spyware         2
 miner           1
-spyware         1
+virus           1
 Score: 0.0051
 
 Malicious API Call Pattern: GetSystemTimeAsFileTime,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo,NtClose,NtUnmapViewOfSection,NtClose,RegOpenKeyExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile
@@ -249,12 +238,13 @@ Benign API Call Pattern: SetUnhandledExceptionFilter,NtAllocateVirtualMemory,Reg
 
 ====================================================================================
 
-MATCH 18
-Malicious Counts: 7
+MATCH 17
+Malicious Counts: 6
 Benign Counts: 1
 
 Malware Type Counts:
-trojan    7
+trojan        5
+downloader    1
 Score: 0.0052
 
 Malicious API Call Pattern: GetSystemTimeAsFileTime,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKeyEx,NtQueryKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,NtOpenFile,NtQueryDirectoryFile,NtClose,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtOpenFile,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,GetSystemTimeAsFileTime,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtClose,NtOpenKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtQueryKey,NtOpenKeyEx,NtQueryValueKey,NtClose,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,NtCreateFile,GetFileSize,NtCreateSection,NtMapViewOfSection,GetSystemInfo
@@ -262,7 +252,7 @@ Benign API Call Pattern: SetUnhandledExceptionFilter,NtAllocateVirtualMemory,Reg
 
 ====================================================================================
 
-MATCH 19
+MATCH 18
 Malicious Counts: 1
 Benign Counts: 1
 
@@ -275,12 +265,12 @@ Benign API Call Pattern: GetSystemTimeAsFileTime,NtAllocateVirtualMemory,LdrGetD
 
 ====================================================================================
 
-MATCH 20
-Malicious Counts: 1
+MATCH 19
+Malicious Counts: 2
 Benign Counts: 1
 
 Malware Type Counts:
-trojan    1
+trojan    2
 Score: 0.0062
 
 Malicious API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtProtectVirtualMemory,GetSystemTimeAsFileTime,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,SetUnhandledExceptionFilter,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtOpenFile,DeviceIoControl,CoInitializeEx,LdrGetDllHandle,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,SetErrorMode,GetFileAttributesW,SetErrorMode,GetFileAttributesW,SetErrorMode,SHGetFolderPathW,LdrGetDllHandle,LdrGetProcedureAddress,SetErrorMode,CoInitializeEx,GetFileAttributesW,NtAllocateVirtualMemory,GetFileAttributesW,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,GetFileAttributesW,NtCreateFile,NtReadFile,SetFilePointer,NtReadFile,SetFilePointer,NtReadFile,NtClose,NtCreateFile
@@ -288,15 +278,28 @@ Benign API Call Pattern: GetSystemTimeAsFileTime,SetUnhandledExceptionFilter,NtA
 
 ====================================================================================
 
+MATCH 20
+Malicious Counts: 1
+Benign Counts: 1
+
+Malware Type Counts:
+trojan    1
+Score: 0.0063
+
+Malicious API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtOpenKey,NtQueryValueKey,NtClose,NtCreateMutant,GetSystemTimeAsFileTime,NtOpenKey,NtOpenKeyEx,LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumKeyExW,RegOpenKeyExW,RegQueryInfoKeyW,LdrGetProcedureAddress,RegEnumValueW,LdrGetProcedureAddress,RegCloseKey,GetFileAttributesW,RegOpenKeyExW,LdrGetProcedureAddress,RegQueryValueExW,LdrGetProcedureAddress,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegEnumValueW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,RegOpenKeyExW,RegQueryInfoKeyW,RegCloseKey,FindFirstFileExW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,NtQuerySystemInformation,NtProtectVirtualMemory,GetSystemDirectoryW,LdrGetDllHandle,LdrLoadDll,GetSystemDirectoryW,LdrGetDllHandle,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,NtOpenKey,NtQueryValueKey,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtEnumerateKey,NtOpenKey,NtQueryValueKey,NtClose,NtEnumerateKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtEnumerateValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose
+Benign API Call Pattern: SetUnhandledExceptionFilter,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemDirectoryW,LdrLoadDll,NtAllocateVirtualMemory,NtFreeVirtualMemory,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,IsDebuggerPresent,GetSystemMetrics,NtMapViewOfSection,LdrGetDllHandle,LdrGetProcedureAddress,NtAllocateVirtualMemory,GetSystemMetrics,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,GetSystemMetrics,NtAllocateVirtualMemory,GetSystemMetrics,LdrLoadDll,LdrGetProcedureAddress,SetWindowsHookExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,OleInitialize,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,NtAllocateVirtualMemory,GetSystemDirectoryW,NtAllocateVirtualMemory,LdrLoadDll,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,UuidCreate,GetSystemMetrics,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,NtAllocateVirtualMemory,SetErrorMode,GetFileAttributesExW,SetErrorMode,GetFileAttributesExW,SetErrorMode,NtAllocateVirtualMemory,GetSystemDirectoryW,LdrLoadDll,LdrGetProcedureAddress,NtAllocateVirtualMemory,FindResourceExW,LoadResource,FindResourceExW,LoadResource,GetSystemMetrics,FindResourceExW
+
+====================================================================================
+
 
 Malware Types of the Top 20 Least Matching API Call Patterns to Benign Samples:
-trojan        942
-downloader     75
-adware         59
-pua            59
-ransomware     11
-miner           4
-spyware         3
-virus           2
+trojan        1053
+downloader      80
+pua             63
+adware          51
+ransomware      13
+miner            6
+spyware          4
+virus            3
 Name: count, dtype: int64
 
