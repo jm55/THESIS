@@ -1,10 +1,10 @@
 ====================================================================================
 
 MATCH 1
-Malicious Counts: 466
+Malicious Counts: 485
 
 Malware Type Counts:
-trojan        461
+trojan        480
 downloader      2
 pua             2
 adware          1
@@ -16,10 +16,10 @@ Benign API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtCreateMutant,Ge
 ====================================================================================
 
 MATCH 2
-Malicious Counts: 144
+Malicious Counts: 146
 
 Malware Type Counts:
-trojan    124
+trojan    126
 pua        20
 Score: 1.0000
 
@@ -29,10 +29,10 @@ Benign API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProc
 ====================================================================================
 
 MATCH 3
-Malicious Counts: 672
+Malicious Counts: 685
 
 Malware Type Counts:
-trojan        664
+trojan        677
 miner           3
 pua             3
 downloader      2
@@ -44,10 +44,10 @@ Benign API Call Pattern: GetSystemTimeAsFileTime,GetSystemInfo,NtCreateMutant,Ge
 ====================================================================================
 
 MATCH 4
-Malicious Counts: 296
+Malicious Counts: 304
 
 Malware Type Counts:
-trojan        295
+trojan        303
 downloader      1
 Score: 1.0000
 
@@ -57,10 +57,10 @@ Benign API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProc
 ====================================================================================
 
 MATCH 5
-Malicious Counts: 122
+Malicious Counts: 124
 
 Malware Type Counts:
-trojan    110
+trojan    112
 pua        11
 adware      1
 Score: 1.0000
@@ -71,10 +71,10 @@ Benign API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProc
 ====================================================================================
 
 MATCH 6
-Malicious Counts: 259
+Malicious Counts: 261
 
 Malware Type Counts:
-trojan        235
+trojan        237
 adware         11
 pua             5
 ransomware      4
@@ -88,10 +88,10 @@ Benign API Call Pattern: GetSystemTimeAsFileTime,NtCreateMutant,GetSystemTimeAsF
 ====================================================================================
 
 MATCH 7
-Malicious Counts: 36
+Malicious Counts: 39
 
 Malware Type Counts:
-trojan    36
+trojan    39
 Score: 1.0000
 
 Malicious API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtProtectVirtualMemory,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemInfo,NtAllocateVirtualMemory,RegOpenKeyExW,FindFirstFileExW,LoadStringW,LdrLoadDll,LdrGetProcedureAddress,GetNativeSystemInfo,LoadStringW,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,NtOpenKey,NtQueryValueKey,LdrGetDllHandle,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,GetTimeZoneInformation,LoadStringW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,SetErrorMode,LdrLoadDll,SetErrorMode,LdrLoadDll,SetErrorMode,GetSystemMetrics,FindResourceExW,OleInitialize,FindResourceExW,NtClose,NtAllocateVirtualMemory,GetSystemMetrics,NtAllocateVirtualMemory,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LookupAccountSidW,LdrGetProcedureAddress,LookupAccountSidW,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll
@@ -100,10 +100,10 @@ Benign API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProc
 ====================================================================================
 
 MATCH 8
-Malicious Counts: 45
+Malicious Counts: 46
 
 Malware Type Counts:
-adware      37
+adware      38
 trojan       4
 pua          3
 hacktool     1
@@ -238,10 +238,10 @@ Benign API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,RegOpenKeyExW,LdrGetP
 ====================================================================================
 
 MATCH 19
-Malicious Counts: 41
+Malicious Counts: 42
 
 Malware Type Counts:
-trojan    41
+trojan    42
 Score: 0.9900
 
 Malicious API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,NtProtectVirtualMemory,NtClose,NtOpenKey,NtQueryValueKey,NtClose,NtOpenKey,NtQueryValueKey,NtClose,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,GetSystemInfo,NtAllocateVirtualMemory,RegOpenKeyExW,FindFirstFileExW,LoadStringW,LdrLoadDll,LdrGetProcedureAddress,GetNativeSystemInfo,LoadStringW,LdrGetDllHandle,LdrGetProcedureAddress,RegOpenKeyExW,NtOpenKey,NtQueryValueKey,LdrGetDllHandle,LdrGetProcedureAddress,LdrLoadDll,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,GetTimeZoneInformation,LoadStringW,RegOpenKeyExW,RegQueryValueExW,RegCloseKey,LdrGetDllHandle,LdrGetProcedureAddress,LdrGetDllHandle,LdrGetProcedureAddress,SetErrorMode,LdrLoadDll,SetErrorMode,LdrLoadDll,SetErrorMode,GetSystemMetrics,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,FindResourceExW,LoadResource,OleInitialize,FindResourceExW,LoadResource
@@ -264,8 +264,8 @@ Benign API Call Pattern: LdrLoadDll,LdrGetProcedureAddress,LdrLoadDll,LdrGetProc
 
 
 Malware Types of the Top 20 Most Matching API Call Patterns to Benign Samples:
-trojan        2005
-adware          51
+trojan        2055
+adware          52
 pua             50
 miner            7
 downloader       6

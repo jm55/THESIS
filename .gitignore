@@ -31,3 +31,5 @@ Official Development/Dataset/vt-download/VT-Search_netflix.ipynb
 Official Development/Dataset/vt-download/VT-Search_nexus.ipynb
 Official Development/Dataset/vt-download/VT-Search_tustin1.ipynb
 Official Development/Dataset/vt-download/VT-Search_tustin2.ipynb
+Official Development/Dataset/Analysis/Manual_DBSCAN_Encoded_Clustering_w_FalseLabels.csv
+Official Development/Dataset/Analysis/Manual_DBSCAN_Encoded_Clustering.csv
