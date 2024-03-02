@@ -1,0 +1,29 @@
+=============================================================================
+
+FULL SUITE PROCESS
+
+1. Complete Dataset Labelling (Labelling_DBSCAN_Clustering.csv)
+
+2. Run Oliveira_Merge.ipynb and wait for to produce oliveira_labelled.csv
+
+3. Run DBSCAN_Clustering.ipynb; Transfer the files accordingly to where they'd suppose to be.
+
+4. Create a copy of Clean_Manual_DBSCAN_SampleHash_Common.csv and Clean_Manual_DBSCAN_woFalseLabel_SampleHash_Common.csv to Analysis
+
+5. Run the notebooks in Analysis
+
+6. Run [OFFICIAL] Oliveira Dataset Notebook.ipynb to create datasets for use in Model Training, Tuning, and Evaluation
+
+=============================================================================
+
+LABELLING PROCESS
+
+1. Cluster Malicious Samples using DBSCAN with min_sample=5 (it means DBSCAN requires 5 close samples to signify that it is a cluster)
+
+2. Label the clustered samples (found in Labelling_DBSCAN_Clustering.xlsx in OneDrive)
+
+3. Run the Labelling_DBSCAN_Clustering (as csv) on VirusTotal to parse the VT outputs to single-label malware type for each of its cluster. Transfer the parsed labels back to Labelling_DBSCAN_Clustering.csv.
+
+3. Transfer the malware type labels from "Labelling_DBSCAN_Clustering.csv" to "Manual_DBSCAN_SampleHash_Common.csv". Make sure that the hash and its corresponding malware type are in sync.
+
+4. You can then use the Manual_DBSCAN_SampleHash_Common.csv in the notebooks found in the Analysis folder.

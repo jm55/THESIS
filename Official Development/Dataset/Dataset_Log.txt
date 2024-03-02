@@ -131,3 +131,158 @@
 2024-01-25 11:34:43.419547@oliveira.csv: Label Encode - 11.692084s
 2024-01-25 11:35:03.524343@oliveira.csv: save_to_file - 19.961151s
 
+2024-02-23 07:31:48.535159@oliveira_labelled.csv: Inverse Data Encode - 9.951975s
+2024-02-23 07:40:56.568737@oliveira_labelled.csv: Inverse Data Encode - 9.405185s
+2024-02-23 07:56:06.754956@oliveira_labelled.csv: Feature Duplicate Process - 903.228117s
+2024-02-23 07:56:07.180596@oliveira_labelled.csv: Data Split (1st Tranche) - 0.401684s
+2024-02-23 08:14:33.004824@oliveira_labelled.csv: Rebalance via SMOTE - 1105.764143s
+2024-02-23 08:14:56.962092@oliveira_labelled.csv: Label Encode - 21.901206s
+2024-02-23 08:15:14.737185@oliveira_labelled.csv: save_to_file - 17.510277s
+
+2024-02-23 09:24:57.822929@oliveira_labelled.csv: Inverse Data Encode - 11.444421s
+2024-02-23 09:41:25.005521@oliveira_labelled.csv: Feature Duplicate Process - 980.110363s
+2024-02-23 09:41:25.435601@oliveira_labelled.csv: Data Split (1st Tranche) - 0.395762s
+2024-02-23 10:02:26.705767@oliveira_labelled.csv: Rebalance via SMOTE - 1261.212702s
+2024-02-23 10:02:50.980744@oliveira_labelled.csv: Label Encode - 22.313702s
+2024-02-23 10:03:09.801216@oliveira_labelled.csv: save_to_file - 18.595753s
+
+2024-02-23 11:33:45.930317@oliveira_labelled.csv: Inverse Data Encode - 9.389389s
+2024-02-23 11:47:56.480315@oliveira_labelled.csv: Feature Duplicate Process - 843.830829s
+2024-02-23 11:47:56.922138@oliveira_labelled.csv: Data Split (1st Tranche) - 0.416738s
+2024-02-23 12:06:19.510968@oliveira_labelled.csv: Rebalance via SMOTE - 1102.528168s
+2024-02-23 12:06:40.481027@oliveira_labelled.csv: Label Encode - 19.401496s
+2024-02-23 12:06:56.201421@oliveira_labelled.csv: save_to_file - 15.443998s
+
+2024-02-23 17:33:23.367393@oliveira_labelled.csv: Inverse Data Encode - 12.757429s
+2024-02-23 19:39:13.210168@oliveira_labelled.csv: Inverse Data Encode - 11.204849s
+2024-02-23 19:40:45.570889@oliveira_labelled.csv: Inverse Data Encode - 10.016899s
+2024-02-23 19:54:52.702864@oliveira_labelled.csv: Feature Duplicate Process - 840.398797s
+2024-02-23 19:54:53.186394@oliveira_labelled.csv: Data Split (1st Tranche) - 0.453577s
+2024-02-23 20:11:45.639677@oliveira_labelled.csv: Rebalance via SMOTE - 1012.392912s
+2024-02-23 20:12:08.558072@oliveira_labelled.csv: Label Encode - 20.673231s
+2024-02-23 20:12:26.005333@oliveira_labelled.csv: save_to_file - 17.111537s
+
+2024-02-23 20:14:44.323492@oliveira_labelled.csv: Inverse Data Encode - 10.852832s
+2024-02-23 20:15:42.650342@oliveira_labelled.csv: Inverse Data Encode - 9.515769s
+2024-02-23 20:16:41.347987@oliveira_labelled.csv: Data Split (1st Tranche) - 0.654888s
+2024-02-23 20:19:06.530146@oliveira_labelled.csv: Inverse Data Encode - 9.477895s
+2024-02-23 20:21:00.577161@oliveira_lite.csv: Inverse Data Encode - 1.209234s
+2024-02-23 20:21:55.078973@oliveira_lite.csv: Inverse Data Encode - 0.642365s
+2024-02-23 20:22:07.414320@oliveira_lite.csv: Feature Duplicate Process - 11.43038s
+2024-02-23 20:22:07.471986@oliveira_lite.csv: Data Split (1st Tranche) - 0.029996s
+2024-02-23 20:22:07.918366@oliveira_lite.csv: Rebalance via SMOTE - 0.335188s
+2024-02-23 20:22:08.888316@oliveira_lite.csv: Label Encode - 0.91889s
+2024-02-23 20:22:09.337610@oliveira_lite.csv: save_to_file - 0.382595s
+
+2024-02-23 20:22:22.128734@oliveira_lite.csv: Inverse Data Encode - 0.594809s
+2024-02-23 20:22:34.416653@oliveira_lite.csv: Feature Duplicate Process - 11.350183s
+2024-02-23 20:22:38.441315@oliveira_lite.csv: Data Split (1st Tranche) - 0.026543s
+2024-02-23 20:22:51.897479@oliveira_lite.csv: Rebalance via SMOTE - 0.345326s
+2024-02-23 20:22:52.961481@oliveira_lite.csv: Label Encode - 1.004283s
+2024-02-23 20:22:53.331209@oliveira_lite.csv: save_to_file - 0.344275s
+
+2024-02-23 20:23:24.472758@oliveira_lite.csv: Rebalance via SMOTE - 0.376447s
+2024-02-23 20:23:25.494406@oliveira_lite.csv: Label Encode - 0.953161s
+2024-02-23 20:23:25.926620@oliveira_lite.csv: save_to_file - 0.393685s
+
+2024-02-23 20:24:42.981372@oliveira_lite.csv: Inverse Data Encode - 1.292373s
+2024-02-23 20:25:26.693430@oliveira_lite.csv: Feature Duplicate Process - 42.477603s
+2024-02-23 20:25:26.778520@oliveira_lite.csv: Data Split (1st Tranche) - 0.058526s
+2024-02-23 20:27:15.775451@oliveira_lite.csv: Rebalance via SMOTE - 108.86978s
+2024-02-23 20:27:18.553959@oliveira_lite.csv: Label Encode - 2.712146s
+2024-02-23 20:27:20.559371@oliveira_lite.csv: save_to_file - 1.962821s
+
+2024-02-23 21:12:27.179467@oliveira_labelled.csv: Inverse Data Encode - 10.733092s
+2024-02-23 21:26:27.245480@oliveira_labelled.csv: Feature Duplicate Process - 833.162706s
+2024-02-23 21:26:27.675438@oliveira_labelled.csv: Data Split (1st Tranche) - 0.413828s
+2024-02-23 21:26:28.350038@oliveira_labelled.csv: Rebalance via SMOTE - 0.464329s
+2024-02-23 21:26:40.009843@oliveira_labelled.csv: Label Encode - 11.401974s
+2024-02-23 21:26:48.807261@oliveira_labelled.csv: save_to_file - 8.563412s
+
+2024-02-23 21:45:32.704676@oliveira_labelled.csv: Rebalance via SMOTE - 1042.124838s
+2024-02-23 21:45:51.868883@oliveira_labelled.csv: Label Encode - 17.877974s
+2024-02-23 21:46:08.880044@oliveira_labelled.csv: save_to_file - 15.361892s
+
+2024-02-25 14:40:50.232567@oliveira_labelled.csv: Inverse Data Encode - 10.962775s
+2024-02-25 14:41:31.689264@oliveira_lite.csv: Inverse Data Encode - 1.514246s
+2024-02-25 14:42:20.416905@oliveira_lite.csv: Feature Duplicate Process - 47.385173s
+2024-02-25 14:42:20.510907@oliveira_lite.csv: Data Split (1st Tranche) - 0.066564s
+2024-02-25 14:44:31.857848@oliveira_lite.csv: Rebalance via SMOTE - 131.284226s
+2024-02-25 14:44:35.444579@oliveira_lite.csv: Label Encode - 3.25502s
+2024-02-25 14:44:37.445824@oliveira_lite.csv: save_to_file - 1.959012s
+
+2024-02-25 14:47:37.337583@oliveira_lite.csv: Label Encode - 0.044007s
+2024-02-25 14:51:51.591646@oliveira_lite.csv: Inverse Data Encode - 1.39766s
+2024-02-25 14:52:39.881012@oliveira_lite.csv: Feature Duplicate Process - 47.028922s
+2024-02-25 14:52:39.985899@oliveira_lite.csv: Data Split (1st Tranche) - 0.073581s
+2024-02-25 14:54:54.209000@oliveira_lite.csv: Rebalance via SMOTE - 134.153961s
+2024-02-25 14:57:30.244101@oliveira_lite.csv: Label Encode - 0.032537s
+2024-02-25 14:57:36.878398@oliveira_lite.csv: Label Encode - 0.20067s
+2024-02-25 14:58:01.306356@oliveira_lite.csv: Label Encode - 0.207319s
+2024-02-25 14:58:14.485803@oliveira_lite.csv: Label Encode - 0.06538s
+2024-02-25 15:00:11.172341@oliveira_lite.csv: Label Encode - 0.060999s
+2024-02-25 15:05:24.927150@oliveira_lite.csv: Inverse Data Encode - 1.508119s
+2024-02-25 15:06:15.046568@oliveira_lite.csv: Feature Duplicate Process - 48.159s
+2024-02-25 15:06:15.135797@oliveira_lite.csv: Data Split (1st Tranche) - 0.063295s
+2024-02-25 15:08:35.154582@oliveira_lite.csv: Rebalance via SMOTE - 139.961222s
+2024-02-25 15:09:32.153453@oliveira_lite.csv: Label Encode - 2.735466s
+2024-02-25 15:09:36.536078@oliveira_lite.csv: save_to_file - 1.871985s
+2024-02-25 15:10:21.203294@oliveira_lite.csv: Label Encode - 3.116186s
+2024-02-25 15:15:15.254419@oliveira_lite.csv: Inverse Data Encode - 1.344981s
+2024-02-25 15:15:59.351862@oliveira_lite.csv: Feature Duplicate Process - 42.751113s
+2024-02-25 15:15:59.435901@oliveira_lite.csv: Data Split (1st Tranche) - 0.058003s
+2024-02-25 15:18:11.603045@oliveira_lite.csv: Inverse Data Encode - 1.783265s
+2024-02-25 15:19:01.212787@oliveira_lite.csv: Feature Duplicate Process - 47.641661s
+2024-02-25 15:19:01.356307@oliveira_lite.csv: Data Split (1st Tranche) - 0.111584s
+2024-02-25 15:20:44.733868@oliveira_lite.csv: Rebalance via SMOTE - 103.293848s
+2024-02-25 15:29:52.944546@oliveira_lite.csv: Label Encode - 544.360037s
+2024-02-25 15:30:14.408275@oliveira_lite.csv: save_to_file - 2.007822s
+
+2024-02-25 15:33:27.639262@oliveira_lite.csv: Label Encode - 10.634715s
+2024-02-25 15:33:34.499056@oliveira_lite.csv: save_to_file - 2.20549s
+
+2024-02-25 15:54:30.144288@oliveira_labelled.csv: Inverse Data Encode - 9.536991s
+2024-02-25 16:08:58.003766@oliveira_labelled.csv: Feature Duplicate Process - 861.173375s
+2024-02-25 16:08:58.525461@oliveira_labelled.csv: Data Split (1st Tranche) - 0.498015s
+2024-02-25 16:25:07.505458@oliveira_labelled.csv: Rebalance via SMOTE - 968.926294s
+2024-02-25 16:26:17.183107@oliveira_labelled.csv: Label Encode - 69.107527s
+2024-02-25 16:26:31.201361@oliveira_labelled.csv: save_to_file - 13.655168s
+
+2024-02-28 19:12:25.970040@oliveira_labelled.csv: Inverse Data Encode - 9.018997s
+2024-02-28 19:25:02.733187@oliveira_labelled.csv: Feature Duplicate Process - 750.698641s
+2024-02-28 19:25:03.173335@oliveira_labelled.csv: Data Split (1st Tranche) - 0.420006s
+2024-02-28 19:26:20.207463@oliveira_labelled.csv: Inverse Data Encode - 8.013187s
+2024-02-28 19:38:40.960800@oliveira_labelled.csv: Feature Duplicate Process - 735.032055s
+2024-02-28 19:38:41.392669@oliveira_labelled.csv: Data Split (1st Tranche) - 0.412014s
+2024-02-28 19:47:01.486179@oliveira_labelled.csv: Rebalance via SMOTE - 500.052908s
+2024-02-28 19:50:04.985535@oliveira_labelled.csv: Label Encode - 63.134577s
+2024-02-28 19:50:17.414698@oliveira_labelled.csv: save_to_file - 12.111701s
+
+2024-02-29 08:29:38.276957@oliveira_labelled.csv: Inverse Data Encode - 8.957481s
+2024-02-29 08:41:12.256625@oliveira_labelled.csv: Feature Duplicate Process - 687.681923s
+2024-02-29 08:41:12.709235@oliveira_labelled.csv: Data Split (1st Tranche) - 0.353586s
+2024-02-29 08:49:02.350403@oliveira_labelled.csv: Rebalance via SMOTE - 469.601308s
+2024-02-29 08:50:11.013290@oliveira_labelled.csv: Label Encode - 68.33597s
+2024-02-29 08:50:24.072928@oliveira_labelled.csv: save_to_file - 12.946618s
+
+2024-03-01 08:01:36.110351@oliveira_labelled.csv: Inverse Data Encode - 8.481793s
+2024-03-01 08:13:37.253979@oliveira_labelled.csv: Feature Duplicate Process - 715.193294s
+2024-03-01 08:13:37.746172@oliveira_labelled.csv: Data Split (1st Tranche) - 0.402012s
+2024-03-01 08:21:44.871244@oliveira_labelled.csv: Rebalance via SMOTE - 487.086748s
+2024-03-01 08:22:46.011072@oliveira_labelled.csv: Label Encode - 60.790305s
+2024-03-01 08:22:57.348040@oliveira_labelled.csv: save_to_file - 11.037s
+
+2024-03-01 17:59:05.104013@oliveira_labelled.csv: Inverse Data Encode - 8.864013s
+2024-03-01 18:13:01.709740@oliveira_labelled.csv: Feature Duplicate Process - 830.002035s
+2024-03-01 18:13:02.235832@oliveira_labelled.csv: Data Split (1st Tranche) - 0.442015s
+2024-03-01 18:21:56.871834@oliveira_labelled.csv: Rebalance via SMOTE - 534.603601s
+2024-03-01 18:23:02.540257@oliveira_labelled.csv: Label Encode - 65.288294s
+2024-03-01 18:23:14.789353@oliveira_labelled.csv: save_to_file - 11.932987s
+
+2024-03-01 19:05:09.898735@oliveira_labelled.csv: Inverse Data Encode - 8.178121s
+2024-03-01 19:17:37.142397@oliveira_labelled.csv: Feature Duplicate Process - 741.4444s
+2024-03-01 19:17:37.639741@oliveira_labelled.csv: Data Split (1st Tranche) - 0.405997s
+2024-03-01 19:26:01.427937@oliveira_labelled.csv: Rebalance via SMOTE - 503.750325s
+2024-03-01 19:27:03.741891@oliveira_labelled.csv: Label Encode - 61.949486s
+2024-03-01 19:27:15.412341@oliveira_labelled.csv: save_to_file - 11.347122s
+
