@@ -1290,7 +1290,7 @@
             ],
           "classes_count":0
         },
-      "model_guid":"a767b15-b14bf5fe-ce8d9542-392230e6",
+      "model_guid":"8f54f2f9-70296808-8e7186f-e4f7d4cc",
       "output_options":"{\"name\":\"experiment\",\"verbose\":1,\"test_error_log\":\"test_error.tsv\",\"json_log\":\"catboost_training.json\",\"result_model_file\":\"model\",\"roc_file\":\"\",\"eval_file_name\":\"\",\"use_best_model\":true,\"allow_writing_files\":true,\"prediction_type\":[\"RawFormulaVal\"],\"fstr_internal_file\":\"\",\"output_columns\":[\"SampleId\",\"RawFormulaVal\",\"Label\"],\"snapshot_interval\":60,\"time_left_log\":\"time_left.tsv\",\"fstr_type\":\"FeatureImportance\",\"profile_log\":\"catboost_profile.log\",\"train_dir\":\"Outputs/CATB/RYZEN2b_CATB_IB_TRAINDIR\",\"learn_error_log\":\"learn_error.tsv\",\"training_options_file\":\"\",\"snapshot_file\":\"experiment.cbsnapshot\",\"save_snapshot\":true,\"model_format\":[\"CatboostBinary\"],\"final_feature_calcer_computation_mode\":\"Default\",\"metric_period\":1,\"output_borders\":\"\",\"final_ctr_computation_mode\":\"Default\",\"best_model_min_trees\":1,\"fstr_regular_file\":\"\"}",
       "params":
         {
@@ -1687,7 +1687,7 @@
               "sparse_features_conflict_fraction":0
             }
         },
-      "train_finish_time":"2024-03-05T12:15:15Z"
+      "train_finish_time":"2024-03-07T15:39:49Z"
     },
   "oblivious_trees":
     [
