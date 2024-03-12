@@ -1,0 +1,1 @@
+{'boost_from_average': 'True', 'boosting_type': 'gbdt', 'cat_l2': 10, 'class_weight': 'balanced', 'data_sample_strategy': 'goss', 'device': 'gpu', 'enable_bundle': 'True', 'gpu_use_dp': 'False', 'learning_rate': 0.2, 'max_bin': 255, 'max_depth': 100, 'n_estimators': 1000, 'num_leaves': 64, 'objective': 'binary', 'tree_learner': 'feature'}
