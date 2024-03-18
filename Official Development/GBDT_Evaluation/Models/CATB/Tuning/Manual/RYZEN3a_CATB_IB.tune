@@ -1,1 +1,0 @@
-{'boosting_type': 'Ordered', 'bootstrap_type': 'Bayesian', 'gpu_cat_features_storage': 'CpuPinnedMemory', 'grow_policy': 'SymmetricTree', 'l2_leaf_reg': 1, 'learning_rate': 0.2, 'max_depth': 10, 'n_estimators': 100, 'objective': 'Logloss', 'task_type': 'GPU'}
