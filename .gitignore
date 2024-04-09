@@ -47,3 +47,5 @@ Official Development/GBDT_Evaluation/Dataset/M-CATB_IB.csv
 Official Development/GBDT_Evaluation/Dataset/M-CATB_TB.csv
 Official Development/GBDT_Evaluation/Dataset/M-LGBM_IB.csv
 Official Development/GBDT_Evaluation/Dataset/M-LGBM_TB.csv
+Official Development/Dataset/Analysis/Manual_KMeans_Clustering.csv
+Official Development/Dataset/Analysis/Manual_KMeans_Encoded_Clustering.csv
