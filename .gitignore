@@ -264,3 +264,7 @@ Official Development/Extensive Model Test/Models/LGBM/Tuning/Thumbs.db
 Official Development/Extensive Model Test/LGBM_TB_Test.csv
 Official Development/Extensive Model Test/CATB_TB_Test.csv
 Official Development/Extensive Model Test/CATB_TB.csv
+Official Development/Extensive Model Test/catboost_info/catboost_training.json
+Official Development/Extensive Model Test/catboost_info/learn/events.out.tfevents
+Official Development/Extensive Model Test/catboost_info/learn_error.tsv
+Official Development/Extensive Model Test/catboost_info/time_left.tsv
