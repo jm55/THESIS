@@ -1,0 +1,10 @@
+Behavior/Performance Graphs:
+
+0. Make sure you have both `tensorflow` and `tensorboard` Python libraries installed in your machine.
+1. Open Anaconda Prompt
+2. Type in the command `python -m tensorboard.main --logdir=<TRAINDIR>` where logdir is the path to the `xxxx_TRAINDIR` folder of CatB Training.
+
+Tree Visualization (.svg to .png)
+
+0. This assumes that you have installed dotvizgraph (aka dot.exe)
+1. dot -Tpng <input>.png -o <output>.png

@@ -1,1 +1,0 @@
-{'boosting_type': 'gbdt', 'cat_l2': 5, 'class_weight': 'balanced', 'data_sample_strategy': 'goss', 'device': 'gpu', 'enable_bundle': 'True', 'learning_rate': 0.1, 'max_depth': 25, 'n_estimators': 250, 'num_leaves': 64, 'objective': 'binary', 'tree_learner': 'voting'}
