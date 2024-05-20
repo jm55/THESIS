@@ -7,4 +7,4 @@ Behavior/Performance Graphs:
 Tree Visualization (.svg to .png)
 
 0. This assumes that you have installed dotvizgraph (aka dot.exe)
-1. dot -Tpng <input>.png -o <output>.png
+1. dot -Tpng <input>.svg -o <output>.png
