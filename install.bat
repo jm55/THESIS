@@ -12,5 +12,8 @@ pip install pandas==2.0.3 --force-reinstall
 pip install yellowbrick==1.5 
 pip install statsmodels==0.14.1 
 pip install mlxtend 
+pip install levenshtein
+
+echo Installing Graphiz for Python
 conda install python-graphviz
 conda --version
