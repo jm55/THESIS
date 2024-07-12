@@ -1,5 +1,9 @@
+echo Installing Graphiz...
+start ./Graphiz/readme.txt
+start ./Graphiz/graphiz_9.0.exe
+
+echo Installing Python Pre-reqs...
 python --version
-::pip install xgboost==2.0.0 --force-reinstall
 pip install lightgbm==4.1.0 --force-reinstall
 pip install catboost==1.2.2 --force-reinstall
 pip install scikit-learn==1.2.1 --force-reinstall

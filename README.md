@@ -6,7 +6,7 @@ This is a repository for the Thesis **"Evaluation and Comparison of Boosted ML M
 It contains the Jupyter notebook files and datasets used for the development of the study.
 
 ## Tested on:
-1. Windows
+1. Windows (Recommended)
 2. Linux (Debian-based)
 
 ## Pre-requisite Software:
@@ -15,8 +15,8 @@ It contains the Jupyter notebook files and datasets used for the development of 
 
 Kindly install these before proceeding to the next step.
 
-## Library Installation:
-1. Once the two software is installed open `Anaconda Prompt` in your computer and navigate to the local copy of the repository in your computer.
+## Dependency/Library Installation:
+1. Once the two software is installed open `Anaconda Prompt`**as administrator** in your computer and navigate to the local copy of the repository in your computer.
 2. Once navigated, type `install.bat` for Windows or `install.sh` for Linux. The script will begin the installation of the necessary libraries for your Conda environment.
 3. Once completed, you can now begin exploring the thesis project files.
 
